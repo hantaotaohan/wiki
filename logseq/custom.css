@@ -67,6 +67,11 @@ tr:nth-child(even) {
 .cm-s-solarized .cm-qualifier {
     color: #e5c07b !important;
 }
+
+.cm-s-solarized .cm-keyword {
+    color: #cb4b16 !important;
+}
+
 .cm-s-solarized.cm-s-dark {
   background: var(--ls-secondary-background-color) !important;
 }
