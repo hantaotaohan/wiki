@@ -165,14 +165,6 @@ tr:nth-child(even) {
     color: #f8f8f0;
 }
 
-.cm-s-default .CodeMirror-activeline-background {
-    background: #373831;
-}
-.cm-s-default .CodeMirror-matchingbracket {
-    text-decoration: underline;
-    color: white !important;
-}
-
 /* Code Block END */
 
 
