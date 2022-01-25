@@ -64,97 +64,58 @@ tr:nth-child(even) {
 /* Table END */
 
 /* Code Block Start */
-.cm-s-default .CodeMirror {
-    background: var(--base00);
-    color: var(--base05);
-}
-.cm-s-default div.CodeMirror-selected {
-    background: var(--base02);
+.cm-s-solarized.cm-s-dark {
+  background: var(--ls-secondary-background-color) !important;
 }
 
-.cm-s-default .CodeMirror-gutters {
-    background: var(--base00);
-    border-right: 0px;
-}
-.cm-s-default .CodeMirror-guttermarker {
-    color: white;
-}
-.cm-s-default .CodeMirror-guttermarker-subtle {
-    color: #d0d0d0;
-}
-.cm-s-default .CodeMirror-linenumber {
-    color: #d0d0d0;
-}
-.cm-s-default .CodeMirror-cursor {
-    border-left: 1px solid #f8f8f0;
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+  background: var(--ls-tertiary-background-color) !important;
 }
 
-.cm-s-default span.cm-comment {
-    color: var(--base03);
-}
-.cm-s-default span.cm-atom {
-    color: var(--base0E);
-}
-.cm-s-default span.cm-number {
-    color: var(--base0E);
-}
-
-.cm-s-default span.cm-comment.cm-attribute {
-    color: #97b757;
-}
-.cm-s-default span.cm-comment.cm-def {
-    color: #bc9262;
-}
-.cm-s-default span.cm-comment.cm-tag {
-    color: #bc6283;
-}
-.cm-s-default span.cm-comment.cm-type {
-    color: #5998a6;
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror-gutter,
+.CodeMirror-gutters,
+.CodeMirror-linenumber,
+.CodeMirror-scroll,
+.CodeMirror-sizer,
+.CodeMirror {
+  font-size: 12px;
+  line-height: 16px;
 }
 
-.cm-s-default span.cm-property,
-.cm-s-default span.cm-attribute {
-    color: var(--base0B);
-}
-.cm-s-default span.cm-keyword {
-    color: var(--base08);
-}
-.cm-s-default span.cm-builtin {
-    color: var(--base0D);
-}
-.cm-s-default span.cm-string {
-    color: #e6db74;
+.cm-s-solarized div.CodeMirror-selected {
+  background: var(--ct-primary-color);
+  color: var(--ls-selection-color);
 }
 
-.cm-s-default span.cm-variable {
-    color: var(--base05);
+.CodeMirror {
+  background-color: var(--color-level-1);
+  box-shadow: 0 0 0 2px var(--color-level-2);
 }
-.cm-s-default span.cm-variable-2 {
-    color: #9effff;
+
+.cm-s-solarized div.CodeMirror-selected {
+  background: var(--color-level-4) !important;
 }
-.cm-s-default span.cm-variable-3,
-.cm-s-default span.cm-type {
-    color: var(--base0D);
+
+.extensions__code > .CodeMirror {
+  padding-top: 0;
 }
-.cm-s-default span.cm-def {
-    color: var(--base09);
+
+.extensions__code-calc {
+  top: 8px;
 }
-.cm-s-default span.cm-bracket {
-    color: var(--base05);
+
+.extensions__code-calc-output-line {
+  height: 16px;
+  font-size: 12px;
 }
-.cm-s-default span.cm-tag {
-    color: var(--base08);
+
+.extensions__code-lang {
+  margin-left: 4px;
+  height: 26px;
+  border-radius: 4px;
 }
-.cm-s-default span.cm-header {
-    color: var(--base0E);
-}
-.cm-s-default span.cm-link {
-    color: var(--base0E);
-}
-.cm-s-default span.cm-error {
-    background: var(--base08);
-    color: #f8f8f0;
-}
+
 
 /* Code Block END */
 
