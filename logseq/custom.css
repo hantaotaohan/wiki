@@ -96,6 +96,9 @@ tr:nth-child(even) {
     color: #61afef !important;
 }
 
+.cm-s-solarized .cm-number { 
+  	color: #d19a66 !important; } 
+
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror-gutter,
 .CodeMirror-gutters,
