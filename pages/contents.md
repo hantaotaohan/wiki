@@ -23,7 +23,7 @@
 - ### sdf
 - #sdf
 - # asdf
-- > sdf中文测试
+- > sdf中文测试斜体
 -
 - - asdf
 	- sdf
