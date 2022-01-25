@@ -64,6 +64,18 @@ tr:nth-child(even) {
 /* Table END */
 
 /* Code Block Start */
+.cm-s-solarized.cm-s-dark {
+  background: var(--ls-secondary-background-color) !important;
+}
+
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+  background: var(--ls-tertiary-background-color) !important;
+}
+
+#pdf-layout-container,
+#pdf-layout-container .textLayer {
+  background: var(--ls-primary-background-color) !important;
+}
 
 /* Code Block END */
 
