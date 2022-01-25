@@ -28,11 +28,7 @@
   --ls-font-family: '微软雅黑', sans-serif;
 }
 
-a {
-    cursor: pointer;
-    color: #61afef;
-    text-decoration: none;
-}
+
 
 blockquote {
 	font-style:italic;
