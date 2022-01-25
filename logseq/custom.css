@@ -89,7 +89,7 @@ tr:nth-child(even) {
 }
 
 .cm-s-solarized .cm-def {
-    color: #2aa198;
+    color: #61afef !important;
 }
 
 .CodeMirror pre.CodeMirror-line,
