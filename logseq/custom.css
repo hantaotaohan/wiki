@@ -31,9 +31,7 @@ blockquote {
 	font-style:italic;
 }
 
-
 /* START Table */
-
 .cp__all_pages_table td.backlinks > span,
 .cp__all_pages_table td.created-at > span,
 .cp__all_pages_table td.updated-at > span {
@@ -57,7 +55,7 @@ td {
   padding: 0.6rem;
 }
 
-tr:nth-child(even) {
+tr:nth-child(odd) {
   background: rgb(var(--ls-table-tr-even-background-color));
 }
 
