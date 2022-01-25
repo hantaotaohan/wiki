@@ -65,14 +65,6 @@ tr:nth-child(even) {
 
 /* Code Block END */
 
-/* START Codemirror Inspired by Bearded Theme https://github.com/BeardedBear Arc 		  */
-/* https://github.com/BeardedBear/bearded-theme/blob/master/themes/bearded-theme-arc.json */
-
-.CodeMirror-lines,
-.CodeMirror-hscrollbar,
-.CodeMirror-gutters {
-  background-color: #202a3b;
-}
 
 .cm-s-solarized.cm-s-dark {
   background-color: #1a2434;
