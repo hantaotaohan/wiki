@@ -65,7 +65,7 @@ tr:nth-child(even) {
 
 /* Code Block Start */
 .cm-s-solarized .cm-qualifier {
-    color: #b58900 !important;
+    color: #e5c07b !important;
 }
 .cm-s-solarized.cm-s-dark {
   background: var(--ls-secondary-background-color) !important;
