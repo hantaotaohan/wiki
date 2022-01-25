@@ -64,7 +64,7 @@ tr:nth-child(even) {
 /* Table END */
 
 /* Code Block Start */
-.cm-s-solarized .cm-meta .cm-variable {
+.cm-s-solarized .cm-meta {
     color: #61afef !important;
 }
 
