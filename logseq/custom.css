@@ -34,11 +34,7 @@ blockquote {
 
 /* START Table */
 
-.cp__all_pages_table td.backlinks > span,
-.cp__all_pages_table td.created-at > span,
-.cp__all_pages_table td.updated-at > span {
-  color: var(--ls-primary-text-color) !important;
-}
+
 
 .table-wrapper > table td,
 .table-wrapper > table th {
