@@ -28,7 +28,8 @@
 }
 
 blockquote {
-
+font-style:italic;
+}
 .dark-theme {
     --ls-primary-background-color: var(--base00);
     --ls-secondary-background-color: var(--base01);
