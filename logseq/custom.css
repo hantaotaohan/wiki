@@ -30,6 +30,37 @@
 blockquote {
 	font-style:italic;
 }
+
+
+/* START Table */
+
+.cp__all_pages_table td.backlinks > span,
+.cp__all_pages_table td.created-at > span,
+.cp__all_pages_table td.updated-at > span {
+  color: var(--ls-primary-text-color) !important;
+}
+
+.table-wrapper > table td,
+.table-wrapper > table th {
+  border: solid 1px var(--ls-border-color);
+}
+
+th {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 0.6rem;
+}
+
+tr:nth-child(even) {
+  background: rgb(var(--ls-table-tr-even-background-color));
+}
+
+/* Table END */
+
 .dark-theme {
     --ls-primary-background-color: var(--base00);
     --ls-secondary-background-color: var(--base01);
