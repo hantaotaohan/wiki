@@ -2,46 +2,6 @@
 
 
 
-:root {
-  --ct-text-size: 28px;
-  --ct-line-height: 1.6;
-  --ls-font-family: "Only Emoji", "Source Sans 3 VF", "Source Han Sans VF",
-    sans-serif;
-  --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "Fira Code", monospace;
-}
-
-html,
-body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  overscroll-behavior-y: none;
-  -webkit-font-smoothing: auto;
-  line-height: var(--ct-line-height);
-}
-
-textarea {
-  line-height: var(--ct-line-height);
-}
-
-i {
-  font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
-}
-
-:root {
-  --ct-background: var(--ls-primary-background-color);
-  --ct-page-font-color: var(--ls-primary-text-color);
-}
-
-:root.is-mac.is-electron {
-  --ct-header-height: 48px;
-}
-
-::selection {
-  background: var(--ct-primary-color);
-  color: var(--ls-selection-color);
-}
-
 /* Some tweaks on making this theme a bit more compact on mobile.
    Mobile cap is 640px */
 @media (max-width: 640px) {
