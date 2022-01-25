@@ -89,7 +89,7 @@ tr:nth-child(even) {
 }
 
 .cm-s-solarized .cm-builtin {
-    color: #d33682;
+    color: #e5c07b !important;
 }
 
 .cm-s-solarized .cm-def {
