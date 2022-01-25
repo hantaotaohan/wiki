@@ -39,7 +39,6 @@
     --ls-title-text-color: var(--base0D);
     --ls-link-text-color: var(--base09);
     --ls-link-text-hover-color: var(--base0A);
-    --ls-link-ref-text-color: var(--ls-link-text-color);
     --ls-block-bullet-border-color: var(--base02);
     --ls-block-bullet-color: var(--base0A);
     --ls-block-highlight-color: var(--base02);
