@@ -59,6 +59,10 @@ td {
   background: #353b45;
 }
 
+.dark-theme tr:nth-child(even) {
+  background: #282c34;
+}
+
 /* Table END */
 
 /* Code Block Start */
