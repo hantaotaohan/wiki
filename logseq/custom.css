@@ -84,6 +84,10 @@ tr:nth-child(even) {
     color: #56b6c2 !important;
 }
 
+.cm-s-solarized .cm-operator {
+    color: #6c71c4;
+}
+
 .cm-s-solarized .cm-builtin {
     color: #e5c07b !important;
 }
