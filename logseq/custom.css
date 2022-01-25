@@ -28,11 +28,6 @@
   --ls-font-family: '微软雅黑', sans-serif;
 }
 
-.cm-s-solarized div.CodeMirror-selected {
-  background: var(--ct-primary-color);
-  color: var(--ls-selection-color);
-}
-
 a.button {
     cursor: pointer;
     color: #abb2bf;
