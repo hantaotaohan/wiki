@@ -72,6 +72,10 @@ tr:nth-child(even) {
     color: #e06c75 !important;
 }
 
+.cm-s-solarized .cm-property {
+    color: #56b6c2;
+}
+
 .cm-s-solarized.cm-s-dark {
   background: var(--ls-secondary-background-color) !important;
 }
