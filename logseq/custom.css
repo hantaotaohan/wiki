@@ -28,7 +28,7 @@
   --ls-font-family: '微软雅黑', sans-serif;
 }
 
-::selection {
+.cm-s-solarized div.CodeMirror-selected {
   background: var(--ct-primary-color);
   color: var(--ls-selection-color);
 }
