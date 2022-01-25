@@ -46,5 +46,5 @@ html[data-theme=dark] {
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #272c35ee;
   --ls-selection-color: #000;
-  --ls-block-highlight-color: #32445a;
+  --ls-block-highlight-color: #282c34;
 }
