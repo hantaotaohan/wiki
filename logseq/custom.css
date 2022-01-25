@@ -1,225 +1,241 @@
-/* OneDark by Lalit Magant (http://github.com/tilal6991) */
+.theme-settings,
+html[data-theme=dark] {
+    --cd-primary-bg-color: hsl(220, 13%, 18%);
+    --cd-secondary-bg-color: hsl(220, 13%, 21%);
+    --cd-alternate-bg-color: hsl(220, 13%, 24%);
+    --cd-quaternary-bg-color: hsl(220, 13%, 27%);
+    --cd-highlight-bg-color: var(--cd-alternate-bg-color);
+    --cd-inactive-color: hsl(220, 13%, 35%);
+    --cd-active-color: hsl(220, 13%, 45%);
+    --cd-primary-text-color: #ABB2BF;
+    --cd-alternate-text-color: #ABB2BF;
+    --cd-active-color-1: #E06C75;
+    --cd-active-color-2: #C678DD;
+    --cd-active-color-3: #69B779;
+    --cd-standby-color-1: #4FAFEF;
+    /* === FONTS === */
+    --ts-font-size: 1em;
+    --ts-sans-font: "Poppins";
+    /* ========== COLOR EMENTS ============ */
+    --ts-scrollbar-fg-color: var(--cd-active-color);
+    --ts-scrollbar-bg-color: var(--cd-secondary-bg-color);
+    /* ==================================== */
+    /* === LS Features === */
+    --ts-sidebar-text-color: var(--cd-primary-text-color);
+    --ts-sidebar-bg-color: var(--cd-quaternary-bg-color);
+    --ts-sidebar-navigation-colors: var(--cd-primary-text-color);
+    --ts-cloze-color: var(--cd-active-color-2);
+    /* === Menu === */
+    --ts-menu-bg-color: var(--cd-secondary-bg-color);
+    --ts-menu-matched-color: var(--cd-active-color-2);
+    --ts-menu-bg-color-hover: var(--cd-quaternary-bg-color);
+    --ts-chosen-color: var(--cd-quaternary-bg-color);
+    /* === SELECTIONS === */
+    --ts-selected-bg-color: var(--cd-highlight-bg-color);
+    /* === TAGS === */
+    --ts-tag-color: var(--cd-active-color);
+    --ts-tag-background-color: transparent;
+    --ts-tag-weight: 300;
+    --ts-tag-color-hover: var(--cd-active-color);
+    --ts-tag-border-hover: 0px solid var(--ts-tag-color-hover);
+    --ts-tag-border: 0px solid var(--cd-active-color-4);
+    --ts-tag-border-radius: 0px;
+    --ts-tag-padding: 0px 0px 0px 1px;
+    --ts-tag-box-shadow: 0px 0px;
+    --ts-tag-text-decoration: none;
+    --ts-tag-text-decoration-thickness: 0px;
+    --ts-tag-text-decoration-color: var(--cd-active-color-3);
+    /* === BLOCK REFS === */
+    --ts-block-ref-border: 1px solid var(--cd-primary-text-color);
+    /* === PAGE REFERENCES === */
+    --ts-page-ref-color: var(--cd-active-color-1);
+    --ts-page-ref-padding: 0px 1px 0px 1px;
+    --ts-page-ref-border: 0px solid var(--ts-text-background);
+    --ts-page-ref-border-radius: 0px;
+    --ts-page-ref-background: transparent;
+    --ts-page-ref-bracket-color: var(--cd-active-color-1);
+    /* === PROPERTIES === */
+    --ts-property-background-color: var(--cd-secondary-bg-color);
+    --ts-property-value-weight: 800;
+    --ts-property-key-weight: 400;
+    --ts-property-key-color: var(--cd-primary-text-color);
+    --ts-property-border: 0px;
+    --ts-property-border-radius: 2px;
+    --ts-property-key-transform: lowercase;
+    --ts-property-key-color: var(--cd-primary-text-color);
+    --ts-property-value-color: var(--cd-primary-text-color);
+    --ts-property-value-weight: 500;
+    --ts-property-value-transform: uppercase;
+    /* === TASKS === */
+    --ts-checkbox-border: 1.5px solid var(--cd-active-color);
+    --ts-checkbox-later-border: 1.5px solid var(--cd-active-color-7);
+    --ts-checkbox-doing-border: 1.5px solid var(--cd-active-color-5);
+    --ts-checkbox-border-radius: 1px;
+    --ts-checkbox-background: var(--cd-primary-bg-color);
+    --ts-checkbox-background-hover: var(--cd-primary-bg-color);
+    --ts-checkbox-checked-background: var(--cd-active-color-2);
+    --ts-task-color: var(--cd-active-color);
+    --ts-task-color-hover: var(--cd-active-color-9);
+    --ts-task-opacity: 0.8;
+    /* === PRIORITY ITEMS === */
+    --ts-priority-a-color: var(--cd-active-color-5);
+    --ts-priority-b-color: var(--cd-active-color-7);
+    --ts-priority-c-color: var(--cd-active-color-4);
+    /* === GUIDELINE === */
+    --ts-guideline-inactive-color: var(--cd-inactive-color);
+    --ts-guideline-active-color: var(--cd-active-color);
+    /* === BULLET === */
+    --ts-bullet-closed-color: rgba(53, 42, 42, 0.3);
+    --ts-bullet-color: var(--cd-active-color);
+    /* === EMBEDS === */
+    --ts-embed-border: 0px;
+    --ts-embed-border-radius: 0px;
+    /* === MARKDOWN === */
+    --ts-title-color: var(--cd-primary-text-color);
+    --ts-headline-color: var(--cd-primary-text-color);
+    --ts-headline-weight: 700;
+    --ts-text-bold-color: var(--cd-active-color-1);
+    --ts-text-italic-color: var(--cd-active-color-2);
+    --ts-editor-block-text-color: var(--cd-active-color-2);
+    --ts-underline-color: var(--cd-active-color-1);
+    --ts-strikethrough-color: var(--cd-primary-text-color);
+    /* === HIGHLIGHTER === */
+    --ts-highlight-decoration-style: underline;
+    --ts-highlight-underline-thickness: 4px;
+    --ts-highlight-color: var(--cd-primary-text-color);
+    --ts-highlight-background-color: transparent;
+    --ts-highlight-decoration-color: var(--cd-active-color-9);
+    --ts-highlight-border-radius: 2px;
+    /* === CODE BLOCKS === */
+    --ts-inline-code-bg: var(--cd-alternate-bg-color);
+    --ts-inline-code-color: var(--cd-active-color-9);
+    /* === TABLES === */
+    --ts-table-rows: var(--cd-inactive-color);
+    /* === EXT LINKS === */
+    --ts-ext-link-color: var(--cd-active-color);
 
-:root {
-  --base00: #282c34;
-  --base01: #353b45;
-  --base02: #3e4451;
-  --base03: #545862;
-  --base04: #565c64;
-  --base05: #abb2bf;
-  --base06: #b6bdca;
-  --base07: #c8ccd4;
-  --base08: #e06c75;
-  --base09: #d19a66;
-  --base0A: #e5c07b;
-  --base0B: #98c379;
-  --base0C: #56b6c2;
-  --base0D: #61afef;
-  --base0E: #c678dd;
-  --base0F: #be5046;
-  --button-blue: var(--base0C);
-  --button-gray-1: var(--base05);
-  --button-gray-2: var(--base06);
-  --button-gray-3: var(--base07);
-}
-
-.dark-theme {
-    --ls-primary-background-color: var(--base00);
-    --ls-secondary-background-color: var(--base01);
-    --ls-tertiary-background-color: var(--ls-secondary-background-color);
-    --ls-search-background-color: var(--ls-primary-background-color);
-    --ls-border-color: var(--base03);
-    --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: var(--base05);
-    --ls-secondary-text-color: var(--base06);
-    --ls-title-text-color: var(--base0D);
-    --ls-link-text-color: var(--base09);
-    --ls-link-text-hover-color: var(--base0A);
-    --ls-link-ref-text-color: var(--ls-link-text-color);
-    --ls-block-bullet-border-color: var(--base02);
-    --ls-block-bullet-color: var(--base0A);
-    --ls-block-highlight-color: var(--base02);
-    --ls-page-checkbox-color: var(--base01);
-    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
-    --ls-page-blockquote-color: var(--ls-tertiary-backgorund-color);
-    --ls-page-blockquote-border-color: var(--ls-secondary-text-color);
-    --ls-page-inline-code-color: var(--ls-primary-text-color);
-    --ls-page-inline-code-bg-color: var(--base01);
-    --ls-scrollbar-color: var(--base00);
-    --ls-scrollbar-thumb-hover-color: #b4b4b466;
-    --ls-head-text-color: var(--ls-link-text-color);
-    --ls-icon-color: var(--base05);
-    --ls-search-icon-color: var(--ls-link-text-color);
-    --ls-a-chosen-bg: var(--ls-secondary-background-color);
-}
-
-
-.dark-theme .form-checkbox {
-    background-color: var(--base02);
-    border-color: var(--base04);
-}
-
-mark {
-    background: var(--base0A);
-    color: var(--base00);
-}
-
-.dark-theme .focus\:shadow-outline:focus {
-    box-shadow: 0 0 0 3px var(--base0A);
-}
-
-.dark-theme tr:nth-child(odd) {
-    background-color: var(--base01);
-}
-
-.dark-theme tr:nth-child(even) {
-    background-color: var(--base02);
-}
-
-.dark-theme th {
-    color: var(--base05);
-    border-bottom: 2px solid var(--base03);
-}
-
-.dark-theme .non-block-editor textarea,
-.dark-theme pre,
-.dark-theme pre.code {
-    background: var(--base01);
-}
-
-.dark-theme .block-children {
-    border-left: 1px solid var(--base02);
-}
-
-.dark-theme .non-block-editor textarea,
-.dark-theme pre,
-.dark-theme pre.code .dark-theme #right-sidebar .non-block-editor textarea,
-.dark-theme #right-sidebar pre,
-.dark-theme #right-sidebar pre.code {
-    background: var(--base01);
-}
-
-.dark-theme .block-children {
-    border-left: 1px solid var(--base01);
-}
-
-.text-gray-500 {
-    color: var(--base01);
-}
-
-#right-sidebar .bg-base-2 {
-    background-color: var(--base01);
-}
-#right-sidebar .bg-base-4 {
-    background-color: var(--base00);
-}
-
-/** CodeMirror **/
-.cm-s-default .CodeMirror {
-    background: var(--base00);
-    color: var(--base05);
-}
-.cm-s-default div.CodeMirror-selected {
-    background: var(--base02);
-}
-.cm-s-default .CodeMirror-line::selection,
-.cm-s-default .CodeMirror-line > span::selection,
-.cm-s-default .CodeMirror-line > span > span::selection {
-    background: rgba(73, 72, 62, .99);
-}
-.cm-s-default .CodeMirror-line::-moz-selection,
-.cm-s-default .CodeMirror-line > span::-moz-selection,
-.cm-s-default .CodeMirror-line > span > span::-moz-selection {
-    background: rgba(73, 72, 62, .99);
-}
-.cm-s-default .CodeMirror-gutters {
-    background: var(--base00);
-    border-right: 0px;
-}
-.cm-s-default .CodeMirror-guttermarker {
-    color: white;
-}
-.cm-s-default .CodeMirror-guttermarker-subtle {
-    color: #d0d0d0;
-}
-.cm-s-default .CodeMirror-linenumber {
-    color: #d0d0d0;
-}
-.cm-s-default .CodeMirror-cursor {
-    border-left: 1px solid #f8f8f0;
+    --ts-ext-link-bg-color: transparent;
+    --ts-ext-link-border-bottom: 0px solid var(--cd-active-color-1);
+    --ts-ext-link-weight: 300;
+    --ts-ext-link-style: normal;
 }
 
-.cm-s-default span.cm-comment {
-    color: var(--base03);
-}
-.cm-s-default span.cm-atom {
-    color: var(--base0E);
-}
-.cm-s-default span.cm-number {
-    color: var(--base0E);
-}
+.theme-settings,
+html[data-theme=light] {
+    --cd-primary-bg-color: hsl(0, 0%, 98%);
+    --cd-secondary-bg-color: hsl(0, 0%, 95%);
+    --cd-alternate-bg-color: hsl(0, 0%, 92%);
+    --cd-quaternary-bg-color: hsl(0, 0%, 89%);
+    --cd-highlight-bg-color: var(--cd-alternate-bg-color);
+    --cd-inactive-color: hsl(0, 0%, 80%);
+    --cd-active-color: hsl(0, 0%, 75%);
+    --cd-primary-text-color: #383A42;
+    --cd-alternate-text-color: #383A42;
+    --cd-active-color-1: #E45649;
+    --cd-standby-color-1: #3184BC;
+    /* === FONTS === */
+    --ts-font-size: 1em;
+    --ts-sans-font: "Poppins";
+    /* ========== COLOR EMENTS ============ */
+    --ts-scrollbar-fg-color: var(--cd-active-color);
+    --ts-scrollbar-bg-color: var(--cd-secondary-bg-color);
+    /* ==================================== */
+    /* === LS Features === */
+    --ts-sidebar-text-color: var(--cd-primary-text-color);
+    --ts-sidebar-bg-color: var(--cd-quaternary-bg-color);
+    --ts-sidebar-navigation-colors: var(--cd-primary-text-color);
+    --ts-cloze-color: var(--cd-active-color-2);
+    /* === Menu === */
+    --ts-menu-bg-color: var(--cd-secondary-bg-color);
+    --ts-menu-matched-color: var(--cd-active-color-2);
+    --ts-menu-bg-color-hover: var(--cd-quaternary-bg-color);
+    --ts-chosen-color: var(--cd-quaternary-bg-color);
+    /* === SELECTIONS === */
+    --ts-selected-bg-color: var(--cd-highlight-bg-color);
+    /* === TAGS === */
+    --ts-tag-color: var(--cd-active-color);
+    --ts-tag-background-color: transparent;
+    --ts-tag-weight: 300;
+    --ts-tag-color-hover: var(--cd-active-color);
+    --ts-tag-border-hover: 0px solid var(--ts-tag-color-hover);
+    --ts-tag-border: 0px solid var(--cd-active-color-4);
+    --ts-tag-border-radius: 0px;
+    --ts-tag-padding: 0px 0px 0px 1px;
+    --ts-tag-box-shadow: 0px 0px;
+    --ts-tag-text-decoration: none;
+    --ts-tag-text-decoration-thickness: 0px;
+    --ts-tag-text-decoration-color: var(--cd-active-color-3);
+    /* === BLOCK REFS === */
+    --ts-block-ref-border: 1px solid var(--cd-primary-text-color);
+    /* === PAGE REFERENCES === */
+    --ts-page-ref-color: var(--cd-active-color-1);
+    --ts-page-ref-padding: 0px 1px 0px 1px;
+    --ts-page-ref-border: 0px solid var(--ts-text-background);
+    --ts-page-ref-border-radius: 0px;
+    --ts-page-ref-background: transparent;
+    --ts-page-ref-bracket-color: var(--cd-active-color-1);
+    /* === PROPERTIES === */
+    --ts-property-background-color: var(--cd-secondary-bg-color);
+    --ts-property-value-weight: 800;
+    --ts-property-key-weight: 400;
+    --ts-property-key-color: var(--cd-primary-text-color);
+    --ts-property-border: 0px;
+    --ts-property-border-radius: 2px;
+    --ts-property-key-transform: lowercase;
+    --ts-property-key-color: var(--cd-primary-text-color);
+    --ts-property-value-color: var(--cd-primary-text-color);
+    --ts-property-value-weight: 500;
+    --ts-property-value-transform: uppercase;
+    /* === TASKS === */
+    --ts-checkbox-border: 1.5px solid var(--cd-active-color);
+    --ts-checkbox-later-border: 1.5px solid var(--cd-active-color-7);
+    --ts-checkbox-doing-border: 1.5px solid var(--cd-active-color-5);
+    --ts-checkbox-border-radius: 1px;
+    --ts-checkbox-background: var(--cd-primary-bg-color);
+    --ts-checkbox-background-hover: var(--cd-primary-bg-color);
+    --ts-checkbox-checked-background: var(--cd-active-color-2);
+    --ts-task-color: var(--cd-active-color);
+    --ts-task-color-hover: var(--cd-active-color-9);
+    --ts-task-opacity: 0.8;
+    /* === PRIORITY ITEMS === */
+    --ts-priority-a-color: var(--cd-active-color-5);
+    --ts-priority-b-color: var(--cd-active-color-7);
+    --ts-priority-c-color: var(--cd-active-color-4);
+    /* === GUIDELINE === */
+    --ts-guideline-inactive-color: var(--cd-inactive-color);
+    --ts-guideline-active-color: var(--cd-active-color);
+    /* === BULLET === */
+    --ts-bullet-closed-color: rgba(53, 42, 42, 0.3);
+    --ts-bullet-color: var(--cd-active-color);
+    /* === EMBEDS === */
+    --ts-embed-border: 0px;
+    --ts-embed-border-radius: 0px;
+    /* === MARKDOWN === */
+    --ts-title-color: var(--cd-primary-text-color);
+    --ts-headline-color: var(--cd-primary-text-color);
+    --ts-headline-weight: 700;
+    --ts-text-bold-color: var(--cd-active-color-1);
+    --ts-text-italic-color: var(--cd-active-color-2);
+    --ts-editor-block-text-color: var(--cd-active-color-2);
+    --ts-underline-color: var(--cd-active-color-1);
+    --ts-strikethrough-color: var(--cd-primary-text-color);
+    /* === HIGHLIGHTER === */
+    --ts-highlight-decoration-style: underline;
+    --ts-highlight-underline-thickness: 4px;
+    --ts-highlight-color: var(--cd-primary-text-color);
+    --ts-highlight-background-color: transparent;
+    --ts-highlight-decoration-color: var(--cd-active-color-9);
+    --ts-highlight-border-radius: 2px;
+    /* === CODE BLOCKS === */
+    --ts-inline-code-bg: var(--cd-alternate-bg-color);
+    --ts-inline-code-color: var(--cd-active-color-9);
+    /* === TABLES === */
+    --ts-table-rows: var(--cd-inactive-color);
+    /* === EXT LINKS === */
+    --ts-ext-link-color: var(--cd-active-color);
 
-.cm-s-default span.cm-comment.cm-attribute {
-    color: #97b757;
-}
-.cm-s-default span.cm-comment.cm-def {
-    color: #bc9262;
-}
-.cm-s-default span.cm-comment.cm-tag {
-    color: #bc6283;
-}
-.cm-s-default span.cm-comment.cm-type {
-    color: #5998a6;
-}
-
-.cm-s-default span.cm-property,
-.cm-s-default span.cm-attribute {
-    color: var(--base0B);
-}
-.cm-s-default span.cm-keyword {
-    color: var(--base08);
-}
-.cm-s-default span.cm-builtin {
-    color: var(--base0D);
-}
-.cm-s-default span.cm-string {
-    color: #e6db74;
-}
-
-.cm-s-default span.cm-variable {
-    color: var(--base05);
-}
-.cm-s-default span.cm-variable-2 {
-    color: #9effff;
-}
-.cm-s-default span.cm-variable-3,
-.cm-s-default span.cm-type {
-    color: var(--base0D);
-}
-.cm-s-default span.cm-def {
-    color: var(--base09);
-}
-.cm-s-default span.cm-bracket {
-    color: var(--base05);
-}
-.cm-s-default span.cm-tag {
-    color: var(--base08);
-}
-.cm-s-default span.cm-header {
-    color: var(--base0E);
-}
-.cm-s-default span.cm-link {
-    color: var(--base0E);
-}
-.cm-s-default span.cm-error {
-    background: var(--base08);
-    color: #f8f8f0;
-}
-
-.cm-s-default .CodeMirror-activeline-background {
-    background: #373831;
-}
-.cm-s-default .CodeMirror-matchingbracket {
-    text-decoration: underline;
-    color: white !important;
+    --ts-ext-link-bg-color: transparent;
+    --ts-ext-link-border-bottom: 0px solid var(--cd-active-color-1);
+    --ts-ext-link-weight: 300;
+    --ts-ext-link-style: normal;
 }
