@@ -27,6 +27,8 @@
   --button-gray-3: var(--base07);
 }
 
+blockquote {
+
 .dark-theme {
     --ls-primary-background-color: var(--base00);
     --ls-secondary-background-color: var(--base01);
