@@ -76,13 +76,6 @@ tr:nth-child(even) {
     color: #56b6c2 !important;
 }
 
-.cm-s-solarized.cm-s-dark {
-  background: var(--ls-secondary-background-color) !important;
-}
-
-.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
-  background: var(--ls-tertiary-background-color) !important;
-}
 
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror-gutter,
