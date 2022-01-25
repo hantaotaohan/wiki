@@ -24,7 +24,7 @@
 - #sdf
 - # asdf
 - > sdf中文测试斜体
-- `sdf ` **xieti** *cutri* [[sd]]
+- `sdf ` **xieti** *cutri* [[pages_sdf]]
 -
 - - asdf
 	- 12311
