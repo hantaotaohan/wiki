@@ -1,5 +1,5 @@
 @import './core.css';
-
+ 
 .theme-settings,
 html[data-theme=dark] {
     --cd-primary-bg-color: hsl(220, 13%, 18%);
