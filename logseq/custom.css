@@ -46,13 +46,10 @@ blockquote {
 }
 
 th {
-  	font-size: 1.2em;
-	font-weight: bold;
- 	background: #272a31;
-	color: #e5c07b99 !important;
- 	border-bottom-style: double !important;
-	border-bottom-color: #abb2bf99 !important;
-    border-bottom-width: 3px !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  background: #272a31;
+  color: #e5c07b99 !important;;
 }
 
 th,
@@ -60,7 +57,7 @@ td {
   padding: 0.6rem;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background: rgb(var(--ls-table-tr-even-background-color));
 }
 
@@ -85,6 +82,10 @@ tr:nth-child(odd) {
 
 .cm-s-solarized .cm-property {
     color: #56b6c2 !important;
+}
+
+.cm-s-solarized .cm-operator {
+    color: #61afef !important;
 }
 
 .cm-s-solarized .cm-builtin {
