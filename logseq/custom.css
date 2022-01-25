@@ -118,12 +118,7 @@ td {
   font-size: 13px;
   line-height: 20px;
 }
-
-
-
 /* Code Block END */
-
-
 
 .dark-theme {
     --ls-primary-background-color: var(--base00);
