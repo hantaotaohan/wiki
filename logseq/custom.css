@@ -72,6 +72,10 @@ tr:nth-child(even) {
     color: #61afef !important;
 }
 
+.cm-s-solarized .cm-string {
+    color: #859900;
+}
+
 .cm-s-solarized .cm-qualifier {
     color: #e5c07b !important;
 }
