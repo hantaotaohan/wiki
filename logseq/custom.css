@@ -79,7 +79,7 @@ tr:nth-child(even) {
 .CodeMirror-scroll,
 .CodeMirror-sizer,
 .CodeMirror {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
 }
 
