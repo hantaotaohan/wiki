@@ -169,7 +169,7 @@
  :git-auto-push true
  :editor/logical-outdenting? true
  :ui/show-brackets? false
- :graph/settings {:builtin-pages? true}
+ :graph/settings {:builtin-pages? true, :journal? false}
  :preferred-format :markdown
  :favorites []
 
