@@ -96,6 +96,11 @@ tr:nth-child(even) {
   	color: #d19a66 !important; 
 } 
 
+.cm-s-solarized .cm-comment { 
+ 	color: #5c6370 !important; 
+ 	font-style: italic !important; 
+} 
+
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror-gutter,
 .CodeMirror-gutters,
