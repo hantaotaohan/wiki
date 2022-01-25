@@ -106,8 +106,8 @@ tr:nth-child(even) {
 }
 
 .extensions__code-calc-output-line {
-  height: 16px;
-  font-size: 12px;
+  height: 17px;
+  font-size: 13px;
 }
 
 .extensions__code-lang {
