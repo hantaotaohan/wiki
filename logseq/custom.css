@@ -34,7 +34,11 @@ a.button {
     text-decoration: none;
 }
 
-
+.block-highlight, .content .selected {
+    transition: background-color .15s;
+    background-color: var(--ls-block-highlight-color);
+    border-radius: 6px;
+}
 
 blockquote {
 	font-style:italic;
