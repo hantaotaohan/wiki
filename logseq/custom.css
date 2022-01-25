@@ -79,8 +79,8 @@ tr:nth-child(even) {
 .CodeMirror-scroll,
 .CodeMirror-sizer,
 .CodeMirror {
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 13px;
+  line-height: 20px;
 }
 
 .cm-s-solarized div.CodeMirror-selected {
