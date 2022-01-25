@@ -30,7 +30,7 @@
 
 a {
     cursor: pointer;
-    color: var(--base05,#61afef);
+    color: #61afef;
     text-decoration: none;
 }
 
