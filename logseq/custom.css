@@ -702,9 +702,9 @@ a:hover > .bullet-container .bullet {
 }
 :root {
   --ct-inline-code-font-size: 1.3em;
-  --ct-inline-code-font-style: inherit;
+  --ct-inline-code-font-style: bold;
   --ct-inline-code-border-radius: 2px;
-  --ct-inline-code-padding: 2px 5px;
+  --ct-inline-code-padding: 6px 5px;
 }
 
 /* lists */
