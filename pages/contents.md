@@ -3,3 +3,5 @@
 ## [[asdfasdf]]
 
 ### asdf
+
+[diary](diary.md)]
