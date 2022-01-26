@@ -1,7 +1,7 @@
 - test [[sdf]]
 - 测试中文
 - ``` python
-  @requires_authorization(roles=["ADMIN"])
+  @requires_authorization(roles=["ADMIN"]) 
   def somefunc(param1='', param2=0):
       r'''A docstring'''
       if param1 > param2: # interesting
