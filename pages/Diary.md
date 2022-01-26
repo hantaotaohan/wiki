@@ -1,4 +1,4 @@
-# Diary
+# viary
 
 ## 2022
 
