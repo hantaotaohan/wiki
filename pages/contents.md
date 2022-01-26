@@ -2,4 +2,4 @@
 ## [[asdfasdf]]
 ### asdf
 
-[diary](diary.md)]
+[Diary](diary.md)]
