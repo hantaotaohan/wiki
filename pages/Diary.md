@@ -1,4 +1,5 @@
 # Diary
+title:: Diary
 ## 2022
 ### January
 - [2022-01-26e](2022-01-26e.md)
