@@ -172,7 +172,7 @@
  :editor/logical-outdenting? true
  :ui/show-brackets? false
  :graph/settings {:builtin-pages? false, :journal? false, :orphan-pages? false}
- :preferred-format :markdown
+ :preferred-format :org
  :favorites []
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
