@@ -168,8 +168,8 @@
  :publishing/all-pages-public? true
  :git-auto-push true
  :editor/logical-outdenting? true
- :ui/show-brackets? false
- :graph/settings {:builtin-pages? true, :journal? false}
+ :ui/show-brackets? true
+ :graph/settings {:builtin-pages? true, :journal? true}
  :preferred-format :markdown
  :favorites []
 
