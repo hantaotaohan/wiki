@@ -1,6 +1,6 @@
-- test [[sdf]]
-- 测试中文
-- ``` python
+test [[sdf]]
+测试中文
+``` python
   @requires_authorization(roles=["ADMIN"]) 
   def somefunc(param1='', param2=0):
       r'''A docstring'''
@@ -14,19 +14,18 @@
   >>> message = '''interpreter
   ... prompt'''
   ```
--
-- ``` bash
-  sudo cp $HOME/taotao ~/taotao
-  bash 
+``` bash
+ sudo cp $HOME/taotao ~/taotao
+ bash 
   source 
   ```
-- ### sdf
-- #sdf
-- # asdf
-- > sdf中文测试斜体
-- `sdf ` **xieti** *cutri* [[pages_sdf]]
--
-- - asdf
+ ### sdf
+ #sdf
+ # asdf
+ > sdf中文测试斜体
+ `sdf ` **xieti** *cutri* [[pages_sdf]]
+
+ - asdf
 	- 1231231231
 	- 12311
 	- sdf
