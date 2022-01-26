@@ -163,6 +163,8 @@
  :ref/default-open-blocks-level 2
  :feature/enable-journals? true
  ;; :default-home {:page "Contents"}
+ :journal/file-name-format "yyyy-MM-dd"
+ :journal/page-title-format "yyyy-MM-dd"
  :date-formatter "yyyy-MM-dd"
  :feature/enable-timetracking? true
  :publishing/all-pages-public? true
