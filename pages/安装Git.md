@@ -6,6 +6,12 @@
   ```
 -
 - Debian平台下从源码构建
+	- 1. 下载源码
+	  ``` bash
+	  wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz
+	  tar xzf git-2.9.5.tar.gz
+	  cd git-2.9.5
+	  ```
 -
 -
 - 2. 开始构建
