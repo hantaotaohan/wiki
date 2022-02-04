@@ -12,14 +12,15 @@
 	  tar xzf git-2.9.5.tar.gz
 	  cd git-2.9.5
 	  ```
+	- 2. 开始构建
+	  ``` bash
+	  ./configure
+	  make all
+	  sudo make install
+	  ```
 -
 -
-- 2. 开始构建
-  ``` bash
-  ./configure
-  make all
-  sudo make install
-  ```
+-
 -
 - 3. 如果想在其他位置安装Git
   ``` bash
