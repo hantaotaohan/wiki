@@ -18,13 +18,14 @@
 	  make all
 	  sudo make install
 	  ```
+	- 3. 如果想在其他位置安装Git
+	  ``` bash
+	  ./comfigure -- prefix=/usr/local
+	  make all 
+	  sudo make install
+	  ```
 -
 -
 -
 -
-- 3. 如果想在其他位置安装Git
-  ``` bash
-  ./comfigure -- prefix=/usr/local
-  make all 
-  sudo make install
-  ```
+-
