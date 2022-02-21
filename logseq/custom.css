@@ -8,7 +8,7 @@
 .cp__right-sidebar-topbar,
 .sidebar-item.content > div > div:first-of-type {
     -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
+    backdrop-filter: unset;
     background-color: transparent;
   }
 }
