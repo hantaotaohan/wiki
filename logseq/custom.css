@@ -12,36 +12,6 @@
 
 
 
-.cp__header,
-.cp__right-sidebar-topbar {
-  height: "";
-}
-
-.cp__header::after,
-.cp__right-sidebar-topbar::after {
-  left: "";
-  right: "";
-  height: "";
-  z-index: "";
-  position: "";
-  top: "";
-  background-color: "";
-  display: "";
-  content: "";
-}
-
-.cp__header #search-field {
-  height: "";
-  padding: "";
-  font-size: "";
-  background: "";
-  color: "";
-}
-
-.cp__header.electron-mac {
-  height: "";
-}
-
 
 
 
@@ -69,6 +39,8 @@
   --button-gray-2: var(--base06);
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
+  --ct-header-height: 52px;
+  --ct-topbar-backdrop: blur(20px);
 }
 
 a.button {
