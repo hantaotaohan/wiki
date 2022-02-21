@@ -43,7 +43,7 @@
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
   --ct-header-height: 80px;
-  --ct-topbar-backdrop: blur(1px);
+  --ct-topbar-backdrop: none;
 }
 
 a.button {
