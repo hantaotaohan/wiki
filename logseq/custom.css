@@ -15,7 +15,7 @@ html,
 body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
-  line-height: 1;
+  line-height: 1.6;
 }
 
 
