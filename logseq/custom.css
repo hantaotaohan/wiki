@@ -10,27 +10,13 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 
-@supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
-  .cp__header,
-.cp__right-sidebar-topbar,
-.sidebar-item.content > div > div:first-of-type {
-    background: "#282c34";
-  }
-}
-@supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
-  .cp__header,
-.cp__right-sidebar-topbar,
-.sidebar-item.content > div > div:first-of-type {
-    background: "#282c34";
-  }
-}
 .cp__header,.cp__right-sidebar-topbar {
   left: 0;
   right: 0;
   height: 1px;
   z-index: 1;
   position: absolute;
-  top: 10%;
+  top: 1%;
   background-color: rgba(0, 0, 0, 0.16);
   display: block;
   content: "";
