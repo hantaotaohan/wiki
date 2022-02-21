@@ -14,10 +14,9 @@
   left: 0;
   right: 0;
   height: 5%;
-  z-index: 1;
-  position: absolute;
-  top: 1%;
 
+  top: 1%;
+  display: block;
   content: "";
   background-color: "#282c34";
 }
