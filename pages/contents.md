@@ -1,26 +1,23 @@
-- [[it使用指南]]
+- [[Git使用指南]]
 - [[s]]
 - [[han]] [[tao]]
-    - sdf
-    - [[sadf]]
-    - asdfsdfff
-    - sdf
-    - ;
-    - ;
-- 
-    - sdfdf
+	- sdf
+	- [[sadf]]
+	- asdfsdfff
+	- sdf
+	- ;
+	- ;
+-
+	- sdfdf
 - o
 - sdfsdf
-- 
-    - sdfdf
-    - sdfsdf
-    - sdfsdf
-    - asdfsdf
-     
-     
-      
-    - sadf
-    - sdfsdfsfsdf
+-
+	- sdfdf
+	- sdfsdf
+	- sdfsdf
+	- asdfsdf
+	- sadf
+	- sdfsdfsfsdf
 - uu
-- 
-    - sdfsdf
+-
+	- sdfsdf
