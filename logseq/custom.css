@@ -12,8 +12,6 @@
 
 .cp__header,{
   top: 0;
-  width:100%;
-  height: var(--ct-header-height);
   position: relative;
   display: block;
   background-color: "#282c34";
