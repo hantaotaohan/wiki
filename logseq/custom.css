@@ -5,11 +5,28 @@
  
 
 
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
+  #main-content-container {
+    padding: 0;
+  }
+
   .cp__sidebar-main-content > div {
     padding: 1px 1em 1em 1em !important;
     border: none;
   }
 
+  a.title h1.title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+
+  .custom-query {
+    padding: 0 1rem;
+  }
 
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
@@ -35,7 +52,7 @@
   --button-gray-2: var(--base06);
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
-  --ct-header-height: 65px;
+  --ct-header-height: 45px;
 }
 
 a.button {
