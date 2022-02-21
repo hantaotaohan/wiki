@@ -42,7 +42,11 @@
   --ct-topbar-backdrop: none;
 }
 
-
+a.button {
+    cursor: pointer;
+    color: #abb2bf;
+    text-decoration: none;
+}
 
 .block-highlight, .content .selected {
     transition: background-color .15s;
