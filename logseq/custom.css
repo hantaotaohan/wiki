@@ -3,6 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
  
+  .cp__sidebar-main-content > div {
+    padding: 12px 12em 12em 12em !important;
+    border: none;
+  }
+
 a.title h1.title {
     font-size: 24px;
     margin-bottom: 12rem;
