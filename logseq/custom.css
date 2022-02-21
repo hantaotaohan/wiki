@@ -10,6 +10,12 @@
   src: url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-han-sans@release/Variable/WOFF2/OTF/Subset/SourceHanSansCN-VF.otf.woff2");
 }
 
+.cp__header,
+.cp__right-sidebar-topbar {
+  height: 80px;
+}
+
+
 
 
 
