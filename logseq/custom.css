@@ -31,15 +31,15 @@
 }
 
 .cp__header #search-field {
-  height: 28px;
-  padding: 0;
-  font-size: 12px;
-  background: transparent;
-  color: var(--ls-search-icon-color, #9fa6b2);
+  height: "";
+  padding: "";
+  font-size: "";
+  background: "";
+  color: "";
 }
 
 .cp__header.electron-mac {
-  height: var(--ct-header-height);
+  height: "";
 }
 
 
