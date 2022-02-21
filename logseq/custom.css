@@ -40,7 +40,7 @@
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
   --ct-header-height: 52px;
-  --ct-topbar-backdrop: blur(20px);
+  --ct-topbar-backdrop: blur(1px);
 }
 
 a.button {
