@@ -4,6 +4,10 @@
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
+#left-sidebar {
+  height: 100%;
+  padding-top: 10%;
+}
 
 :root {
   --base00: #282c34;
