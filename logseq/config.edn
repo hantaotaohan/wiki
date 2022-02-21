@@ -54,11 +54,11 @@
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
-  :pages-directory "./pages/"
+ ;; :pages-directory "./pages/"
 
  ;; Tell logseq to use a specific folder in the repo as a default location for journals
  ;; if not specified, journals are stored in `journals` directory
-  :journals-directory "./pages/"
+  :journals-directory "./pages"
 
  ;; Set this to true will convert
  ;; `[[Grant Ideas]]` to `[[file:./grant_ideas.org][Grant Ideas]]` for org-mode
