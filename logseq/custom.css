@@ -30,20 +30,9 @@
 }
 
 #main-content-container {
-  padding-top: 5%;
+  padding-top: 15%;
 }
 
-.page {
-  margin-top: 0;
-}
-
-.cp__sidebar-main-content {
-  width: 100%;
-}
-
-.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-  padding: 1164px 32px;
-}
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 
