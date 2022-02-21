@@ -14,7 +14,7 @@
 
   height: 5%;
 
-
+  position: relative;
   display: block;
   content: "";
   background-color: "#282c34";
