@@ -11,7 +11,7 @@
 }
 
 .cp__header {
-  height: 80px;
+  height: 50px;
 }
 #main-content-container {
   padding-top: 50px;
@@ -44,7 +44,7 @@
   --button-gray-2: var(--base06);
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
-  --ct-header-height: 80px;
+  --ct-header-height: 50px;
   --ct-topbar-backdrop: none;
 }
 
