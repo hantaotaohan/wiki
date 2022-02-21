@@ -6,9 +6,7 @@
 
 
 @media (max-width: 640px) {
-  html {
-    font-size: 14px;
-  }
+
 
   #main-content-container {
     padding: 0;
@@ -19,14 +17,7 @@
     border: none;
   }
 
-  a.title h1.title {
-    font-size: 24px;
-    margin-bottom: 1rem;
-  }
 
-  .custom-query {
-    padding: 0 1rem;
-  }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
   --base00: #282c34;
