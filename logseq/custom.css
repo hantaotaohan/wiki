@@ -11,7 +11,10 @@
 }
 
 
-
+.cp__header,
+.cp__right-sidebar-topbar {
+  height: 50px;
+}
 
 
 
