@@ -6,7 +6,7 @@
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 #left-sidebar {
   height: 100%;
-  padding-top: 10%;
+  padding-top: 50;
 }
 
 :root {
@@ -31,8 +31,8 @@
   --button-gray-2: var(--base06);
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
-  --ct-header-height: 80px;
-  --ct-page-title-line-height: 80px;
+  --ct-header-height: 50px;
+  --ct-page-title-line-height: 50px;
   --ct-topbar-backdrop: "#282c34";
 }
 
