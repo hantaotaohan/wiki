@@ -7,18 +7,57 @@
 .cp__header {
   height: 50px;
 }
+@supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
+  .cp__header,
+.cp__right-sidebar-topbar,
+.sidebar-item.content > div > div:first-of-type {
+    background-color: transparent;
+  }
+}
+@supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
+  .cp__header,
+.cp__right-sidebar-topbar,
+.sidebar-item.content > div > div:first-of-type {
+    background: var(--ct-header-bg-color);
+  }
+}
+:not(.color-level) .color-level {
+  box-shadow: 0 0 0 2px var(--color-level-2);
+}
+
+.scrollbar-spacing {
+  height: 50%;
+}
+
+:root {
+  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
+}
+
+#main-container {
+  position: absolute;
+  width: 100%;
+}
+
+.theme-inner {
+  background: var(--ls-primary-background-color);
+}
+
 #main-content-container {
-  padding-top: 50px;
+  padding-top: 5%;
 }
 
-html,
-body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  line-height: 1.6;
+.page {
+  margin-top: 0;
 }
 
+.cp__sidebar-main-content {
+  width: 100%;
+}
 
+.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+  padding: 64px 32px;
+}
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 
