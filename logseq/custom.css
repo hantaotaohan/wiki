@@ -15,7 +15,7 @@
   right: 0;
   height: var(--ct-header-height);
   z-index: 1;
-  position: absolute;
+
   top: 1%;
   background-color: rgba(0, 0, 0, 0.16);
 }
