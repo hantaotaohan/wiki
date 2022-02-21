@@ -29,12 +29,10 @@
   height: 4%;
 }
 .cp__header::after,
-.cp__right-sidebar-topbar::after {
-  left: 10;
-  right: 110;
-  top: 80%;
-
+.cp__header.electron-mac {
+  height: 20px;
 }
+
 
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
