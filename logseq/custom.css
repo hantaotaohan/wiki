@@ -14,7 +14,7 @@
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
   --ct-text-size: 16px;
-  --ct-line-height: 1.6;
+  --ct-line-height: 0.6;
   --ls-font-family: "Only Emoji", "Source Sans 3 VF", "Source Han Sans VF",
     sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
