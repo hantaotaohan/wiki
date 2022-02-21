@@ -12,6 +12,7 @@
 
 .cp__header,.cp__right-sidebar-topbar {
   top: 0;
+  width:100%;
   height: var(--ct-header-height);
   position: relative;
   display: block;
