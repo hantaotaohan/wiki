@@ -12,7 +12,7 @@
 
 /* Some tweaks on making this theme a bit more compact on mobile.
    Mobile cap is 640px */
-@media (max-width: 640px) {
+@media (max-width: 740px) {
 
   #main-content-container {
     padding: 0;
