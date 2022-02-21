@@ -16,7 +16,7 @@
 .sidebar-item.content > div > div:first-of-type {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    background-color: transparent;
+    background: "#282c34";
   }
 }
 @supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
