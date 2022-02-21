@@ -16,8 +16,7 @@
 
   top: 0;
   position: relative;
-  display: inline;
-  content: "";
+  display: block;
   background-color: "#282c34";
 }
 
