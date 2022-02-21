@@ -30,7 +30,7 @@
 }
 .cp__header::after,
 .cp__right-sidebar-topbar::after {
-  left: 0;
+  left: 10;
   right: 0;
   top: 80%;
 
