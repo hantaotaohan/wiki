@@ -25,7 +25,7 @@
   }
 }
 .cp__header,.cp__right-sidebar-topbar {
-    left: 0;
+  left: 0;
   right: 0;
   height: 1px;
   z-index: 1;
