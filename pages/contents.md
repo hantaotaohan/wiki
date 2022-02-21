@@ -2,9 +2,3 @@
 - [[s]]
 - [[han]] [[tao]]
     - sdf 
-    - ``` python
-    - j
-    - import os
-    - 
-    - ```
-
