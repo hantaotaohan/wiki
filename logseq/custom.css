@@ -14,6 +14,18 @@
 .cp__right-sidebar-topbar {
   height: 4%;
 }
+.cp__header::after,
+.cp__right-sidebar-topbar::after {
+  left: 0;
+  right: 0;
+  height: 4px;
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
+  display: block;
+  content: "";
+}
 
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
