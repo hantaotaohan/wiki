@@ -15,7 +15,7 @@
 @media (max-width: 740px) {
 
   #main-content-container {
-    padding: 0;
+    padding: 10;
   }
 
   .cp__sidebar-main-content > div {
