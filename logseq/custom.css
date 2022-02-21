@@ -24,14 +24,10 @@
     background: "#282c34";
   }
 }
-.cp__header,
-.cp__right-sidebar-topbar {
+.cp__header,.cp__right-sidebar-topbar {
   height: 4%;
 }
-.cp__header::after,
-.cp__header.electron-mac {
-  height: 20px;
-}
+
 
 
 
