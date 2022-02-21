@@ -14,7 +14,18 @@
 .cp__right-sidebar-topbar {
   height: 80px;
 }
-
+.cp__header::after,
+.cp__right-sidebar-topbar::after {
+  left: 0;
+  right: 0;
+  height: 21px;
+  z-index: 1;
+  position: absolute;
+  top: 1%;
+  background-color: rgba(0, 0, 0, 0.16);
+  display: block;
+  content: "";
+}
 
 
 
