@@ -1,7 +1,73 @@
-/*@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
+.cp__header #search #ui__ac-inner {
+  margin-top: -10px;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.cp__header .cp__sidebar-left-menu {
+  margin-right: unset;
+}
+
+.cp__right-sidebar {
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.37, 0.16, 0.16, 0.99);
+}
+.cp__right-sidebar .cp__right-sidebar-topbar {
+  padding: 0;
+  padding-right: 5px;
+}
+.cp__right-sidebar .cp__right-sidebar-topbar .cp__right-sidebar-settings {
+  margin-left: 10px;
+}
+.cp__right-sidebar .cp__right-sidebar-topbar .cp__right-sidebar-settings .ml-4 {
+  margin: 0.15rem 0;
+}
+.cp__right-sidebar .cp__right-sidebar-topbar .cp__right-sidebar-settings .cp__right-sidebar-settings-btn {
+  padding: 2px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ls-primary-text-color);
+}
+.cp__right-sidebar .cp__right-sidebar-topbar .cp__right-sidebar-settings .cp__right-sidebar-settings-btn:hover {
+  background-color: var(--ls-quaternary-background-color);
+}
+.cp__right-sidebar .cp__right-sidebar-topbar a.button {
+  background-color: var(--ls-secondary-background-color, #d8e1e8);
+}
+.cp__right-sidebar .cp__right-sidebar-topbar a.button:hover {
+  background: var(--ls-tertiary-background-color);
+}
+.cp__right-sidebar .cp__right-sidebar-topbar a.toggle:hover {
+  color: var(--ls-primary-text-color);
+}
+.cp__right-sidebar .sidebar-item-list .sidebar-item {
+  margin: 5px;
+  margin-bottom: 10px;
+  --tw-shadow: unset;
+  padding: 10px 8px 10px 4px;
+  border: none;
+}
+.cp__right-sidebar .sidebar-item-list .sidebar-item .flex.flex-row.justify-between {
+  padding-top: 0.15rem;
+  padding-bottom: 0.45rem;
+}
+.cp__right-sidebar .sidebar-item-list .sidebar-item .flex.flex-row.justify-between .font-medium {
+  font-size: 0.88em;
+  font-weight: 500;
+  text-transform: uppercase;
+  opacity: 0.7;
+  align-self: center;
+}
+.cp__right-sidebar .sidebar-item-list .sidebar-item .content {
+  font-size: 0.95rem;
+}
+.cp__right-sidebar .sidebar-item-list .recent-pages {
+  margin-left: 26px;
+}
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
