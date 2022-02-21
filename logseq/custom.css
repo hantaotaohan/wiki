@@ -11,7 +11,7 @@
   .cp__header,
 .cp__right-sidebar-topbar,
   {
-    background-color: transparent;
+    background-color: var(--ct-header-bg-color);
   }
 }
 @supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
