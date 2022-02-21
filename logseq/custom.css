@@ -2,7 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
-
+ 
+a.title h1.title {
+    font-size: 24px;
+    margin-bottom: 12rem;
+  }
 @supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
   .cp__header,
 .cp__right-sidebar-topbar,
