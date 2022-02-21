@@ -13,7 +13,7 @@
 .cp__header,.cp__right-sidebar-topbar {
   left: 0;
   right: 0;
-  height: 35px;
+  height: 5%;
   z-index: 1;
   position: absolute;
   top: 1%;
