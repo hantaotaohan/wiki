@@ -17,10 +17,7 @@
   display: block;
   background-color: "#282c34";
 }
-@media (max-width: 1640px) {
-  html {
-    font-size: 14px;
-  }
+
 
 
 
