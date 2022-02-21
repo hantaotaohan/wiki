@@ -18,11 +18,8 @@
 .cp__right-sidebar-topbar::after {
   left: 0;
   right: 0;
+  top: 90%;
 
-  z-index: 1;
-
-  top: 100%;
-  background-color: rgba(0, 0, 0, 0.16);
   display: block;
   content: "";
 }
