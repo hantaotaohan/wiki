@@ -27,10 +27,10 @@
 .cp__header,.cp__right-sidebar-topbar {
   left: 0;
   right: 0;
-  height: 20px;
+  height: 1px;
   z-index: 1;
   position: absolute;
-  top: 100%;
+  top: 10%;
   background-color: rgba(0, 0, 0, 0.16);
   display: block;
   content: "";
