@@ -15,7 +15,7 @@
   height: 5%;
 
   position: relative;
-  display: block;
+  display: inline;
   content: "";
   background-color: "#282c34";
 }
