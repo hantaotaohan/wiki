@@ -14,7 +14,7 @@
   left: 0;
   right: 0;
   height: var(--ct-header-height);
-  z-index: 1;
+
 
 
   background-color: rgba(0, 0, 0, 0.16);
