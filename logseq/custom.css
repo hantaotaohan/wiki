@@ -5,32 +5,7 @@
 
 
 .cp__header {
-  height: 50px;
-}
-@supports (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px)) {
-  .cp__header,
-.cp__right-sidebar-topbar,
-  {
-    background-color: var(--ct-header-bg-color);
-  }
-}
-@supports not ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
-  .cp__header,
-.cp__right-sidebar-topbar,
-.sidebar-item.content > div > div:first-of-type {
-    background: var(--ct-header-bg-color);
-  }
-}
-:not(.color-level) .color-level {
-  box-shadow: 0 0 0 2px var(--color-level-2);
-}
-
-.scrollbar-spacing {
-  height: 50%;
-}
-
-#main-content-container {
-  padding-top: 15%;
+  height: 80px;
 }
 
 
