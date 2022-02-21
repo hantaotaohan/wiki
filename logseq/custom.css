@@ -13,9 +13,9 @@
 .cp__header,.cp__right-sidebar-topbar {
   left: 0;
   right: 0;
+  height: 5%;
 
 
-  top: 1%;
   display: block;
   content: "";
   background-color: "#282c34";
