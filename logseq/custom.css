@@ -12,9 +12,9 @@
 
 .cp__header,.cp__right-sidebar-topbar {
 
-  height: 5%;
 
-  top: 1;
+
+  top: 0;
   position: relative;
   display: inline;
   content: "";
