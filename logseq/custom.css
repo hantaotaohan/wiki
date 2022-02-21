@@ -25,7 +25,15 @@
   }
 }
 .cp__header,.cp__right-sidebar-topbar {
-  height: 4%;
+    left: 0;
+  right: 0;
+  height: 1px;
+  z-index: 1;
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.16);
+  display: block;
+  content: "";
 }
 
 
