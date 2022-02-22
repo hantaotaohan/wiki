@@ -2,8 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
-#main-content-container {
-    padding-top: 12%;
+#main-container {
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
 }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
