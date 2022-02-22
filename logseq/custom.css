@@ -4,8 +4,8 @@
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 
 .left-sidebar-inner > .wrap {
-    margin-top: 0; 
-    padding-top: 12px;
+    margin-top: 10; 
+    padding-top: 112px;
     padding-bottom: 12px; 
     height: 100%; 
 }
