@@ -137,6 +137,10 @@ td {
     color: #61afef;
 }
 
+.cm-s-solarized .cm-qualifier {
+    color: #b58900;
+}
+
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror-gutter,
 .CodeMirror-gutters,
