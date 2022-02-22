@@ -10,7 +10,7 @@
 }
 
 #main-content-container {
-    padding: 20;
+    -webkit-overflow-scrolling: touch;
   }
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
