@@ -88,6 +88,10 @@ td {
     color: #61afef !important;
 }
 
+.cm-s-solarized .cm-atom {
+    color: #d33682;
+}
+
 .cm-s-solarized .cm-variable {
     color: #abb2bf !important;
 }
