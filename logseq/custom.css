@@ -41,6 +41,7 @@ mark {
     color: #e06c75;
     font-size: inherit;
     font-weight: bold;
+    text-decoration: none;
 }
 
 a.button {
