@@ -28,6 +28,10 @@
   --ls-font-family: '微软雅黑', sans-serif;
 }
 
+.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+    /* padding: 64px 32px; */
+    display: block;
+}
 
 #main-container {
     position: sticky;
