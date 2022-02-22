@@ -10,7 +10,7 @@
 }
 
 .cp__header, .cp__right-sidebar-topbar {
-    /* height: var(--ct-header-height); */
+  height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
 }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
