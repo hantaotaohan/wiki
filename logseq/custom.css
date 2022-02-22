@@ -18,7 +18,7 @@
   position: absolute;
   top: 120%;
   background-color: rgba(0, 0, 0, 0.16);
-  display: block;
+  display: inherit;
   content: "";
 }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
