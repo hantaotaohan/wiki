@@ -4,7 +4,7 @@
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 
 #main-container {
-    position: absolute;
+    position: fixed;
     width: 100%;
     margin-top: 50px;
 }
