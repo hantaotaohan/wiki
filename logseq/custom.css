@@ -38,7 +38,6 @@ i {
   --ls-font-family: '微软雅黑', sans-serif;
 }
 
-
 .cp__sidebar-left-layout.is-open .left-sidebar-inner {
     transform: translateX(0);
     background-color: #282c34;
