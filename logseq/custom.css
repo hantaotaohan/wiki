@@ -2,7 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
-
+body {
+    -webkit-overflow-scrolling: touch; // ios顺滑
+    height: 100%;
+    overflow-y: scroll;
+}
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
   --base00: #282c34;
@@ -26,9 +30,6 @@
   --button-gray-2: var(--base06);
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -overflow-scrolling: touch;
 }
 
 .cp__sidebar-left-layout.is-open .left-sidebar-inner {
