@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 body {
-    -webkit-overflow-scrolling: touch; // ios顺滑
+    -webkit-overflow-scrolling: touch;
     height: 100%;
     overflow-y: scroll;
 }
