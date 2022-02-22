@@ -3,15 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 
-#main-container {
-    position: sticky;
-    width: 100%;
-    margin-top: 3px;
-}
-
-.cp__header, .cp__right-sidebar-topbar {
-  height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
-}
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
   --base00: #282c34;
@@ -35,6 +26,17 @@
   --button-gray-2: var(--base06);
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
+}
+
+
+#main-container {
+    position: sticky;
+    width: 100%;
+    margin-top: 3px;
+}
+
+.cp__header, .cp__right-sidebar-topbar {
+  height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
 }
 
 .cp__sidebar-left-layout.is-open .left-sidebar-inner {
