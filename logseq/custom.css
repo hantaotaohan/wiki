@@ -5,7 +5,7 @@
 
 @media (max-width: 640px) {
   html {
-    font-size: 14px;
+    padding-top: 10%;
   }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
