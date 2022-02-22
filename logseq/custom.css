@@ -133,6 +133,10 @@ td {
  	font-style: italic !important; 
 } 
 
+.cm-s-solarized .cm-type, .cm-s-solarized .cm-variable-3 {
+    color: #6c71c4;
+}
+
 .CodeMirror pre.CodeMirror-line,
 .CodeMirror-gutter,
 .CodeMirror-gutters,
