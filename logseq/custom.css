@@ -19,12 +19,12 @@
     display: inherit;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+
     top: 0;
     left: 0;
     right: 0;
     user-select: none;
-    line-height: 1.5;
+    line-height: 1;
     white-space: nowrap;
 }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
