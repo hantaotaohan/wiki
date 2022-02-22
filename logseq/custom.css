@@ -9,8 +9,7 @@
     margin-top: 50px;
 }
 
-.cp__header,
-.cp__right-sidebar-topbar {
+.cp__header {
   left: 0;
   right: 0;
   height: 12px;
