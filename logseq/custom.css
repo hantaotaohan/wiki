@@ -9,23 +9,12 @@
 }
 
 .cp__header {
-    z-index: 110;
-    --tw-shadow: 0 1px 3px 0 #0000001a,0 1px 2px 0 #0000000f;
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
-    -webkit-app-region: drag;
+    z-index: 1;
     padding-right: .5rem;
     padding-top: none;
-    height: 110%;
+    height: 10%;
     display: inherit;
     align-items: center;
-    justify-content: space-between;
-
-    top: 0;
-    left: 0;
-    right: 0;
-    user-select: none;
-    line-height: 1;
-    white-space: nowrap;
 }
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
