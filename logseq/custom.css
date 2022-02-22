@@ -17,6 +17,7 @@
 
 .cp__header::after,
 .cp__right-sidebar-topbar::after {
+  margin-top:50px;
   left: 0;
   right: 0;
   height: 1px;
