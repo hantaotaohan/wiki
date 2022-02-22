@@ -9,14 +9,8 @@
     margin-top: 50px;
 }
 
-.cp__header,
-.cp__right-sidebar-topbar {
-  margin-top:50px;
-  height: var(--ct-header-height);
-}
 
-.cp__header::after,
-.cp__right-sidebar-topbar::after {
+.cp__header {
   margin-top:50px;
   left: 0;
   right: 0;
