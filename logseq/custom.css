@@ -14,7 +14,7 @@
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
     -webkit-app-region: drag;
     padding-right: .5rem;
-    padding-top: 5%;
+    padding-top: 1%;
     height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
     display: inherit;
     align-items: center;
