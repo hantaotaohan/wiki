@@ -15,8 +15,7 @@ body {
   font-family: var(--ls-font-family);
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  line-height: var(--ct-line-height);
+  line-height: "";
 }
 
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
