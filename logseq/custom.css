@@ -15,7 +15,7 @@
     -webkit-app-region: drag;
     padding-right: .5rem;
     padding-top: none;
-    height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
+    height: 10%;
     display: inherit;
     align-items: center;
     justify-content: space-between;
