@@ -35,6 +35,30 @@
     background-color: #282c34;
 }
 
+.ls-block :is(h1, h2, h3, h4, h5):hover::after {
+  opacity: 1;
+}
+
+.ls-block h1::after {
+  content: "";
+}
+
+.ls-block h2::after {
+  content: "";
+}
+
+.ls-block h3::after {
+  content: "";
+}
+
+.ls-block h4::after {
+  content: "";
+}
+
+.ls-block h5::after {
+  content: "";
+}
+
 mark {
     background: #0000;
     padding: 0;
