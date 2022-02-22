@@ -2,7 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code");
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
- 
+
+.cp__sidebar-left-layout.is-open .left-sidebar-inner {
+    transform: translateX(0);
+    background-color: #282c34;
+}
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
   --base00: #282c34;
