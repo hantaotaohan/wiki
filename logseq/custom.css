@@ -11,7 +11,6 @@
 .cp__header {
     z-index: 10;
     padding-right: .5rem;
-    padding-top: none;
     display: inherit;
     align-items: center;
 }
