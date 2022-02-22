@@ -27,8 +27,8 @@
   --button-gray-3: var(--base07);
   --ls-font-family: '微软雅黑', sans-serif;
   overflow-x: hidden;
-overflow-y: auto;
--webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  -overflow-scrolling: touch;
 }
 
 .cp__sidebar-left-layout.is-open .left-sidebar-inner {
