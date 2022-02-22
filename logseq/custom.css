@@ -32,6 +32,9 @@
     /* padding: 64px 32px; */
     display: block;
 }
+#main-content-container {
+    padding-top: 10px;
+}
 
 #main-container {
     position: sticky;
