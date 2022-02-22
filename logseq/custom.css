@@ -4,9 +4,9 @@
 @import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 
 #main-container {
-    position: fixed;
+    position: sticky;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .cp__header, .cp__right-sidebar-topbar {
