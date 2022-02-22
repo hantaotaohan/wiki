@@ -11,7 +11,7 @@
 
 .cp__header,
 .cp__right-sidebar-topbar {
-  margin-top:50px
+  margin-top:50px;
   height: var(--ct-header-height);
 }
 
