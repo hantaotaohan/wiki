@@ -9,6 +9,9 @@
     margin-top: 50px;
 }
 
+.cp__header, .cp__right-sidebar-topbar {
+    /* height: var(--ct-header-height); */
+}
 /* OneDark by Lalit Magant (http://github.com/tilal6991) */
 :root {
   --base00: #282c34;
