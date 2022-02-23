@@ -268,16 +268,24 @@ mark {
   font-size: 80%;
 }
 
+.block-children-container {
+  position: relative;
+}
+
 .block-children-left-border {
-    width: 3px;
-    padding-right: 2px;
-    cursor: pointer;
-    background-clip: content-box;
-    background-color: var(--ls-guideline-color,#ddd);
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  padding-right: 0px;
+  border-radius: 2px;
+  background-color: transparent;
+  left: -1px;
+  transition: background-color 0.2s;
 }
 
 .block-children-left-border:hover {
-  background-color: var(--ls-primary-text-color) !important;
+  background-color: var(--ls-block-bullet-active-color);
 }
 
 .white-theme .external-link:after {
