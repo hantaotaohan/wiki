@@ -608,7 +608,7 @@ progress::-webkit-progress-value {
 .CodeMirror-sizer,
 .CodeMirror {
   font-size: 12px;
-  line-height: 16px;
+  line-height: 26px;
 }
 
 .CodeMirror-linenumber{
