@@ -268,6 +268,13 @@ mark {
   font-size: 80%;
 }
 
+.block-children-left-border {
+  background-color: var(--ls-guideline-color) !important;
+}
+.block-children-left-border:hover {
+  background-color: var(--ls-primary-text-color) !important;
+}
+
 .white-theme .external-link:after {
   font-family: 'tabler-icons';
   content: "\ea99";
