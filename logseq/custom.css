@@ -815,7 +815,7 @@ html[data-theme=dark] {
   --ls-quaternary-background-color: var(--color-level-3);
   --ls-border-color: var(--ls-tertiary-background-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: #啊宝宝bb;
+  --ls-primary-text-color: #abb2bf;
   --ls-secondary-text-color: rgb(200, 200, 200);
   --ct-bold-color: #ABB2BF;
   --ls-link-text-color: var(--ct-primary-color);
