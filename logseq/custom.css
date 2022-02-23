@@ -816,7 +816,7 @@ html[data-theme=dark] {
   --ls-border-color: var(--ls-tertiary-background-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
   --ls-primary-text-color: #abb2bf;
-  --ls-secondary-text-color: rgb(200, 200, 200);
+  --ls-secondary-text-color: #C8C8C8;
   --ct-bold-color: #ABB2BF;
   --ls-link-text-color: var(--ct-primary-color);
   --ls-link-ref-text-color: var(--ct-primary-color);
