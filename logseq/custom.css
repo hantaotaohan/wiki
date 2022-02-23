@@ -1,3 +1,13 @@
+:root {
+  --ct-text-size: 16px;
+  --ct-line-height: 1.6;
+  --ls-font-family: "Only Emoji", "Source Sans 3 VF", "Source Han Sans VF",
+    sans-serif;
+  --ct-page-title-font-family: var(--ls-font-family);
+  --ct-code-font-family: "Fira Code", monospace;
+}
+
+
 :not(.color-level) .color-level {
   box-shadow: 0 0 0 2px var(--color-level-2);
 }
