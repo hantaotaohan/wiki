@@ -70,6 +70,7 @@
     z-index: 0;
     height: auto;
     margin-bottom: 6px;
+    padding-top: 20px !important;
     max-width: var(--ls-main-content-max-width-wide);
     border-radius: 6px;
     line-height: 1.75em;
