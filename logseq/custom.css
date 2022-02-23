@@ -58,12 +58,12 @@
 }
 
 .block-highlight, .content .selected {
-    /* 键盘选择区块的背景色 并设置成圆角*/
+    /* 键盘选择区块的背景色 并设置成圆角 */
     background-color: #abb2bf11;
     border-radius: 6px;
 }
 
-/* 代码区域设置 主面板*/
+/* 代码区域设置 主面板 */
 .cm-s-solarized.cm-s-dark{
     color: #ABB2BF99;
     background-color: #25282F;
@@ -74,7 +74,7 @@
     line-height: 1.75em;
 }
 
-/* 代码区域设置 编号栏*/
+/* 代码区域设置 编号栏 */
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
 	background: #25282F;
 }
@@ -87,16 +87,16 @@
     border-right-color:#171717;
 }
 
-/* 代码区域设置 右上角代码显示*/
+/* 代码区域设置 右上角代码显示 */
 .extensions__code-lang {
     display: none;
 }
 
-/* 代码区域设置 鼠标选择颜色自定义*/
+/* 代码区域设置 鼠标选择颜色自定义 */
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
     background: #ABB2BF33;
 }
-
+/* 搜索结果显示设定 */
 mark {
     background: #282c34;
     padding: 0;
@@ -104,4 +104,8 @@ mark {
     font-size: inherit;
     font-weight: bold;
     text-decoration: none;
+}
+/* markdown 引用样式设置 */
+blockquote {
+	font-style:italic;
 }
