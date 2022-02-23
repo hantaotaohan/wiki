@@ -1,7 +1,7 @@
 .ls-block {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
-  line-height: 2.6;
+  margin: 1.6px 1px 1.6px 1px;
 }
 
 .dark-theme,html[data-theme=dark] {
