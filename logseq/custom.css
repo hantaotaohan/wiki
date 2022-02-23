@@ -76,9 +76,9 @@
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
     color: #abb2bf99;
     background: #25282F;
-  border-right-style:solid;
-border-right-width:1px;
-  border-right-color:#171717;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:#171717;
 }
 .cm-s-solarized.cm-s-dark{
     color: #ABB2BF99;
