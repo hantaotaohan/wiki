@@ -268,10 +268,6 @@ mark {
   font-size: 80%;
 }
 
-.block-children-container {
-  position: relative;
-}
-
 .block-children-left-border {
   z-index: 1;
   position: absolute;
