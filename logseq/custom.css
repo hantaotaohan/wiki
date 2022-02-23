@@ -3,20 +3,6 @@
 
 
 
-textarea {
-  line-height: var(--ct-line-height);
-}
-
-i {
-  font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
-}
-
-
-
-::selection {
-  background: var(--ct-primary-color);
-  color: var(--ls-selection-color);
-}
 
 
 
