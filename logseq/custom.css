@@ -71,7 +71,6 @@
     height: auto;
     margin-top: 4px;
     margin-bottom: 6px;
-    font-family: Fira Code,Monaco,Menlo,Consolas,'COURIER NEW',monospace;
     max-width: var(--ls-main-content-max-width-wide);
     border-radius: 6px;
     line-height: 1.45em;
