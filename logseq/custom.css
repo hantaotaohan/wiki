@@ -5,9 +5,6 @@ body {
   line-height: 2.6;
 }
 
-textarea {
-  line-height: 2.6;
-}
 
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
