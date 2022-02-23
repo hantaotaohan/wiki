@@ -69,7 +69,7 @@
     line-height: 1.75em;
 }
 
-.cm-s-solarized.cm-s-dark .cm-.CodeMirror-linenumber {
+.cm-s-solarized.cm-s-dark .cm-s-CodeMirror-linenumber {
     color: #ABB2BF99;
     background-color: #25282F;
 }
