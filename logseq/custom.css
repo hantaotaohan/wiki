@@ -168,8 +168,28 @@ blockquote {
     color: #e5c07b;
 }
 
-/* Markdown H1 H2 间距 */
+/* Markdown H1 H2 间距 
 .editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
     margin: .8em 0 .8em;
     border-bottom: 0px solid;
+}
+*/
+:root {
+  --ct-text-size: 16px;
+  --ct-line-height: 1.6;
+  --ls-font-family: "Only Emoji", "Source Sans 3 VF", "Source Han Sans VF",
+    sans-serif;
+  --ct-page-title-font-family: var(--ls-font-family);
+  --ct-code-font-family: "Fira Code", monospace;
+}
+
+html,
+body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  line-height: var(--ct-line-height);
+}
+
+textarea {
+  line-height: var(--ct-line-height);
 }
