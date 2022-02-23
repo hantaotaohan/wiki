@@ -58,6 +58,7 @@
 }
 
 .block-highlight, .content .selected {
-    /* 键盘选择该项目的背景色 */
+    /* 键盘选择区块的背景色 并设置成圆角*/
     background-color: #abb2bf11;
+    border-radius: 6px;
 }
