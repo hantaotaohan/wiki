@@ -612,7 +612,6 @@ progress::-webkit-progress-value {
 }
 
 .CodeMirror-linenumber{
-  font-size: 12px;
   text-align: center;
   color: #abb2bf88 !important;
 }
