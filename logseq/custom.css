@@ -595,7 +595,7 @@ progress::-webkit-progress-value {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  color: #abb2bf;
+  color: #abb2bf !important;
 }
 
 .cm-s-solarized div.CodeMirror-selected {
