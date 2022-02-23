@@ -6,7 +6,7 @@
 .block-children {
 	padding-top: 12px;
 	padding-bottom: 13px;
-  line-height: 22px;
+  line-height: 22em;
 }
 
 .block-children>.ls-block:last-child {
