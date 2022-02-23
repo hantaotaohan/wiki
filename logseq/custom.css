@@ -295,9 +295,7 @@ mark {
   color: var(--cd-yellow-1);
 }
 
-.block-children-left-border:hover {
-  background-color: var(--ls-primary-text-color) !important;
-}
+
 
 .dark-theme :not(pre)>code {
   background-color: transparent;
