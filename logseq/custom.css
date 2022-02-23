@@ -109,3 +109,61 @@ mark {
 blockquote {
 	font-style:italic;
 }
+
+/* 代码高亮设置 */
+.cm-s-solarized .cm-meta {
+    color: #61afef !important;
+}
+
+.cm-s-solarized .cm-atom {
+    color: #e06c75;
+}
+
+.cm-s-solarized .cm-variable {
+    color: #abb2bf !important;
+}
+
+.cm-s-solarized .cm-variable-2 {
+    color: #e5c07b;
+}
+
+.cm-s-solarized .cm-string {
+    color: #98c379 !important;
+}
+
+.cm-s-solarized .cm-keyword {
+    color: #c678dd !important;
+}
+
+.cm-s-solarized .cm-property {
+    color: #56b6c2 !important;
+}
+
+.cm-s-solarized .cm-operator {
+    color: #61afef !important;
+}
+
+.cm-s-solarized .cm-builtin {
+    color: #e5c07b !important;
+}
+
+.cm-s-solarized .cm-def {
+    color: #61afef !important;
+}
+
+.cm-s-solarized .cm-number { 
+  	color: #d19a66 !important; 
+} 
+
+.cm-s-solarized .cm-comment { 
+ 	color: #5c6370 !important; 
+ 	font-style: italic !important; 
+} 
+
+.cm-s-solarized .cm-type, .cm-s-solarized .cm-variable-3 {
+    color: #61afef;
+}
+
+.cm-s-solarized .cm-qualifier {
+    color: #e5c07b;
+}
