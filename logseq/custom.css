@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code");
+:root {
+  --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background-hover: var(--ct-primary-color);
+}
 
-
-
-
-
-
-
+#main-container {
+  position: absolute;
+  width: 100%;
+}
 
 .theme-inner {
   background: var(--ls-primary-background-color);
