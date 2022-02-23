@@ -271,7 +271,7 @@ mark {
 
 
 
-.block-children-left-border {
+.block-children-left-border:after {
   z-index: 1;
   position: absolute;
   height: 100%;
