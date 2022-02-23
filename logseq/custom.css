@@ -11,11 +11,8 @@ html,
 body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
-  overscroll-behavior-y: none;
-  -webkit-font-smoothing: auto;
   line-height: var(--ct-line-height);
 }
-
 
 :not(.color-level) .color-level {
   box-shadow: 0 0 0 2px var(--color-level-2);
