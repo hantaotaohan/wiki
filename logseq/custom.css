@@ -72,7 +72,7 @@
 .cm-s-solarized.cm-s-dark {
     color: #ABB2BF99;
     background-color: #25282F;
-  
+}
   .extensions__code-lang {
     background: var(--ls-secondary-background-color);
     word-break: keep-all;
