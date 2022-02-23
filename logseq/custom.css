@@ -77,7 +77,8 @@
     color: #abb2bf99;
     background: #25282F;
   border-right-style:solid;
-border-right-width:1px;
+border-right-width:2px;
+  border-right-color:#000;
 }
 .cm-s-solarized.cm-s-dark{
     color: #ABB2BF99;
