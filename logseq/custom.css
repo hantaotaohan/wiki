@@ -18,35 +18,7 @@ i {
   color: var(--ls-selection-color);
 }
 
-/* Some tweaks on making this theme a bit more compact on mobile.
-   Mobile cap is 640px */
-@media (max-width: 640px) {
-  html {
-    font-size: 14px;
-  }
 
-  #main-content-container {
-    padding: 0;
-  }
-
-  .cp__sidebar-main-content > div {
-    padding: 1px 1em 1em 1em !important;
-    border: none;
-  }
-
-  a.title h1.title {
-    font-size: 24px;
-    margin-bottom: 1rem;
-  }
-
-  .custom-query {
-    padding: 0 1rem;
-  }
-
-.scrollbar-spacing {
-  height: 100%;
-  }
-}
 
 :root {
   --ct-sidebar-resizer-background: var(--ls-secondary-background-color);
