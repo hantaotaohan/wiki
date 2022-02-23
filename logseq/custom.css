@@ -593,10 +593,11 @@ progress::-webkit-progress-value {
   color: var(--ls-selection-color);
 }
 
-.CodeMirror {
+/* .CodeMirror {
   background-color: var(--color-level-1);
   box-shadow: 0 0 0 2px var(--color-level-2);
 }
+*/
 
 .cm-s-solarized div.CodeMirror-selected {
   background: var(--color-level-4) !important;
