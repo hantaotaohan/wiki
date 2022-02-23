@@ -69,7 +69,6 @@
     width: 100%;
     z-index: 0;
     height: auto;
-    margin-top: 4px;
     margin-bottom: 6px;
     max-width: var(--ls-main-content-max-width-wide);
     border-radius: 6px;
