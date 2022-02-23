@@ -4,8 +4,8 @@
 }
 
 .block-children {
-	padding-top: 2px;
-	padding-bottom: 3px
+	padding-top: 12px;
+	padding-bottom: 13px
 }
 
 .block-children>.ls-block:last-child {
@@ -17,7 +17,7 @@
 	cursor: pointer;
 	font-size: 14px;
 	min-width: 22px;
-	min-height: 42px;
+	min-height: 22px;
 	padding: 2px;
 	color: initial;
 	user-select: none
