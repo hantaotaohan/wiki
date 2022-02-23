@@ -270,7 +270,7 @@ mark {
 
 .block-children {
   border-left-color: var(--ls-primary-text-color) !important;
-  border-left-width: 3px !important;
+  border-left-width: 1px !important;
 }
 
 .block-children-container {
@@ -288,7 +288,6 @@ mark {
   left: -1px;
   transition: background-color 0.2s;
 }
-
 
 .block-children-left-border:hover {
   background-color: var(--ls-primary-text-color) !important;
