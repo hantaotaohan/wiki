@@ -89,6 +89,6 @@
     display: none;
 }
 
-.cm-s-solarized.cm-s-dark.CodeMirror ::selection {
+.cm-s-solarized.cm-s-dark div.CodeMirror-selected {
     background: #ABB2BF22;
 }
