@@ -63,16 +63,18 @@
     border-radius: 6px;
 }
 
-/* 代码区域设置*/
+/* 代码区域设置 主面板*/
 .extensions__code>.CodeMirror {
     padding-top: 1px !important;
     line-height: 1.75em;
 }
 
+/* 代码区域设置 编号栏*/
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
 	background: #25282F;
 }
 
+/* 代码区域设置 编号栏*/
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
     color: #abb2bf99;
     background: #25282F;
@@ -80,10 +82,7 @@
     border-right-width:1px;
     border-right-color:#171717;
 }
-.cm-s-solarized.cm-s-dark{
-    color: #ABB2BF99;
-    background-color: #25282F;
-}
+
 
 .extensions__code-lang {
     display: none;
