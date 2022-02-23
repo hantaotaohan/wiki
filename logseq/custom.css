@@ -594,6 +594,7 @@ progress::-webkit-progress-value {
 .CodeMirror-linenumber{
   font-size: 12px;
   line-height: 16px;
+  text-align: center;
 }
 
 .cm-s-solarized div.CodeMirror-selected {
