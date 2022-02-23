@@ -590,7 +590,7 @@ progress::-webkit-progress-value {
 
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
   color: #abb2bf99;
-  background-color: var(--color-level-1);
+  background-color: #282c3488;
   font-size: 12px;
   line-height: 16px;
 }
