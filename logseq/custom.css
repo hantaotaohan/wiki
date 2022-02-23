@@ -73,7 +73,7 @@
 	background-color: #25282F;
 }
 
-.CodeMirror-linenumber{
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
     color: #ABB2BF99;
     background: #25282F55;
 }
