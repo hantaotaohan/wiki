@@ -1,3 +1,7 @@
+:not(.color-level) .color-level {
+  box-shadow: 0 0 0 2px var(--color-level-2);
+}
+
 .theme-inner {
   background: var(--ls-primary-background-color);
 }
