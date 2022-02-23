@@ -96,3 +96,12 @@
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
     background: #ABB2BF33;
 }
+
+mark {
+    background: #0000;
+    padding: 0;
+    color: #e06c75;
+    font-size: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
