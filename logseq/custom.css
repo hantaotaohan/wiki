@@ -3,7 +3,7 @@
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
   margin: 0.3em 0em 0.3em 0em;
-      height: 2.6px;
+      height: 2.6em;
 }
 
 .dark-theme,html[data-theme=dark] {
