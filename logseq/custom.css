@@ -270,17 +270,7 @@ mark {
 
 
 
-.block-children-left-border:after {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 4px;
-  padding-right: 0px;
-  border-radius: 2px;
-  background-color: transparent;
-  left: -1px;
-  transition: background-color 0.2s;
-}
+
 .block-children-left-border:hover {
   background-color: var(--ls-primary-text-color) !important;
 }
