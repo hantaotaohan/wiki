@@ -1,10 +1,5 @@
 /* Block 行距调整 */
-.ls-block {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  margin: 0.3em 0em 0.3em 0em;
-      
-}
+
 .block-content::before  {
     min-height: 24px;
     max-width: 100%;
