@@ -645,6 +645,7 @@ progress::-webkit-progress-value {
 }
 
 .extensions__code-lang {
+  color: #abb2bf99;
   background: #abb2bf11;
   margin-left: 4px;
   height: 26px;
