@@ -17,7 +17,7 @@
 	cursor: pointer;
 	font-size: 14px;
 	min-width: 22px;
-	min-height: 22px;
+	line-height: 22px;
 	padding: 2px;
 	color: initial;
 	user-select: none
