@@ -1,3 +1,29 @@
+.block-children-left-border:hover {
+	padding-right: 0;
+	background-color: var(--ls-primary-text-color)
+}
+
+.block-children {
+	padding-top: 2px;
+	padding-bottom: 3px
+}
+
+.block-children>.ls-block:last-child {
+	margin-bottom: 5px
+}
+
+.block-control,.block-control:hover {
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 14px;
+	min-width: 22px;
+	min-height: 22px;
+	padding: 2px;
+	color: initial;
+	user-select: none
+}
+
+
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
