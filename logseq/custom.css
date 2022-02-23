@@ -32,7 +32,7 @@
 	--ls-block-bullet-border-color: #474E5D;
 	--ls-block-bullet-color: #383D48;
 	--ls-block-highlight-color: #32445A;
-	--ls-selection-background-color: #000;
+	--ls-selection-background-color: red;
 	--ls-page-checkbox-color: #abb2bf55;
 	--ls-page-checkbox-border-color: var(--ls-primary-background-color);
 	--ls-page-blockquote-color: var(--ls-primary-text-color);
