@@ -12,7 +12,7 @@
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-  padding: 64px 32px;
+  padding: 164px 32px;
 }
 
 /* Right side bar */
