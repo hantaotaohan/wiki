@@ -831,7 +831,7 @@ html[data-theme=dark] {
   --ct-block-arrow-color: #5c6370;
   --ct-page-reference-color: var(--ls-active-primary-color);
   --ls-icon-color: var(--ls-primary-text-color);
-  --ct-block-reference-background: rgba(16, 107, 163, 0.2);
+  --ct-block-reference-background: rgba(97,175,239, 0.2);
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
