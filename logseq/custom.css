@@ -79,11 +79,6 @@
     background-color: #25282F;
 }
 
-.CodeMirror-gutter{
-  display: none;
-	padding-left: 10px;
-}
-
 .extensions__code-lang {
     display: none;
 }
