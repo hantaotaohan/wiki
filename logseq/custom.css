@@ -78,11 +78,7 @@
     color: #ABB2BF99;
     background-color: #25282F;
 }
-.CodeMirror-gutter {
-    white-space: normal;
-    /* height: 100%; */
-  display: none;
-}
+.
   .extensions__code-lang {
     display: none;
 }
