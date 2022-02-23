@@ -5,11 +5,13 @@
 
 .block-children {
 	padding-top: 12px;
-	padding-bottom: 13px
+	padding-bottom: 13px;
+  line-height: 22px;
 }
 
 .block-children>.ls-block:last-child {
-	margin-bottom: 15px
+	margin-bottom: 15px;
+  line-height: 22px;
 }
 
 .block-control,.block-control:hover {
