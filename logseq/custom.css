@@ -270,14 +270,7 @@ mark {
 
 
 
-.block-children {
-  border-left-color: var(--ls-primary-text-color) !important;
-  border-left-width: 1px !important;
-}
 
-.block-children-container {
-  position: relative;
-}
 
 .block-children-left-border {
   z-index: 1;
