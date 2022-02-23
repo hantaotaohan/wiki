@@ -173,3 +173,14 @@ blockquote {
 .cm-s-solarized .cm-qualifier {
     color: #e5c07b;
 }
+
+.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6 {
+	margin: 0 0 20px 0;
+	color: #Abb2bf;
+	font-weight: 600;
+	line-height: 1.7;
+	letter-spacing: normal;
+	text-transform: uppercase;
+	text-shadow: none;
+	word-wrap: break-word
+}
