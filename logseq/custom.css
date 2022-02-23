@@ -72,3 +72,23 @@
 .cm-s-solarized.cm-s-dark {
     color: #ABB2BF99;
     background-color: #25282F;
+  
+  .extensions__code-lang {
+    background: var(--ls-secondary-background-color);
+    word-break: keep-all;
+    position: absolute;
+    width: fit-content;
+    order: 3;
+    display: flex;
+    left: auto;
+    right: 0;
+    margin-top: 4px;
+    z-index: 9999;
+}
+.extensions__code-lang {
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.extensions__code-lang {
+    /* padding: .25rem; */
+}
