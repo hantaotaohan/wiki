@@ -1,5 +1,4 @@
 - # Linux平台下安装Git或者从源码构建
--
 - Debian平台下安装方式
 	- ``` bash
 	  sudo apt install git
