@@ -11,14 +11,7 @@ i {
   font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
 }
 
-:root {
-  --ct-background: var(--ls-primary-background-color);
-  --ct-page-font-color: var(--ls-primary-text-color);
-}
 
-:root.is-mac.is-electron {
-  --ct-header-height: 48px;
-}
 
 ::selection {
   background: var(--ct-primary-color);
