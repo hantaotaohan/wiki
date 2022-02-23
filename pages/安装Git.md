@@ -3,7 +3,6 @@
 	- ``` bash
 	  sudo apt install git
 	  ```
--
 - Debian平台下从源码构建
 	- 1. 下载源码
 	  ``` bash
