@@ -1,6 +1,6 @@
 .dark-theme,
 html[data-theme='dark'] {
-  --bg-color: hsl(220, 16%, 22%);
+  --bg-color: #282c34;
   --bg-dk-1: hsl(220, 16%, 20%);
   --bg-dk-2: hsl(220, 16%, 18%);
   --bg-dk-3: hsl(220, 16%, 16%);
