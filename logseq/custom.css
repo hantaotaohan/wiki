@@ -13,7 +13,7 @@
     overflow-wrap: break-word;
     word-break: break-word;
     cursor: text;
-  line-height: 2.6em;
+  line-height: 12.6em;
 }
 
 .dark-theme,html[data-theme=dark] {
