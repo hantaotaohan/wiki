@@ -588,7 +588,7 @@ progress::-webkit-progress-value {
 }
 
 
-.CodeMirror-linenumber{
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
   color: #abb2bf99;
   background-color: var(--color-level-1);
   font-size: 12px;
