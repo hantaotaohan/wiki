@@ -44,8 +44,8 @@ html[data-theme='dark'] {
   --ls-secondary-border-color: #126277;
   --ls-guideline-color: #525c71;
   --ls-menu-hover-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: #ECEFF4;
-  --ls-secondary-text-color: #ECEFF4;
+  --ls-primary-text-color: #abb2bf;
+  --ls-secondary-text-color: #abb2bf;
   --ls-title-text-color: var(--ls-primary-text-color);
   --ls-link-text-color: var(--ls-secondary-text-color);
   --ls-link-text-hover-color: var(--cd-blue-2);
