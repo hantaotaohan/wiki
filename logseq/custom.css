@@ -271,7 +271,12 @@ mark {
 
 
 
-
+.block-children-left-border {
+  background-color: var(--ls-guideline-color) !important;
+}
+.block-children-left-border:hover {
+  background-color: var(--ls-primary-text-color) !important;
+}
 
 
 .white-theme .external-link:after {
