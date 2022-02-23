@@ -583,6 +583,12 @@ progress::-webkit-progress-value {
 .CodeMirror-scroll,
 .CodeMirror-sizer,
 .CodeMirror {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+.CodeMirror-linenumber{
   color: #abb2bf99;
   background-color: var(--color-level-1) !important;
   font-size: 12px;
