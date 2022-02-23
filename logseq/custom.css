@@ -589,6 +589,7 @@ progress::-webkit-progress-value {
 .CodeMirror {
   font-size: 12px;
   line-height: 16px;
+  text-align: center;
 }
 
 
