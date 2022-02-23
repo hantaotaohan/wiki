@@ -838,7 +838,7 @@ html[data-theme=dark] {
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #282C34ee;
   --ls-selection-color: #000;
-  --ls-block-highlight-color: #32445a;
+  --ls-block-highlight-color: #3e4452;
 }
 
 
