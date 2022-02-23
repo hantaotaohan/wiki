@@ -269,8 +269,13 @@ mark {
 }
 
 .block-children-left-border {
-  background-color: var(--ls-guideline-color) !important;
+    width: 3px;
+    padding-right: 2px;
+    cursor: pointer;
+    background-clip: content-box;
+    background-color: var(--ls-guideline-color,#ddd);
 }
+
 .block-children-left-border:hover {
   background-color: var(--ls-primary-text-color) !important;
 }
