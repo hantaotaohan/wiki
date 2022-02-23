@@ -1,3 +1,4 @@
+/* Block 行距调整 */
 .ls-block {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
@@ -174,6 +175,7 @@ blockquote {
     color: #e5c07b;
 }
 
+/* Markdown H1 H2 间距 */
 .editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
     margin: .8em 0 .8em;
     border-bottom: 0px solid;
