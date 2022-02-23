@@ -78,7 +78,11 @@
     color: #ABB2BF99;
     background-color: #25282F;
 }
-.
-  .extensions__code-lang {
+
+.CodeMirror-gutter {
+  display: none;
+}
+
+.extensions__code-lang {
     display: none;
 }
