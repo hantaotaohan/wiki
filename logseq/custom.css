@@ -64,7 +64,7 @@
 }
 
 /* 代码区域设置*/
-.extensions__code>.CodeMirror {
+.extensions__code {
     padding-top: 20px !important;
     line-height: 1.75em;
 }
