@@ -72,13 +72,17 @@
 .CodeMirror-linenumber{
     color: #ABB2BF99;
     background: #25282F;
-    width: 0px;
+  width: 0px;
 }
 .cm-s-solarized.cm-s-dark{
     color: #ABB2BF99;
     background-color: #25282F;
 }
-
+.CodeMirror-gutter {
+    white-space: normal;
+    /* height: 100%; */
+  display: none;
+}
   .extensions__code-lang {
     display: none;
 }
