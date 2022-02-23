@@ -1,13 +1,7 @@
-body {
+.ls-block {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
   line-height: 2.6;
-}
-.ls-block {
-    position: relative;
-    min-height: 24px;
-    padding: 2px 0;
-    border-bottom: 1px solid #0000;
 }
 
 .dark-theme,html[data-theme=dark] {
