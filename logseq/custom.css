@@ -81,6 +81,7 @@
 
 .CodeMirror-gutter{
   display: none;
+	padding-left: 10px;
 }
 
 .extensions__code-lang {
