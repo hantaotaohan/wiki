@@ -175,6 +175,5 @@ blockquote {
 }
 
 .editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
-    border-bottom: 1px solid var(--ls-quaternary-background-color);
     margin: .4em 0 0;
 }
