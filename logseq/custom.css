@@ -177,3 +177,4 @@ blockquote {
 .editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
     margin: .4em 0 0;
 }
+.editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
