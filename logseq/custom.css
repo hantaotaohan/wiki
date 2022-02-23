@@ -174,13 +174,7 @@ blockquote {
     color: #e5c07b;
 }
 
-.reveal h1,.reveal h2,.reveal h3,.reveal h4,.reveal h5,.reveal h6 {
-
-	color: #Abb2bf;
-	font-weight: 600;
-	line-height: 1.7;
-	letter-spacing: normal;
-	text-transform: uppercase;
-	text-shadow: none;
-	word-wrap: break-word
+.editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
+    border-bottom: 1px solid var(--ls-quaternary-background-color);
+    margin: .4em 0 0;
 }
