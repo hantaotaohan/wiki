@@ -6,12 +6,12 @@
 .block-children {
 	padding-top: 12px;
 	padding-bottom: 13px;
-  line-height: 22em;
+  line-height: 6em;
 }
 
 .block-children>.ls-block:last-child {
 	margin-bottom: 15px;
-  line-height: 22px;
+  line-height: 6em;
 }
 
 .block-control,.block-control:hover {
@@ -19,7 +19,8 @@
 	cursor: pointer;
 	font-size: 14px;
 	min-width: 22px;
-	line-height: 22px;
+  line-height: 6em;
+
 	padding: 2px;
 	color: initial;
 	user-select: none
