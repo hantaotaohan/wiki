@@ -835,6 +835,7 @@ html[data-theme=dark] {
   --ct-block-reference-background-hover: rgba(16, 107, 163, 0.3);
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
+  --ct-sidebar-resizer-background:
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #282C34ee;
   --ls-selection-color: #000;
