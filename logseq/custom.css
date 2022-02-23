@@ -64,6 +64,11 @@
 }
 
 /* 代码区域设置 主面板*/
+.cm-s-solarized.cm-s-dark{
+    color: #ABB2BF99;
+    background-color: #25282F;
+}
+
 .extensions__code>.CodeMirror {
     padding-top: 1px !important;
     line-height: 1.75em;
