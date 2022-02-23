@@ -1,9 +1,9 @@
 .dark-theme,
 html[data-theme='dark'] {
   --bg-color: hsla(220, 13%, 18%, 1);
-  --bg-dk-1: hsl(220, 16%, 20%);
-  --bg-dk-2: hsl(220, 16%, 18%);
-  --bg-dk-3: hsl(220, 16%, 16%);
+  --bg-dk-1: hsl(220, 13%, 20%);
+  --bg-dk-2: hsl(220, 13%, 18%);
+  --bg-dk-3: hsl(220, 13%, 16%);
   --bg-lg-1: hsl(220, 16%, 24%);
   --bg-lg-2: hsl(220, 16%, 26%);
   --bg-lg-3: hsl(220, 16%, 28%);
