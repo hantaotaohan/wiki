@@ -21,18 +21,21 @@ p {
 	margin: .5rem 0;
 	color: var(--ls-primary-text-color)
 }
-:not(pre)>code {
-	font-style: normal!important;
-	letter-spacing: 0;
-	padding: .1em .4em;
-	word-spacing: -.15em;
-	-webkit-border-radius: var(--ls-border-radius-low);
-	border-radius: var(--ls-border-radius-low);
-	color: var(--ls-page-inline-code-color);
-	background-color: var(--ls-page-inline-code-bg-color,#eee);
-	line-height: 1.5;
-	text-rendering: optimizeSpeed
+.form-select {
+	display: block;
+	width: 100%;
+	--tw-border-opacity: 1;
+	border-color: rgba(212,212,212,var(--tw-border-opacity));
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: .75rem;
+	padding-right: 2.5rem;
+	font-size: 1rem;
+	line-height: 2.5;
+	line-height: 2.5；
 }
+
+
 
 	
 .dark-theme,html[data-theme=dark] {
