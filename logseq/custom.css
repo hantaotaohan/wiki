@@ -8,6 +8,9 @@
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.ttf) format('truetype');font-weight:600;font-style:normal}
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf) format('truetype');font-weight:600;font-style:italic}
 
+.block-children>.ls-block:last-child {
+	margin-bottom: 5px
+}
 
 .ls-block {
 	position: relative;
