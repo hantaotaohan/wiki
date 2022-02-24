@@ -14,19 +14,22 @@ body {
 	line-height: 2.5;
 	background-color: transparent;
 	min-height: 100%;
-	word-break: break-word
+	word-break: break-word;
 }
+
 p {
 	line-height: 2.5;
 	margin: .5rem 0;
 	color: var(--ls-primary-text-color)
 }
-.editor-inner {
-	position: relative;
-	display: flex；
-		line-height: 2.5;
-}
 
+.editor-inner textarea {
+	border: none;
+	border-radius: 0;
+	background: 0 0;
+	padding: 0;
+	resize: none;
+}
 
 
 
