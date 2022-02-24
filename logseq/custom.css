@@ -3,10 +3,6 @@
     background-color: #282c34 !important;
 }
 
-@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.ttf) format('truetype');font-weight:400;font-style:normal}
-@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.ttf) format('truetype');font-weight:400;font-style:italic}
-@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.ttf) format('truetype');font-weight:600;font-style:normal}
-@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf) format('truetype');font-weight:600;font-style:italic}
 
 
 .ls-block {
@@ -150,66 +146,3 @@ blockquote {
 	font-style:italic;
 }
 
-/* 代码高亮设置 */
-.cm-s-solarized .cm-meta {
-    color: #61afef !important;
-}
-
-.cm-s-solarized .cm-atom {
-    color: #98c379;
-}
-
-.cm-s-solarized .cm-variable {
-    color: #abb2bf !important;
-}
-
-.cm-s-solarized .cm-variable-2 {
-    color: #e5c07b;
-}
-
-.cm-s-solarized .cm-string {
-    color: #98c379 !important;
-}
-
-.cm-s-solarized .cm-keyword {
-    color: #c678dd !important;
-}
-
-.cm-s-solarized .cm-property {
-    color: #d19a66 !important;
-}
-
-.cm-s-solarized .cm-operator {
-    color: #61afef !important;
-}
-
-.cm-s-solarized .cm-builtin {
-    color: #e5c07b !important;
-}
-
-.cm-s-solarized .cm-def {
-    color: #61afef !important;
-}
-
-.cm-s-solarized .cm-number { 
-  	color: #d19a66 !important; 
-} 
-
-.cm-s-solarized .cm-comment { 
- 	color: #5c6370 !important; 
- 	font-style: italic !important; 
-} 
-
-.cm-s-solarized .cm-type, .cm-s-solarized .cm-variable-3 {
-    color: #61afef;
-}
-
-.cm-s-solarized .cm-qualifier {
-    color: #e5c07b;
-}
-
-/* Markdown H1 H2 间距 */
-.editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
-	border-bottom: none;
-	margin: .4em 0 0
-}
