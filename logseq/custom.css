@@ -212,13 +212,13 @@ blockquote {
     box-shadow: 1px 2px 2px #00000060 !important;
 }
 
-/* Block 行距及list行距调整 
+/* Block 行距及list行距调整 */
 .ls-block {
 	position: relative;
 	min-height: 24px;
 	padding: 6px 0;
 	border-bottom: 1px solid #0000;
-}*/
+}
 
 .editor-inner textarea {
 	border: none;
