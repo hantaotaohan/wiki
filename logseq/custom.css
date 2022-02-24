@@ -263,9 +263,9 @@ blockquote {
 
 
 :root {
-	--ls-block-bullet-threading-width: 3px;
+  --ls-block-bullet-threading-width: 3px;
   --ls-block-bullet-active-color: var(--ls-link-text-color);
-  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 3px);
+  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
 }
 
 .block-control {
@@ -282,7 +282,7 @@ blockquote {
 }
 
 .block-children-left-border {
-  z-index: 1;
+  /* z-index: 1; */
   position: absolute;
   height: 100%;
   width: 4px;
