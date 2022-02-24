@@ -21,7 +21,7 @@ textarea {
     background: 0 0;
     padding: 0;
     resize: none;
-:root {
+ line-height: var(--ct-line-height);
   
 }
 .dark-theme,html[data-theme=dark] {
