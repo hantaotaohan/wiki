@@ -13,15 +13,14 @@ html,body {
 }
 
 
-.editor-inner textarea {
-    border: none;
-    border-radius: 0;
-    background: 0 0;
-    padding: 0;
-    resize: none;
- line-height: var(--ct-line-height);
-  
+.block-children-left-border {
+    width: 3px;
+    padding-right: 2px;
+    cursor: pointer;
+    background-clip: content-box;
+    background-color: #282c34;
 }
+	
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
