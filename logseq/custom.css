@@ -371,7 +371,7 @@ blockquote {
   bottom: 0;
   left: -15px;
   position: absolute;
-  border-left: var(--ls-block-bullet-threading-width) solid transparent;
+  /* border-left: var(--ls-block-bullet-threading-width) solid transparent; */
 }
 .ls-block[haschild=true]:focus-within > div > .block-content-wrapper::before {
   border-color: var(--ls-block-bullet-active-color);
