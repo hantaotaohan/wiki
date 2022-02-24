@@ -168,12 +168,12 @@ blockquote {
     color: #e5c07b;
 }
 
-/* Markdown H1 H2 间距 
-.editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
-    margin: .8em 0 .8em;
-    border-bottom: 0px solid;
+/* Markdown H1 H2 间距 */
+.editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
+	border-bottom: none;
+	margin: .4em 0 0
 }
-*/
+
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 1.6;
@@ -183,8 +183,7 @@ blockquote {
   --ct-code-font-family: "Fira Code", monospace;
 }
 
-html,
-body {
+html,body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
   line-height: var(--ct-line-height);
