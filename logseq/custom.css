@@ -173,22 +173,3 @@ blockquote {
 	border-bottom: none;
 	margin: .4em 0 0
 }
-
-:root {
-  --ct-text-size: 16px;
-  --ct-line-height: 1.6;
-  --ls-font-family: "Only Emoji", "Source Sans 3 VF", "Source Han Sans VF",
-    sans-serif;
-  --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "Fira Code", monospace;
-}
-
-html,body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  line-height: var(--ct-line-height);
-}
-
-textarea {
-  line-height: var(--ct-line-height);
-}
