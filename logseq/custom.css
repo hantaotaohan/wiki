@@ -262,7 +262,14 @@ blockquote {
     content: "";
     top: -1rem;
     bottom: 0;
-    border-left: 3 solid #0000;
-    left: calc(3 * -1);
+    border-left: 2px solid #0000;
+    left: calc(2px * -1);
     position: absolute;
+}
+
+.ls-block .block-children:focus-within > .ls-block:not(:focus-within)::before {
+  border-color: #a3cef1;
+}
+.ls-block .block-children:focus-within > .ls-block:focus-within ~ .ls-block::before {
+  border-color: transparent;
 }
