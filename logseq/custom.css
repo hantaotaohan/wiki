@@ -97,11 +97,8 @@
 	--color-level-6: #3a7e8e
 }
 
-.block-highlight, .content .selected {
-    /* 键盘选择区块的背景色 并设置成圆角 */
-    background-color: #abb2bf55;
-    border-radius: 6px;
-}
+
+
 
 /* 代码区域设置 主面板 */
 .cm-s-solarized.cm-s-dark{
