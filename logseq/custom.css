@@ -257,6 +257,50 @@ blockquote {
     box-shadow: 1px 2px 2px #00000060 !important;
 }
 
+
+
+/* Block bullet path should only show in a nested block */
+.ls-block {
+  /* Fix for headings like h1, h2 etc */
+  /* Basic "curve" */
+  /* Fix multi-line blocks with children */
+}
+.ls-block .bullet {
+  background-color: var(--ls-block-bullet-active-color);
+  box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
+}
+.ls-block div.items-center {
+  position: relative;
+  height: 26px !important;
+}
+.ls-block > .items-baseline {
+  align-items: initial;
+}
+.ls-block:not(:focus-within) .bullet {
+  background-color: var(--ls-block-bullet-color);
+  transform: scale(1);
+  box-shadow: none;
+}
+.ls-block:not(:focus-within) > .items-baseline {
+  align-items: baseline;
+}
+.ls-block .ls-block > div > div.items-center::before {
+  pointer-events: none;
+  content: "";
+  left: calc(var(--ls-block-bullet-threading-width) * -1);
+  right: 6px;
+  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+  bottom: 50%;
+  /* shift left 1px for border */
+  position: absolute;
+  border-left: var(--ls-block-bullet-threading-width) solid transparent;
+  border-bottom: var(--ls-block-bullet-threading-width) solid transparent;
+  border-bottom-left-radius: 10px;
+}
+.ls-block .ls-block:focus-within > div > div.items-center::before {
+  border-color: var(--ls-block-bullet-active-color);
+}
+
 .ls-block .block-children > .ls-block::before {
     pointer-events: none;
     content: "";
