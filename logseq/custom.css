@@ -266,19 +266,11 @@ blockquote {
   --ls-block-bullet-active-color: var(--ls-link-text-color);
   --ls-block-bullet-threading-width: 3px;
 }
-
-.block-control {
-  z-index: 1;
-}
-
 .block-children {
   border-left-color: var(--ls-guideline-color);
   border-left-width: var(--ls-block-bullet-threading-width) !important;
 }
 
-.block-children-container {
-  position: relative;
-}
 
 .block-children-left-border {
   position: absolute;
@@ -295,11 +287,6 @@ blockquote {
   background-color: var(--ls-block-bullet-active-color);
 }
 
-.block-content-wrapper {
-  position: relative;
-}
-
-
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
   box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
@@ -308,17 +295,13 @@ blockquote {
   position: relative;
   height: 26px !important;
 }
-.ls-block > .items-baseline {
-  align-items: initial;
-}
+
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
   transform: scale(1);
   box-shadow: none;
 }
-.ls-block:not(:focus-within) > .items-baseline {
-  align-items: baseline;
-}
+
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;
   content: "";
