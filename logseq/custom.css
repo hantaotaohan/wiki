@@ -1,12 +1,3 @@
-:root {
-  --ct-line-height: 2.0;
-}
-
-html,body {
-  line-height: var(--ct-line-height);
-}
-
-
 .block-children-left-border {
     background-color: #282c34 !important;
 }
