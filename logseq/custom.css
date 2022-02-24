@@ -18,7 +18,7 @@ html,body {
     padding-right: 2px;
     cursor: pointer;
     background-clip: content-box;
-    background-color: #282c34;
+    background-color: #282c34 !important;
 }
 	
 .dark-theme,html[data-theme=dark] {
