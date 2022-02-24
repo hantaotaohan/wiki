@@ -1,6 +1,31 @@
+/* 列表的左边线条颜色 */
 .block-children-left-border {
     background-color: #282c34 !important;
 }
+
+@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.ttf) format('truetype');font-weight:400;font-style:normal}
+@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.ttf) format('truetype');font-weight:400;font-style:italic}
+@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.ttf) format('truetype');font-weight:600;font-style:normal}
+@font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf) format('truetype');font-weight:600;font-style:italic}
+
+:root {
+	--ls-tag-text-opacity: 0.8;
+	--ls-tag-text-hover-opacity: 1;
+	--ls-page-text-size: 1em;
+	--ls-page-title-size: 36px;
+	--ls-main-content-max-width: 810px;
+	--ls-main-content-max-width-wide: 100%;
+	--ls-font-family: "Source Sans Pro";
+	--ls-scrollbar-width: 6px;
+	--ls-border-radius-low: 4px;
+	--ls-border-radius-medium: 8px;
+	--ls-headbar-height: 3rem;
+	--ls-headbar-inner-top-padding: 0px;
+	--ls-left-sidebar-width: 240px;
+	--ls-left-sidebar-sm-width: 70%;
+	--ls-left-sidebar-nav-btn-size: 38px
+}
+
 	
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
