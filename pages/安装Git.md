@@ -4,7 +4,8 @@
 	  sudo apt install git
 	  ```
 - Debian平台下从源码构建
-	- 1. 下载源码
+	- collapsed:: true
+	  1. 下载源码
 	  ``` bash
 	  wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-3.9.5.tar.gz
 	  tar xzf git-2.9.5.tar.gz
