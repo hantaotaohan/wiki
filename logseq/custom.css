@@ -336,12 +336,12 @@ blockquote {
   content: "";
   left: calc(var(--ls-block-bullet-threading-width) * -1);
   right: 6px;
-  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+  top: calc(-25% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
   bottom: 25%;
   /* shift left 1px for border */
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
-  /* border-bottom: var(--ls-block-bullet-threading-width) solid transparent; */
+  border-bottom: var(--ls-block-bullet-threading-width) solid transparent;
   border-bottom-left-radius: 10px;
 }
 .ls-block .ls-block:focus-within > div > div.items-center::before {
