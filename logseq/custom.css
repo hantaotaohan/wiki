@@ -339,7 +339,7 @@ blockquote {
   left: calc(var(--ls-block-bullet-threading-width) * -1);
   right: 6px;
   top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.8 - 1px);
-  bottom: 50%;
+  bottom: 20%;
   /* shift left 1px for border */
   position: absolute;
   border-left: var(--ls-block-bullet-threading-width) solid transparent;
