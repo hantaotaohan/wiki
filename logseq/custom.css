@@ -4,7 +4,9 @@
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.ttf) format('truetype');font-weight:600;font-style:normal}
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf) format('truetype');font-weight:600;font-style:italic}
 
-
+body {
+font-family: 'Microsoft Yahei',MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;
+}
 	
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
@@ -208,7 +210,7 @@ blockquote {
     background-color: #3f44506b;
     line-height: 1.45;
     text-rendering: optimizeSpeed;
-    box-shadow: 1px 2px 2px #000 !important;
+    box-shadow: 1px 2px 2px #00000060 !important;
 }
 
 /* Block 行距及list行距调整 */
