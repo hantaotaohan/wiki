@@ -1,41 +1,9 @@
-/* 列表的左边线条颜色 */
-.block-children-left-border {
-    background-color: #282c34 !important;
-}
 
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-regular.ttf) format('truetype');font-weight:400;font-style:normal}
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-italic.ttf) format('truetype');font-weight:400;font-style:italic}
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibold.ttf) format('truetype');font-weight:600;font-style:normal}
 @font-face {font-family:'Source Sans Pro';src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot?#iefix) format('embedded-opentype'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff) format('woff'),url(https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf) format('truetype');font-weight:600;font-style:italic}
 
-
-.ls-block {
-	position: relative;
-	min-height: 24px;
-	padding: 6px 0;
-	border-bottom: 1px solid #0000;
-}
-
-.editor-inner textarea {
-	border: none;
-	border-radius: 0;
-	background: 0 0;
-	padding: 0;
-	resize: none;
-	line-height: 2.0;
-}
-
-.inline {
-	display: inline;
-	line-height: 2.0;
-}
-
-@media (min-width:640px) {
-	.sm\:mr-2 {
-		margin-right: .5rem;
-		align-items: flex-end;
-	}
-}
 
 	
 .dark-theme,html[data-theme=dark] {
@@ -212,4 +180,62 @@ blockquote {
 .editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
 	border-bottom: none;
 	margin: .4em 0 0
+}
+
+
+/* 列表的左边线条颜色 */
+.block-children-left-border {
+    background-color: #282c34 !important;
+}
+
+/* 行内code样式调整 */
+:not(pre)>code {
+    border-radius: 3px;
+    font-size: 1em;
+    font-family: MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;
+    padding: 1px 5px 1px 5px !important;
+    margin: 0px 1px 0px 3px;
+}
+
+:not(pre)>code {
+    font-style: normal!important;
+    letter-spacing: 0;
+    padding: .1em .4em;
+    word-spacing: -.15em;
+    -webkit-border-radius: var(--ls-border-radius-low);
+    border-radius: var(--ls-border-radius-low);
+    color: var(--ls-page-inline-code-color);
+    background-color: #3f44506b;
+    line-height: 1.45;
+    text-rendering: optimizeSpeed;
+    box-shadow: 1px 2px 2px #000 !important;
+}
+
+/* Block 行距及list行距调整 */
+.ls-block {
+	position: relative;
+	min-height: 24px;
+	padding: 6px 0;
+	border-bottom: 1px solid #0000;
+}
+
+.editor-inner textarea {
+	border: none;
+	border-radius: 0;
+	background: 0 0;
+	padding: 0;
+	resize: none;
+	line-height: 2.0;
+}
+
+.inline {
+	display: inline;
+	line-height: 2.0;
+}
+
+@media (min-width:640px) {
+	.sm\:mr-2 {
+		margin-right: .5rem;
+		align-items: flex-end;
+	}
 }
