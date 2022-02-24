@@ -15,7 +15,13 @@ html,body {
 textarea {
   line-height: var(--ct-line-height);
 }
-
+.editor-inner textarea {
+    border: none;
+    border-radius: 0;
+    background: 0 0;
+    padding: 0;
+    resize: none;
+}
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
