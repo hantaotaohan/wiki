@@ -17,18 +17,13 @@ body {
 	word-break: break-word;
 }
 
-p {
-	line-height: 2.5;
-	margin: .5rem 0;
-	color: var(--ls-primary-text-color)
-}
-
 .editor-inner textarea {
 	border: none;
 	border-radius: 0;
 	background: 0 0;
 	padding: 0;
 	resize: none;
+	line-height: 2.5;
 }
 
 
