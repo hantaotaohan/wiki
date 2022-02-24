@@ -323,7 +323,7 @@ blockquote {
   height: 26px !important;
 }
 .ls-block > .items-baseline {
-  align-items: initial;
+  align-items: center;
 }
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
@@ -331,7 +331,7 @@ blockquote {
   box-shadow: none;
 }
 .ls-block:not(:focus-within) > .items-baseline {
-  align-items: baseline;
+  align-items: center;
 }
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;
