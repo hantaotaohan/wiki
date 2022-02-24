@@ -145,7 +145,3 @@ mark {
     font-weight: bold;
     text-decoration: none;
 }
-/* markdown 引用样式设置 */
-blockquote {
-	font-style:italic;
-}
