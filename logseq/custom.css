@@ -121,9 +121,3 @@
 .extensions__code-lang {
     display: none;
 }
-
-/* 代码区域设置 鼠标选择颜色自定义 */
-.cm-s-solarized.cm-s-dark div.CodeMirror-selected {
-    background: #ABB2BF33;
-}
-/* 搜索结果显示设定 */
