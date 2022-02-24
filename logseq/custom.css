@@ -10,17 +10,18 @@
 
 
 .ls-block {
-    position: relative;
-    min-height: 24px;
-    padding: 12px 0;
-    border-bottom: 1px solid #0000;
+	position: relative;
+	min-height: 24px;
+	padding: 12px 0;
+	border-bottom: 1px solid #0000;
 }
 
-@media (min-width: 640px)
-.sm\:mr-2 {
-    margin-right: .5rem;
-    margin-top: .5rem!important;
+@media (min-width:640px) {
+	.sm\:mr-2 {
+		margin-right: .5rem
+	}
 }
+
 	
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
