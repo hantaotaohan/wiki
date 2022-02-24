@@ -103,16 +103,3 @@
     padding-top: 1px !important;
     line-height: 1.75em;
 }
-
-/* 代码区域设置 编号栏 */
-.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
-	background: #25282F;
-}
-
-.cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
-    color: #abb2bf99;
-    background: #25282F;
-    border-right-style:solid;
-    border-right-width:1px;
-    border-right-color:#171717;
-}
