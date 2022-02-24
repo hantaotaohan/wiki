@@ -25,16 +25,12 @@ body {
 	resize: none;
 	line-height: 2.5;
 }
-
-.items-center {
-	align-items: baseline；
+.ls-block {
+    position: relative;
+    min-height: 24px;
+    padding: 12px 0;
+    border-bottom: 1px solid #0000;
 }
-
-.items-baseline {
-	align-items: center；
-}
-
-
 	
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
