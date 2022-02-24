@@ -239,3 +239,18 @@ blockquote {
 		align-items: flex-end;
 	}
 }
+
+
+/* 引用块样式调整 */
+blockquote {
+    display: block;
+    text-indent: 0;
+    padding: 8px 20px;
+    border-left: 4px solid;
+    border-left-color: var(--ls-page-blockquote-border-color,#d3d3d3);
+    background-color: var(--ls-page-blockquote-bg-color,#f7f7f7);
+    margin: 1rem 0;
+    color: var(--ls-page-blockquote-color,#24292e);
+    font-size: 1rem;
+    box-shadow: 1px 2px 2px #00000060 !important;
+}
