@@ -16,6 +16,11 @@ body {
 	min-height: 100%;
 	word-break: break-word
 }
+p {
+	line-height: 2.5;
+	margin: .5rem 0;
+	color: var(--ls-primary-text-color)
+}
 
 	
 .dark-theme,html[data-theme=dark] {
