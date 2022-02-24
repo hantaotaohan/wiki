@@ -21,19 +21,12 @@ p {
 	margin: .5rem 0;
 	color: var(--ls-primary-text-color)
 }
-.form-select {
-	display: block;
-	width: 100%;
-	--tw-border-opacity: 1;
-	border-color: rgba(212,212,212,var(--tw-border-opacity));
-	padding-top: .5rem;
-	padding-bottom: .5rem;
-	padding-left: .75rem;
-	padding-right: 2.5rem;
-	font-size: 1rem;
-	line-height: 2.5;
-	line-height: 2.5；
+.editor-inner {
+	position: relative;
+	display: flex；
+		line-height: 2.5;
 }
+
 
 
 
