@@ -127,11 +127,3 @@
     background: #ABB2BF33;
 }
 /* 搜索结果显示设定 */
-mark {
-    background: #00000000;
-    padding: 0;
-    color: #e06c75;
-    font-size: inherit;
-    font-weight: bold;
-    text-decoration: none;
-}
