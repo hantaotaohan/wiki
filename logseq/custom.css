@@ -12,9 +12,7 @@ html,body {
   line-height: var(--ct-line-height);
 }
 
-textarea {
-  line-height: var(--ct-line-height);
-}
+
 .editor-inner textarea {
     border: none;
     border-radius: 0;
