@@ -1,3 +1,21 @@
+:root {
+  --ct-text-size: 16px;
+  --ct-line-height: 2.0;
+  --ls-font-family: "Source Sans 3 VF", "Source Han Sans VF", sans-serif;
+  --ct-page-title-font-family: var(--ls-font-family);
+  --ct-code-font-family: "Fira Code", monospace;
+}
+
+html,body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  line-height: var(--ct-line-height);
+}
+
+textarea {
+  line-height: var(--ct-line-height);
+}
+
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
