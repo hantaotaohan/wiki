@@ -21,6 +21,8 @@ textarea {
     background: 0 0;
     padding: 0;
     resize: none;
+:root {
+  
 }
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
