@@ -263,9 +263,9 @@ blockquote {
 
 
 :root {
-  --ls-block-bullet-threading-width: 3px;
+  --ls-block-bullet-threading-width: 5px;
   --ls-block-bullet-active-color: var(--ls-link-text-color);
-  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
+  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 5px);
 }
 
 .block-control {
@@ -323,7 +323,7 @@ blockquote {
   height: 26px !important;
 }
 .ls-block > .items-baseline {
-  align-items: initial;
+  align-items: center;
 }
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
@@ -331,14 +331,14 @@ blockquote {
   box-shadow: none;
 }
 .ls-block:not(:focus-within) > .items-baseline {
-  align-items: baseline;
+  align-items: center;
 }
 .ls-block .ls-block > div > div.items-center::before {
   pointer-events: none;
   content: "";
   left: calc(var(--ls-block-bullet-threading-width) * -1);
   right: 6px;
-  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.8 - 1px);
   bottom: 50%;
   /* shift left 1px for border */
   position: absolute;
