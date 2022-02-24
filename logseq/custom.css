@@ -21,6 +21,18 @@ p {
 	margin: .5rem 0;
 	color: var(--ls-primary-text-color)
 }
+:not(pre)>code {
+	font-style: normal!important;
+	letter-spacing: 0;
+	padding: .1em .4em;
+	word-spacing: -.15em;
+	-webkit-border-radius: var(--ls-border-radius-low);
+	border-radius: var(--ls-border-radius-low);
+	color: var(--ls-page-inline-code-color);
+	background-color: var(--ls-page-inline-code-bg-color,#eee);
+	line-height: 1.5;
+	text-rendering: optimizeSpeed
+}
 
 	
 .dark-theme,html[data-theme=dark] {
