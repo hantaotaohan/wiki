@@ -253,3 +253,20 @@ blockquote {
     font-size: 1rem;
     box-shadow: 1px 2px 2px #00000060 !important;
 }
+
+a[priority]::before,
+a.priority::before {
+  border: 1px solid #eee;
+  border-radius: var(--ct-marker-border-radius);
+  padding-left: 1px;  /* this is the problem? */
+  font-size: 12px;
+  font-weight: 600;
+  height: var(--ct-marker-size);
+  width: var(--ct-marker-size);
+  line-height: 1.5;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--ct-code-font-family);
+}
