@@ -94,7 +94,7 @@ textarea {
 }
 
 .extensions__code>.CodeMirror {
-    font-family: "Fira Code";
+    font-family: "FiraCode";
     padding-top: 0px ;
     line-height: 1.75em;
     margin: 1rem;
