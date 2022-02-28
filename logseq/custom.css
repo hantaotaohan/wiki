@@ -20,9 +20,8 @@ textarea {
 @media (min-width: 640px)
 .sm\:mr-2 {
     margin-right: .5rem;
-  margin-height: .5rem;
+    margin-top: .3rem !important;
 }
-
 
 
 .dark-theme,html[data-theme=dark] {
