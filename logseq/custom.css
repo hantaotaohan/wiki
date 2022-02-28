@@ -1,6 +1,7 @@
 html,
 body {
-font-family: 'PingFang SC','Microsoft Yahei',MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;
+	font-family: 'PingFang SC','Microsoft Yahei','Fira Code',Monaco,Menlo;
+	line-height:""
 }
 	
 .dark-theme,html[data-theme=dark] {
