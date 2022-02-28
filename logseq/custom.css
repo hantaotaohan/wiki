@@ -1,10 +1,5 @@
-body {
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 2.6;
-    text-transform: none;
-   font-family: 微软雅黑!important;
+.items-center {
+    align-items: initial;
 }
 
 	
