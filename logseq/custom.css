@@ -7,7 +7,6 @@
 }
 /* 编辑模式 Block */
 .editor-inner textarea {
-	background: 0 0;
 	resize: none;
 	margin-bottom: 1rem;
 }
