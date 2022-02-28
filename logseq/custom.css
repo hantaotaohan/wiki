@@ -210,6 +210,7 @@ blockquote {
 }
 
 /* Block 行距及list行距调整 */
+/*
 .ls-block {
 	position: relative;
 	min-height: 24px;
@@ -237,7 +238,7 @@ blockquote {
 		align-items: flex-end;
 	}
 }
-
+*/
 
 /* 引用块样式调整 */
 blockquote {
