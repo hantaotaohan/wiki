@@ -1,7 +1,6 @@
-html,
-body {
-	font-family: 'PingFang SC','Microsoft Yahei','Fira Code',Monaco,Menlo;
-	line-height:""
+:root {
+  --ct-text-size: 32px;
+  --ct-line-height: 1.6;
 }
 	
 .dark-theme,html[data-theme=dark] {
@@ -252,19 +251,4 @@ blockquote {
     color: var(--ls-page-blockquote-color,#24292e);
     font-size: 1rem;
     box-shadow: 1px 2px 2px #00000060 !important;
-}
-
-@font-face {
-  font-family: "JetBrains Mono Nerd";
-  font-weight: 200 900;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf");
-}
-:root {
-  --ct-text-size: 14px;
-  --ct-line-height: 2.6;
-  --ls-font-family: "Only Emoji", "JetBrains Mono Nerd";
-  --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "JetBrains Mono Nerd";
 }
