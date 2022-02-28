@@ -103,7 +103,7 @@ textarea {
 .extensions__code>.CodeMirror {
     padding-top: 1px !important;
     line-height: 1.75em;
-    margin-bottom: auto;
+    margin: 1rem;
     box-shadow: 1px 2px 2px #00000060 !important;
 }
 
