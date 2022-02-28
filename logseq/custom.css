@@ -6,6 +6,7 @@
     line-height:1.8
 	padding: 6px 0;
 	border-bottom: 1px solid #0000;
+  	line-height: 2.0rem;
 }
 /* 编辑模式 Block */
 .editor-inner textarea {
@@ -14,7 +15,7 @@
 	background: 0 0;
 	padding: 0;
 	resize: none;
-	line-height: 1.8rem;
+	line-height: 2.0rem;
 }
 
 /*
