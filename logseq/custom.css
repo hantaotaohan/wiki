@@ -209,7 +209,7 @@ blockquote {
 
 /* 列表的左边线条颜色 */
 .block-children-left-border {
-    background-color: #abb2bf10 !important;
+    background-color: #282c34 !important;
 }
 
 /* 行内code样式调整 */
