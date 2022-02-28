@@ -211,9 +211,7 @@ blockquote {
 /* Markdown H1 H2 间距 */
 .editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
 	border-bottom: none;
-  /*
-	margin: .4em 0 0
-  */
+	margin: -0.6em 0 0
 }
 
 
