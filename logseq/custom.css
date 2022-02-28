@@ -111,6 +111,7 @@ a {
     padding-top: 1px !important;
     line-height: 1.75em;
     margin-bottom: auto;
+    box-shadow: 1px 2px 2px #00000060 !important;
 }
 
 /* 代码区域设置 编号栏 */
@@ -264,5 +265,4 @@ blockquote {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    box-shadow: 1px 2px 2px #00000060 !important;
 }
