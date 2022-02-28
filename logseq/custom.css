@@ -220,12 +220,8 @@ blockquote {
     font-family: var(--ct-code-font-family);
     padding: 1px 5px 1px 5px !important;
     margin: 0px 1px 0px 3px;
-}
-
-:not(pre)>code {
     font-style: normal!important;
     letter-spacing: 0;
-    padding: .1em .4em;
     word-spacing: -.15em;
     -webkit-border-radius: var(--ls-border-radius-low);
     border-radius: var(--ls-border-radius-low);
