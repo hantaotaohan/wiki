@@ -263,7 +263,7 @@ blockquote {
 }
 :root {
   --ct-text-size: 14px;
-  --ct-line-height: 1.6;
+  --ct-line-height: 2.6;
   --ls-font-family: "Only Emoji", "JetBrains Mono Nerd";
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "JetBrains Mono Nerd";
