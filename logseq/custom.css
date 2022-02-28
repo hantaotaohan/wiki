@@ -228,7 +228,7 @@ blockquote {
 
 .inline {
 	display: inline;
-	line-height: 2.0;
+	line-height: unset;
 }
 
 @media (min-width:640px) {
