@@ -9,9 +9,7 @@
 .content .editor-inner textarea {
   margin: 0 0 !important;
 }
-.content .editor-inner textarea.h2, .content .editor-inner textarea.h1 {
-  border-bottom: unset;
-}
+
 
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
