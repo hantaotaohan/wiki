@@ -1,3 +1,6 @@
+root {
+  --ls-font-line-height: 1.5;
+}
 /* Block 行距及list行距调整 */
 /* 普通模式 Block */
 .document-mode .ls-block {
