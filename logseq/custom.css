@@ -13,9 +13,7 @@ body {
   line-height: var(--ct-line-height);
 }
 
-textarea {
-  line-height: var(--ct-line-height);
-}
+
 
 @media (min-width: 640px)
 .sm\:mr-2 {
