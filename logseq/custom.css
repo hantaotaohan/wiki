@@ -6,7 +6,7 @@
 /* Block 行距及list行距调整 */
 /* 普通模式 Block */
 .document-mode .ls-block {
-  margin-bottom: 0.35rem;
+  margin-bottom: 2.35rem;
 }
 .document-mode .ls-block h1 {
   margin: 0.1em 0;
