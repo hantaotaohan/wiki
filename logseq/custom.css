@@ -4,12 +4,12 @@
 	position: relative;
 	border-bottom: 1px solid #0000;
   	margin-bottom: 1rem;
-  	line-height: 1rem;
+  	line-height: 2rem;
 }
 /* 编辑模式 Block */
 .editor-inner textarea {
 	resize: none;
-    line-height: 1rem;
+    line-height: 2rem;
 	margin-bottom: 1rem;
 }
 
