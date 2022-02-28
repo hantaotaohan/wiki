@@ -1,7 +1,7 @@
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 2.0;
-  --ls-font-family:  "微软雅黑",sans-serif;
+  --ls-font-family:  "Micro",sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "Fire Code", monospace;
 }
