@@ -4,7 +4,14 @@
   --ls-block-bullet-active-color: #abb2bf;
   --ls-block-bullet-threading-width: 2px;
 }
-
+:root {
+--ls-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif,
+"Segoe UI Emoji", "Segoe UI Symbol";
+--ls-tag-text-opacity: 0.6;
+--ls-tag-text-hover-opacity: 0.8;
+--ls-page-text-size: 1.36em;
+--ls-page-title-size: 36px;
+}
 
 :root {
   --ct-text-size: 16px;
