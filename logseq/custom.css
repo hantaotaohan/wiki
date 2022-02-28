@@ -7,15 +7,14 @@
   	padding: 1.0rem;
 }
 /* 编辑模式 Block */
-/*
 .editor-inner textarea {
 	border: none;
 	border-radius: 0;
 	background: 0 0;
 	resize: none;
-	padding: 1.0rem;
+	line-height: 2.0rem;
 }
-*/
+
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
