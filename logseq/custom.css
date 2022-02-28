@@ -1,3 +1,34 @@
+/* Block 行距及list行距调整 */
+
+.ls-block {
+	position: relative;
+	min-height: 24px;
+	padding: 6px 0;
+	border-bottom: 1px solid #0000;
+}
+
+.editor-inner textarea {
+	border: none;
+	border-radius: 0;
+	background: 0 0;
+	padding: 0;
+	resize: none;
+	line-height: unset;
+}
+
+.inline {
+	display: inline;
+	line-height: unset;
+}
+
+@media (min-width:640px) {
+	.sm\:mr-2 {
+		margin-right: .5rem;
+		align-items: flex-end;
+	}
+}
+
+
 a {
     cursor: pointer;
     color: var(--ls-link-text-color,#045591);
@@ -212,36 +243,6 @@ blockquote {
     box-shadow: 1px 2px 2px #00000060 !important;
 }
 
-/* Block 行距及list行距调整 */
-/*
-.ls-block {
-	position: relative;
-	min-height: 24px;
-	padding: 6px 0;
-	border-bottom: 1px solid #0000;
-}
-
-.editor-inner textarea {
-	border: none;
-	border-radius: 0;
-	background: 0 0;
-	padding: 0;
-	resize: none;
-	line-height: unset;
-}
-
-.inline {
-	display: inline;
-	line-height: unset;
-}
-
-@media (min-width:640px) {
-	.sm\:mr-2 {
-		margin-right: .5rem;
-		align-items: flex-end;
-	}
-}
-*/
 
 /* 引用块样式调整 */
 blockquote {
