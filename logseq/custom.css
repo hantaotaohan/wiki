@@ -105,6 +105,15 @@ textarea {
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
     padding-left: 1rem;
 }
+
+
+.extensions__code {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 /* 代码区域设置 编号栏 */
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
 	background: #25282F;
