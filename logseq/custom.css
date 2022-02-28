@@ -1,7 +1,7 @@
 /* Block 行距及list行距调整 */
 /* 普通模式 Block */
 .document-mode .ls-block {
-  margin-bottom: .35em;
+  margin-bottom: 0.35rem;
   padding: 0.5rem 0rem 0.5rem 0rem;
 
 }
