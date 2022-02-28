@@ -1,5 +1,5 @@
 root {
-  --ls-font-line-height: 1.5;
+  --ls-font-line-height: 1.9;
 }
 html,
 body {
@@ -7,7 +7,7 @@ body {
   letter-spacing: var(--ls-font-letter-spacing);
   line-height: var(--ls-font-line-height);
   font-size: var(--ls-page-text-size);
-  background-color: #282a36;
+
 }
 /* Block 行距及list行距调整 */
 /* 普通模式 Block */
