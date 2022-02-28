@@ -5,10 +5,7 @@ a {
     align-self: center;
 }
 
-root {
-  line-height: 1.7;
-  
-}
+
 
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
