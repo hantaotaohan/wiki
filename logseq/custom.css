@@ -1,9 +1,9 @@
 :root {
   --ct-text-size: 16px;
-  --ct-line-height: 1.9;
+  --ct-line-height: 1.95;
   --ls-font-family: "Microsoft YaHe", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "Saber", monospace;
+  --ct-code-font-family: "Fire Code", monospace;
 }
 
 html,
