@@ -8,13 +8,11 @@
   	line-height: 2.0rem;
 }
 /* 编辑模式 Block */
-.editor-inner textarea {
-	border: none;
-	border-radius: 0;
-	background: 0 0;
-	padding: 0;
-	resize: none;
-	line-height: 2.0rem;
+.content .editor-inner textarea {
+  margin: 0 0 !important;
+}
+.content .editor-inner textarea.h2, .content .editor-inner textarea.h1 {
+  border-bottom: unset;
 }
 
 .dark-theme,html[data-theme=dark] {
