@@ -1,8 +1,10 @@
-.items-center {
-    align-items: initial;
+a {
+    cursor: pointer;
+    color: var(--ls-link-text-color,#045591);
+    text-decoration: none;
+    align-self: center;
 }
 
-	
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
