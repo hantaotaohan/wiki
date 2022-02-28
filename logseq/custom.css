@@ -1,142 +1,127 @@
-@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/custom.css");
-
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code");
-@import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
-
-/* OneDark by Lalit Magant (http://github.com/tilal6991) */
-:root {
-  --base00: #282c34;
-  --base01: #353b45;
-  --base02: #3e4451;
-  --base03: #545862;
-  --base04: #565c64;
-  --base05: #abb2bf;
-  --base06: #b6bdca;
-  --base07: #c8ccd4;
-  --base08: #e06c75;
-  --base09: #d19a66;
-  --base0A: #e5c07b;
-  --base0B: #98c379;
-  --base0C: #56b6c2;
-  --base0D: #61afef;
-  --base0E: #c678dd;
-  --base0F: #be5046;
-  --button-blue: var(--base0C);
-  --button-gray-1: var(--base05);
-  --button-gray-2: var(--base06);
-  --button-gray-3: var(--base07);
-  --ls-font-family: '微软雅黑', sans-serif;
+html,
+body {
+font-family: 'PingFang SC','Microsoft Yahei',MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;
+}
+	
+.dark-theme,html[data-theme=dark] {
+	--ls-primary-background-color: #282c34;
+	--ls-secondary-background-color: #25282F;
+	--ls-tertiary-background-color: #383D48;
+	--ls-quaternary-background-color: #474E5D;
+	--ls-table-tr-even-background-color: #25282F;
+	--ls-active-primary-color: #A3CEF1;
+	--ls-active-secondary-color: #61AFEF;
+	--ls-block-properties-background-color: #383D48;
+	--ls-page-properties-background-color: #383D48;
+	--ls-block-ref-link-text-color: #1a6376;
+	--ls-search-background-color: linear-gradient(
+    to right,
+    #021c23 0,
+    #021b21 200px,
+    #002b36 100%
+  );
+	--ls-border-color: #383D48;
+	--ls-secondary-border-color: #25282F;
+	--ls-guideline-color: #383D48;
+	--ls-menu-hover-color: var(--ls-secondary-background-color);
+	--ls-primary-text-color: #ABB2BF;
+	--ls-secondary-text-color: #C8C8C8;
+	--ls-title-text-color: #ABB2BF;
+	--ls-link-text-color: #A3CEF1;
+	--ls-link-text-hover-color: var(--ls-active-secondary-color);
+	--ls-link-ref-text-color: var(--ls-link-text-color);
+	--ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
+	--ls-tag-text-color: var(--ls-link-text-color);
+	--ls-tag-text-hover-color: var(--ls-link-text-hover-color);
+	--ls-slide-background-color: var(--ls-primary-background-color);
+	--ls-block-bullet-border-color: #474E5D;
+	--ls-block-bullet-color: #383D48;
+	--ls-block-highlight-color: #32445A;
+	--ls-selection-background-color: #abb2bf22;
+	--ls-page-checkbox-color: #abb2bf55;
+	--ls-page-checkbox-border-color: var(--ls-primary-background-color);
+	--ls-page-blockquote-color: var(--ls-primary-text-color);
+	--ls-page-blockquote-bg-color: var(--ls-secondary-background-color);
+	--ls-page-blockquote-border-color: var(--ls-border-color);
+	--ls-page-inline-code-color: var(--ls-primary-text-color);
+	--ls-page-inline-code-bg-color: #25282F;
+	--ls-scrollbar-foreground-color: #383D48;
+	--ls-scrollbar-background-color: #282c34;
+	--ls-scrollbar-thumb-hover-color: #474E5D;
+	--ls-head-text-color: var(--ls-link-text-color);
+	--ls-cloze-text-color: #98C379;
+	--ls-icon-color: var(--ls-link-text-color);
+	--ls-search-icon-color: var(--ls-link-text-color);
+	--ls-a-chosen-bg: var(--ls-secondary-background-color);
+	--ls-right-sidebar-code-bg-color: #04303c;
+	--color-level-1: var(--ls-secondary-background-color);
+	--color-level-2: var(--ls-tertiary-background-color);
+	--color-level-3: var(--ls-quaternary-background-color);
+	--color-level-4: #195d6c;
+	--color-level-5: #266c7d;
+	--color-level-6: #3a7e8e
 }
 
-#main-content-container {
-    padding-top: 10px;
+.block-highlight, .content .selected {
+    /* 键盘选择区块的背景色 并设置成圆角 */
+    background-color: #abb2bf11;
+    border-radius: 6px;
 }
 
-#main-container {
-    position: sticky;
-    width: 100%;
-    margin-top: 3px;
+/* 代码区域设置 主面板 */
+.cm-s-solarized.cm-s-dark{
+    color: #ABB2BF99;
+    background-color: #25282F;
 }
 
-.cp__header, .cp__right-sidebar-topbar {
-  height: calc(var(--ls-headbar-height) + var(--ls-headbar-inner-top-padding));
+.extensions__code>.CodeMirror {
+    padding-top: 1px !important;
+    line-height: 1.75em;
 }
 
-.cp__sidebar-left-layout.is-open .left-sidebar-inner {
-    transform: translateX(0);
-    background-color: #282c34;
+/* 代码区域设置 编号栏 */
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+	background: #25282F;
 }
 
-.ls-block :is(h1, h2, h3, h4, h5):hover::after {
-  opacity: 1;
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
+    color: #abb2bf99;
+    background: #25282F;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:#171717;
 }
 
-.ls-block h1::after {
-  content: none;
+/* 代码区域设置 右上角代码显示 */
+.extensions__code-lang {
+    display: none;
 }
 
-.ls-block h2::after {
-  content: none;
+/* 代码区域设置 鼠标选择颜色自定义 */
+.cm-s-solarized.cm-s-dark div.CodeMirror-selected {
+    background: #ABB2BF33;
 }
-
-.ls-block h3::after {
-  content: none;
-}
-
-.ls-block h4::after {
-  content: none;
-}
-
-.ls-block h5::after {
-  content: none;
-}
-
+/* 搜索结果显示设定 */
 mark {
-    background: #0000;
+    background: #00000000;
     padding: 0;
     color: #e06c75;
     font-size: inherit;
     font-weight: bold;
     text-decoration: none;
 }
-
-a.button {
-    cursor: pointer;
-    color: #abb2bf;
-    text-decoration: none;
-}
-
-.block-highlight, .content .selected {
-    transition: background-color .15s;
-    background-color: var(--ls-block-highlight-color);
-    border-radius: 6px;
-}
-
+/* markdown 引用样式设置 */
 blockquote {
 	font-style:italic;
 }
 
-/* START Table */
-.cp__all_pages_table td.backlinks > span,
-.cp__all_pages_table td.created-at > span,
-.cp__all_pages_table td.updated-at > span {
-  color: var(--ls-primary-text-color) !important;
-}
-
-.table-wrapper > table td,
-.table-wrapper > table th {
-  border: solid 1px var(--ls-border-color);
-}
-
-th {
-  font-size: 1.2em;
-  font-weight: bold;
-  background: #00000060;
-  color: #e5c07b99 !important;
-}
-
-th,
-td {
-  padding: 0.6rem;
-}
-
-.dark-theme tr:nth-child(odd) {
-  background: #353b45;
-}
-
-.dark-theme tr:nth-child(even) {
-  background: #282c34;
-}
-
-/* Table END */
-
-/* Code Block Start */
+/* 代码高亮设置 */
 .cm-s-solarized .cm-meta {
     color: #61afef !important;
 }
 
 .cm-s-solarized .cm-atom {
-    color: #e06c75;
+    color: #98c379;
 }
 
 .cm-s-solarized .cm-variable {
@@ -156,7 +141,7 @@ td {
 }
 
 .cm-s-solarized .cm-property {
-    color: #56b6c2 !important;
+    color: #d19a66 !important;
 }
 
 .cm-s-solarized .cm-operator {
@@ -188,41 +173,81 @@ td {
     color: #e5c07b;
 }
 
-.CodeMirror pre.CodeMirror-line,
-.CodeMirror-gutter,
-.CodeMirror-gutters,
-.CodeMirror-linenumber,
-.CodeMirror-scroll,
-.CodeMirror-sizer,
-.CodeMirror {
-  font-size: 13px;
-  line-height: 22px;
+/* Markdown H1 H2 间距 */
+.editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
+	border-bottom: none;
+	margin: .4em 0 0
 }
-/* Code Block END */
 
-.dark-theme {
-    --ls-primary-background-color: var(--base00);
-    --ls-secondary-background-color: var(--base01);
-    --ls-tertiary-background-color: var(--ls-secondary-background-color);
-    --ls-search-background-color: var(--ls-primary-background-color);
-    --ls-border-color: var(--base03);
-    --ls-menu-hover-color: var(--ls-secondary-background-color);
-    --ls-primary-text-color: var(--base05);
-    --ls-secondary-text-color: var(--base06);
-    --ls-title-text-color: var(--base0D);
-    --ls-link-text-color: var(--base09);
-    --ls-link-text-hover-color: var(--base0A);
-    --ls-block-bullet-border-color: var(--base02);
-    --ls-block-highlight-color: var(--base02);
-    --ls-page-checkbox-color: var(--base01);
-    --ls-page-checkbox-border-color: var(--ls-primary-background-color);
-    --ls-page-blockquote-color: var(--base05);
-    --ls-page-blockquote-border-color: var(--ls-secondary-text-color);
-    --ls-page-inline-code-color: var(--ls-primary-text-color);
-    --ls-page-inline-code-bg-color: var(--base01);
-    --ls-scrollbar-color: var(--base00);
-    --ls-scrollbar-thumb-hover-color: #b4b4b466;
-    --ls-icon-color: var(--base05);
-    --ls-search-icon-color: var(--ls-link-text-color);
-    --ls-a-chosen-bg: var(--ls-secondary-background-color);
+
+/* 列表的左边线条颜色 */
+.block-children-left-border {
+    background-color: #282c34 !important;
+}
+
+/* 行内code样式调整 */
+:not(pre)>code {
+    border-radius: 3px;
+    font-size: 1em;
+    font-family: MonoLisa,'Fira Code',Monaco,Menlo,Consolas,'COURIER NEW',monospace;
+    padding: 1px 5px 1px 5px !important;
+    margin: 0px 1px 0px 3px;
+}
+
+:not(pre)>code {
+    font-style: normal!important;
+    letter-spacing: 0;
+    padding: .1em .4em;
+    word-spacing: -.15em;
+    -webkit-border-radius: var(--ls-border-radius-low);
+    border-radius: var(--ls-border-radius-low);
+    color: var(--ls-page-inline-code-color);
+    background-color: #3f44506b;
+    line-height: 1.45;
+    text-rendering: optimizeSpeed;
+    box-shadow: 1px 2px 2px #00000060 !important;
+}
+
+/* Block 行距及list行距调整 */
+.ls-block {
+	position: relative;
+	min-height: 24px;
+	padding: 6px 0;
+	border-bottom: 1px solid #0000;
+}
+
+.editor-inner textarea {
+	border: none;
+	border-radius: 0;
+	background: 0 0;
+	padding: 0;
+	resize: none;
+	line-height: 2.0;
+}
+
+.inline {
+	display: inline;
+	line-height: 2.0;
+}
+
+@media (min-width:640px) {
+	.sm\:mr-2 {
+		margin-right: .5rem;
+		align-items: flex-end;
+	}
+}
+
+
+/* 引用块样式调整 */
+blockquote {
+    display: block;
+    text-indent: 0;
+    padding: 8px 20px;
+    border-left: 4px solid;
+    border-left-color: var(--ls-page-blockquote-border-color,#d3d3d3);
+    background-color: var(--ls-page-blockquote-bg-color,#f7f7f7);
+    margin: 1rem 0;
+    color: var(--ls-page-blockquote-color,#24292e);
+    font-size: 1rem;
+    box-shadow: 1px 2px 2px #00000060 !important;
 }
