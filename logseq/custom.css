@@ -1,17 +1,11 @@
-a.tag[data-ref] {
-    align-items: center;
-    background: var(--ls-color-clouds);
-    border-radius: 1rem 0.4rem 0.4rem 1rem;
-    color: var(--ls-primary-background-color);
-    display: inline-flex;
-    font-size: 0.8rem;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    line-height: 0.8rem;
-    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
-    text-transform: uppercase;
-    transition: .3s;
-    white-space: nowrap;
+body {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6;
+    text-transform: none;
+    color: #182026;
+   font-family: Georgia,微软雅黑!important;
 }
 
 	
