@@ -6,13 +6,7 @@
   	margin-bottom: 1rem;
 }
 /* 编辑模式 Block */
-.editor-inner textarea {
-	border: none;
-	border-radius: 0;
-	background: 0 0;
-	resize: none;
-	margin-bottom: 1rem;
-}
+
 
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
