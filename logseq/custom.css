@@ -1,3 +1,21 @@
+.block-children {
+  border-left: 1px solid;
+  border-left-color: #627949;
+  /* left: -2px; */
+  position: relative;
+}
+
+/* .ls-block > .block-children:hover {
+  border-left-color: #d3a628;
+	border-left-width: 5px;
+} */
+
+#sidebar-nav-wrapper {
+  border: none !important;
+}
+
+
+
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 2.0;
