@@ -20,14 +20,6 @@ textarea {
   margin-top: 0;
 }
 
-.CodeMirror {
-  background-color: var(--color-level-1);
-  box-shadow: 0 0 0 2px var(--color-level-2);
-}
-
-.extensions__code > .CodeMirror {
-  padding-top: 0;
-}
 
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
