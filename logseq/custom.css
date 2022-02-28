@@ -110,6 +110,7 @@ a {
 .extensions__code>.CodeMirror {
     padding-top: 1px !important;
     line-height: 1.75em;
+  margin-bottom: auto;
 }
 
 /* 代码区域设置 编号栏 */
