@@ -216,7 +216,7 @@ blockquote {
 /* 行内code样式调整 */
 :not(pre)>code {
     border-radius: 3px;
-    font-size: 1em;
+    font-size: 2em;
     font-family: var(--ct-code-font-family);
     padding: 1px 5px 1px 5px !important;
     margin: 0px 1px 0px 3px;
@@ -231,7 +231,6 @@ blockquote {
     text-rendering: optimizeSpeed;
     box-shadow: 1px 2px 2px #00000060 !important;
 }
-
 
 /* 引用块样式调整 */
 blockquote {
