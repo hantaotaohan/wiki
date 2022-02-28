@@ -84,6 +84,10 @@
     background-color: #25282F;
 }
 
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    box-sizing: border-box; 
+}
+
 .extensions__code>.CodeMirror {
     padding-top: 1px !important;
     line-height: 1.75em;
