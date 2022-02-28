@@ -13,7 +13,16 @@
 #sidebar-nav-wrapper {
   border: none !important;
 }
-
+.bullet-container .bullet {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--ls-block-bullet-color);
+}
+.bullet-container.bullet-closed {
+  background-color: #f2f2ef00;
+  border: 1px solid var(--ls-block-bullet-border-color);
+}
 
 
 :root {
