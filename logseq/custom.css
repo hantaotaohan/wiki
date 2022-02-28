@@ -1,12 +1,12 @@
 /* Block 行距及list行距调整 */
-
+/* 普通模式 Block */
 .ls-block {
 	position: relative;
 	min-height: 24px;
 	padding: 6px 0;
 	border-bottom: 1px solid #0000;
 }
-
+/* 编辑模式 Block */
 .editor-inner textarea {
 	border: none;
 	border-radius: 0;
