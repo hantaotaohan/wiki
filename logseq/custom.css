@@ -4,7 +4,7 @@
 	position: relative;
 	min-height: 0;
 	border-bottom: 1px solid #0000;
-  	padding: 2.0rem;
+  	padding: 1.0rem;
 }
 /* 编辑模式 Block */
 .editor-inner textarea {
@@ -12,7 +12,7 @@
 	border-radius: 0;
 	background: 0 0;
 	resize: none;
-	padding: 2.0rem;
+	padding: 1.0rem;
 }
 
 .dark-theme,html[data-theme=dark] {
