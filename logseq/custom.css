@@ -3,7 +3,7 @@
   --ct-line-height: 1.75;
   --ls-font-family: "IBM Plex Sans", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "IBM Plex Mono", monospace;
+  --ct-code-font-family: "Fire Code", monospace;
 }
 
 html,
