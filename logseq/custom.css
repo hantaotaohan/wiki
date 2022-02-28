@@ -223,7 +223,7 @@ blockquote {
 	background: 0 0;
 	padding: 0;
 	resize: none;
-	line-height: 2.0;
+	line-height: unset;
 }
 
 .inline {
