@@ -3,6 +3,7 @@
 .ls-block {
 	position: relative;
 	min-height: 24px;
+    line-height:1.8
 	padding: 6px 0;
 	border-bottom: 1px solid #0000;
 }
