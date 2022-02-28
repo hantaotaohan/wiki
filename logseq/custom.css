@@ -1,10 +1,22 @@
-a.priority:before {
-  font-size: 0.9rem;
-  font-weight: 400;
-  padding: 1px 4px 0px 3px;
-  margin: 0px 2px 0px 0px;
-  border-radius: var(--ls-border-radius-low);
-  color: var(--ls-primary-background-color);
+:root {
+  --ct-text-size: 16px;
+  --ct-line-height: 1.75;
+  --ls-font-family: "IBM Plex Sans", sans-serif;
+  --ct-page-title-font-family: var(--ls-font-family);
+  --ct-code-font-family: "IBM Plex Mono", monospace;
+}
+
+html,
+body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  overscroll-behavior-y: none;
+  -webkit-font-smoothing: auto;
+  line-height: var(--ct-line-height);
+}
+
+textarea {
+  line-height: var(--ct-line-height);
 }
 
 
