@@ -1,6 +1,6 @@
 :root {
   --ct-text-size: 32px;
-  --ct-line-height: 1.6;
+  --ct-line-height: 2.6;
 }
 	
 .dark-theme,html[data-theme=dark] {
