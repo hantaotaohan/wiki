@@ -110,7 +110,7 @@ textarea {
 .extensions__code {
     position: relative;
     z-index: 0;
-    display: flex;
+    display: block;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
