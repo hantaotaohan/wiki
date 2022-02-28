@@ -16,17 +16,8 @@ body {
 textarea {
   line-height: var(--ct-line-height);
 }
-#main-content-container {
-  margin-top: var(--ct-header-height) !important;
-  border: 2px solid var(--ls-border-color);
-  margin: 24px;
-  border-radius: 8px;
-  background: var(--ls-primary-background-color);
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 800px;
-  padding-top: 36px;
+.page {
+  margin-top: 0;
 }
 
 
