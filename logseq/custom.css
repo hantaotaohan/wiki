@@ -20,7 +20,6 @@ textarea {
 
 .sm\:mr-2 {
     margin-right: .5rem;
-    height: 2rem !important;
     min-height: 2rem !important;
 }
 
