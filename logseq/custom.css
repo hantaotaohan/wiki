@@ -25,10 +25,6 @@ textarea {
   box-shadow: 0 0 0 2px var(--color-level-2);
 }
 
-.cm-s-solarized div.CodeMirror-selected {
-  background: var(--color-level-4) !important;
-}
-
 .extensions__code > .CodeMirror {
   padding-top: 0;
 }
