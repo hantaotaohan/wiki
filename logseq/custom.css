@@ -2,7 +2,7 @@
 /* 普通模式 Block */
 .ls-block {
 	position: relative;
-	min-height: 0;
+	line-height: 2.0rem;
 	border-bottom: 1px solid #0000;
   	padding: 1.0rem;
 }
