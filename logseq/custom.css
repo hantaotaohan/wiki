@@ -1,13 +1,10 @@
-root {
-  --ls-font-line-height: 2.9;
-}
-html,
-body {
-  font-weight: var(--ls-font-weight);
-  letter-spacing: var(--ls-font-letter-spacing);
-  line-height: var(--ls-font-line-height);
-  font-size: var(--ls-page-text-size);
-
+a.priority:before {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 1px 4px 0px 3px;
+  margin: 0px 2px 0px 0px;
+  border-radius: var(--ls-border-radius-low);
+  color: var(--ls-primary-background-color);
 }
 
 
