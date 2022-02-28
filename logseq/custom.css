@@ -21,6 +21,22 @@ textarea {
 }
 
 
+textarea {
+    overflow: hidden;
+    padding: 10px 10px 11px 11px !important;
+    border: none;
+    border-radius: var(--ls-border-radius-low);
+    font-size: 1em;
+    line-height: 1.5;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    text-size-adjust: 100%;
+    background: var(--ls-primary-background-color);
+}
+
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
 	--ls-secondary-background-color: #25282F;
