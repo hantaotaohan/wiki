@@ -13,20 +13,14 @@
 	background: 0 0;
 	padding: 0;
 	resize: none;
-	line-height: unset;
+	line-height: 1.8;
 }
 
 .inline {
 	display: inline;
-	line-height: unset;
+	line-height: 1.8;
 }
 
-@media (min-width:640px) {
-	.sm\:mr-2 {
-		margin-right: .5rem;
-		align-items: flex-end;
-	}
-}
 
 
 a {
