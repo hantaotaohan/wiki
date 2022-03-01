@@ -1,6 +1,9 @@
+/* 左侧面板的仓库名称长度 */
 #repo-name {
   max-width: 150px;
 }
+@import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/bullet_threading.css");
+
 .block-control:hover svg {
   filter: drop-shadow(2px 4px 6px black);
 }
