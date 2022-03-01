@@ -1,5 +1,3 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@Version1.0/custom.css");
 
-input {
-  line-height: normal;
-}
+input {height: 28px; font-size: 10px; padding: 7px 5px;}
