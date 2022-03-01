@@ -101,7 +101,7 @@ textarea {
     color: #ABB2BF99;
     background-color: #25282F;
 }
- .CodeMirror-linenumber{
+.CodeMirror-linenumber {
     color: #abb2bf99;
     background: #25282F;
     border-right-style:solid;
