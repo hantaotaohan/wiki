@@ -108,7 +108,7 @@ textarea {
     box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
 
-
+/*  代码主面板距离编号栏的横向间距 */
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
     padding-left: 1rem;
 }
