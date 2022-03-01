@@ -93,12 +93,6 @@ textarea {
 }
 
 /* 代码区域设置 主面板 */
-
-/* .cm-s-solarized.cm-s-dark{
-    color: #ABB2BF99;
-    background-color: #25282F;
-} */
-
 .extensions__code>.CodeMirror {
     background-color: #282c34;
     font-family: "FiraCode";
@@ -117,6 +111,7 @@ textarea {
 .CodeMirror-gutter {
     background-color: #25282F;
 }
+
 /* 代码区域设置 主面板的左边编号栏字体颜色和字体居中样式设定 */
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
     color: #abb2bf66;
@@ -127,20 +122,6 @@ textarea {
     text-align: center;
 }
 
-
-
-
-
-/*
-.cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
-    color: #abb2bf99;
-    background: #25282F;
-    border-right-style:solid;
-    border-right-width:1px;
-    border-right-color:#171717;
-    text-align: center;
-}
-*/
 /* 代码区域设置 右上角代码显示 */
 .extensions__code-lang {
     display: none;
@@ -148,7 +129,7 @@ textarea {
 
 /* 代码区域设置 鼠标选择颜色自定义 */
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
-    background: #ABB2BF33;
+    background: #ABB2BF22;
 }
 /* 搜索结果显示设定 */
 mark {
