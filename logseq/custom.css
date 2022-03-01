@@ -3,9 +3,7 @@
   --ls-block-bullet-threading-width: 2px;
 }
 
-.block-control {
-  z-index: 1;
-}
+
 
 .block-children {
   border-left-color: var(--ls-guideline-color);
