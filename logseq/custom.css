@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/bullet_threading.css");
 :root {
   --ls-block-bullet-active-color: #abb2bf;
-  --ls-block-bullet-threading-width: 1px;
+  --ls-block-bullet-threading-width: 2px;
 }
 
 /* 全局变量 */
