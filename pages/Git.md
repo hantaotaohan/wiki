@@ -2,14 +2,17 @@
 	- git 是一个版本控制系统，通过使用 git 可以控制你之前的任何历史版本
 - ## 概念
 	- 要理解 git 就必须要弄明白 git 版本库内的三个树的概念。因为在你的工作流当中，添加并提交到版本库，或者回退版本都需要用到他们，首先来介绍一下这三棵树。
+	  collapsed:: true
 		- Working Directory 工作区
 		- Stage 暂存区
 		- Repository 储存库
 	- 所以一般的工作流是这样的。
+	  collapsed:: true
 		- 在工作区内添加或者修改文件
 		- 将需要进行版本管理的文件放入暂存区
 		- 将暂存区的文件提交到储存库
 	- 因此被版本控制系统的文件将会有三种状态
+	  collapsed:: true
 		- Modified 已修改
 		- Staged 已暂存
 		- Committed 已提交
