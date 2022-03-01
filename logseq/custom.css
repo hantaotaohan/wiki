@@ -4,7 +4,7 @@
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 2.0;
-  --ls-font-family:   "Noto Sans SC", "Microsoft YaHei UI", sans-serif;
+  --ls-font-family:   "Sarasa Term", "Microsoft YaHei UI", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "FireCode", monospace;
 }
