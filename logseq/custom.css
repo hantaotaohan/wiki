@@ -132,7 +132,6 @@
     top: -1rem;
     bottom: 0;
     border-left: var(--ls-block-bullet-threading-width) solid transparent;
-    left: calc(var(--ls-block-bullet-threading-width) * -1);
     position: absolute;
   }
 }
