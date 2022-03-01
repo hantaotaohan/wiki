@@ -3,16 +3,16 @@
   --ls-block-bullet-threading-width: 2px;
 }
 
-
+.block-control {
+  z-index: 1;
+}
 
 .block-children {
   border-left-color: var(--ls-guideline-color);
   border-left-width: var(--ls-block-bullet-threading-width) !important;
 }
 
-.block-children-container {
-  position: relative;
-}
+
 
 .block-children-left-border {
   z-index: 1;
