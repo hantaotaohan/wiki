@@ -1,8 +1,8 @@
 #repo-name {
   max-width: 150px;
 }
-a:hover > .bullet-container .bullet {
-  opacity: 1;
+.block-control:hover svg {
+  filter: drop-shadow(2px 4px 6px black);
 }
 /* 全局变量 */
 :root {
