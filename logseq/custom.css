@@ -230,7 +230,7 @@ mark {
 }
 
 .block-children-left-border:hover {
-  background-color: var(--ls-block-bullet-active-color);
+  background-color: #abb2bf;
 }
 /* 行内code样式调整 */
 :not(pre)>code {
