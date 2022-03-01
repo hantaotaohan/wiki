@@ -4,7 +4,7 @@
   --ls-block-bullet-threading-width: 2px;
 }
 .block-control:hover svg {
-  filter: drop-shadow(2px 4px 6px #abb2bf);
+  filter: drop-shadow(2px 4px 66px #abb2bf);
 }
 /* 全局变量 */
 :root {
