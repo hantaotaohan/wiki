@@ -15,7 +15,7 @@ body {
 
 textarea {
   box-sizing: content-box;
-
+  line-height: var(--ct-line-height);
 }
 
 .sm\:mr-2 {
