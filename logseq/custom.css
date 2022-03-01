@@ -100,7 +100,7 @@ textarea {
 } */
 
 .extensions__code>.CodeMirror {
-  background-color: #25282F;
+  background-color: #282c34;
     font-family: "FiraCode";
     padding-top: 0px ;
     line-height: 1.75em;
