@@ -114,8 +114,8 @@
 
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: -7px;
-    margin-left: -7px; 
+	left: -7.5px;
+    margin-left: -7.5px; 
   }
   
   .ls-block .ls-block > div > div.items-center::before{
