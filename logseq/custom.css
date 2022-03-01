@@ -113,11 +113,11 @@
 }
 
 @media (max-width: 640px) {
-/*  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+  .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -11px;
     margin-left: -11px; 
   }
-  */
+  
     /* Fix for headings like h1, h2 etc */
   > .items-baseline {
     align-items: initial;
