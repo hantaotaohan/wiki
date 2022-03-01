@@ -217,15 +217,11 @@ mark {
 .block-children-left-border {
     background-color: #282c34 !important;
 } */
-.block-children-left-border {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 1%;
-  padding-right: 0px;
-  border-radius: 2px;
-  background: #abb2bf;
-  transition: background-color 0.2s;
+.content .block-children-left-border {
+  border-radius: 1.5px;
+  transition: background-color 0.3s;
+  width: 3px;
+  padding-right: 2px;
 }
 
 .block-children-left-border:hover {
