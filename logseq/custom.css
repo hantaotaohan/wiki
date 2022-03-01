@@ -1,6 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@Version1.0/custom.css");
 
 .editor-inner textarea {
-padding:5px 5px;
-line-height:normal;
+line-height: 200%;
 }
