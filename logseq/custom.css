@@ -12,7 +12,9 @@
   border-left-width: var(--ls-block-bullet-threading-width) !important;
 }
 
-
+.block-children-container {
+  position: relative;
+}
 
 .block-children-left-border {
   z-index: 1;
@@ -35,7 +37,7 @@
 }
 
 .bullet-container {
-  height: 14px !important;
+  height: 1px !important;
   width: 14px !important;
   position: relative;
   transform: translate(1px, -1px);
