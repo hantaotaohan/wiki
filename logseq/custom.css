@@ -92,7 +92,25 @@ textarea {
     border-radius: 6px;
 }
 
+/* 代码区域设置 主面板 */
 
+/* .cm-s-solarized.cm-s-dark{
+    color: #ABB2BF99;
+    background-color: #25282F;
+} */
+
+.extensions__code>.CodeMirror {
+  background-color: #25282F;
+    font-family: "FiraCode";
+    padding-top: 0px ;
+    line-height: 1.75em;
+    margin: 1rem;
+    box-shadow: 1px 2px 2px #00000060 !important;
+}
+
+.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
+    padding-left: 1rem;
+}
 
 /* 代码区域设置 主面板的左边编号栏背景样式设定 */
 .CodeMirror-gutter {
@@ -108,24 +126,7 @@ textarea {
     text-align: center;
 }
 
-/* 代码区域设置 主面板 */
 
-/* .cm-s-solarized.cm-s-dark{
-    color: #ABB2BF99;
-    background-color: #25282F;
-} */
-
-.extensions__code>.CodeMirror {
-    font-family: "FiraCode";
-    padding-top: 0px ;
-    line-height: 1.75em;
-    margin: 1rem;
-    box-shadow: 1px 2px 2px #00000060 !important;
-}
-
-.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-    padding-left: 1rem;
-}
 
 
 
