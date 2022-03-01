@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap&subset=chinese-traditional');
-@import url(//db.onlinewebfonts.com/c/05e476e067ffef74ca5686f229c40a63?family=PingFang+SC);
+@import url('https://db.onlinewebfonts.com/c/05e476e067ffef74ca5686f229c40a63?family=PingFang+SC');
 /* 全局变量 */
 :root {
   --ct-text-size: 16px;
