@@ -3,6 +3,12 @@
   --ls-block-bullet-threading-width: 2px;
 }
 
+@media (max-width: 640px) {
+  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+    left: -11px;
+  }
+}
+
 .block-control {
   z-index: 1;
 }
