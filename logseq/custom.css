@@ -1,3 +1,4 @@
+/* 全局变量 */
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 2.0;
@@ -5,6 +6,7 @@
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "FireCode", monospace;
 }
+
 
 html,
 body {
