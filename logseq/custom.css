@@ -224,13 +224,13 @@ mark {
   width: 2%;
   padding-right: 0px;
   border-radius: 2px;
-  background-color: #282c3455;
+  background-color: transparent;
   left: -1px;
   transition: background-color 0.2s;
 }
 
 .block-children-left-border:hover {
-  background: transparent;
+  background: #282c3455;
   content: "|";
   color:#abb2bf;
 }
