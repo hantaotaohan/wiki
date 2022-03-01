@@ -93,11 +93,15 @@ textarea {
 }
 
 /* 代码区域设置 主面板的左边编号栏样式设定 */
-.cm-s-solarized.cm-s-dark{
+/* .cm-s-solarized.cm-s-dark{
+    color: #ABB2BF99;
+    background-color: #25282F;
+} */
+.CodeMirror-gutter
+{
     color: #ABB2BF99;
     background-color: #25282F;
 }
-
 /* 代码区域设置 主面板 */
 .extensions__code>.CodeMirror {
     font-family: "FiraCode";
@@ -115,6 +119,7 @@ textarea {
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
 	background: #25282F;
 }
+
 
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
     color: #abb2bf99;
