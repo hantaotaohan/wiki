@@ -14,4 +14,5 @@
 		- Staged 已暂存
 		- Committed 已提交
 - ## 使用方法
+	- `git`
 	-
