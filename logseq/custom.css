@@ -44,9 +44,8 @@
 }
 
 /* Block bullet path should only show in a nested block */
-.ls-block :is(.h1,.h2),.ls-block :is(h1,h2) {
-	border-bottom: none;
-	margin: .4em 0 0;
+.ls-block {
+/* Block bullet path should only show in a nested block */
 }
 
 .ls-block .bullet {
@@ -102,7 +101,7 @@
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
-  top: 12px;
+  top: 24px;
   bottom: 0;
   left: -15px;
   position: absolute;
