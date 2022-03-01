@@ -110,7 +110,7 @@ textarea {
 
 
 .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-    padding-left: 3rem;
+    padding-left: 1rem;
 }
 
 /* 代码区域设置 主面板的左边编号栏背景样式设定 */
