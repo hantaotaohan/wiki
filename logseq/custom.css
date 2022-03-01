@@ -264,7 +264,7 @@ blockquote {
 
 /* 子弹线设置 */
 :root {
-  --ls-block-bullet-active-color: #A3CEF1;
+  --ls-block-bullet-active-color: #61AFEF;
   --ls-block-bullet-threading-width: 2px;
 }
 
