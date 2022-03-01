@@ -1,14 +1,10 @@
-/* 左侧面板的仓库名称长度 */
-#repo-name {
-  max-width: 150px;
-}
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@main/bullet_threading.css");
 :root {
   --ls-block-bullet-active-color: #abb2bf;
   --ls-block-bullet-threading-width: 2px;
 }
 .block-control:hover svg {
-  filter: drop-shadow(2px 4px 6px black);
+  filter: drop-shadow(22px 4px 6px black);
 }
 /* 全局变量 */
 :root {
@@ -266,4 +262,9 @@ blockquote {
     color: var(--ls-page-blockquote-color,#24292e);
     font-size: 1rem;
     box-shadow: 1px 2px 2px #00000060 !important;
+}
+
+/* 左侧面板的仓库名称长度 */
+#repo-name {
+  max-width: 150px;
 }
