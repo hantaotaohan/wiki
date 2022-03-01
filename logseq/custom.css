@@ -3,11 +3,6 @@
   --ls-block-bullet-threading-width: 2px;
 }
 
-
-.ls-block[haschild=true] > div > .block-content-wrapper::before {
-    left: 22px;
-  }
-
 .block-control {
   z-index: 1;
 }
