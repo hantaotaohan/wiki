@@ -225,7 +225,7 @@ mark {
   padding-right: 0px;
   border-radius: 2px;
   background-color: transparent;
-  left: -1px;
+
   transition: background-color 0.2s;
 }
 
