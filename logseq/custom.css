@@ -114,8 +114,8 @@
 
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: -13px;
-    margin-left: -13px; 
+	left: -12px;
+    margin-left: -12px; 
   }
   
     /* Fix for headings like h1, h2 etc */
