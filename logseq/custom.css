@@ -112,16 +112,12 @@
   border-color: var(--ls-block-bullet-active-color);
 }
 
+/* IOS 设置 */
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7.5px;
     margin-left: -7.5px; 
   }
-  
-/*  .ls-block .ls-block > div > div.items-center::before{
-    left: 5px;
-  }
-  */
 .block-children-container {
     left: 7px;
 }
