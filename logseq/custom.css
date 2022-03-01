@@ -1,7 +1,5 @@
 https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@Version1.0/custom.css
-  
-  /* Some tweaks on making this theme a bit more compact on mobile.
-   Mobile cap is 640px */
+ 
 @media (max-width: 640px) {
   html {
     font-size: 14px;
