@@ -230,7 +230,8 @@ mark {
 }
 
 .block-children-left-border:hover {
-  background: #abb2bf;
+  background: transparent;
+  content: "|";
   color:#abb2bf;
 }
 /* 行内code样式调整 */
