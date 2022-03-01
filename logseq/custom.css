@@ -119,7 +119,7 @@
   }
   
     /* Fix for headings like h1, h2 etc */
-  > .items-baseline {
+ .ls-block > .items-baseline {
     align-items: initial;
   }
 
