@@ -131,19 +131,6 @@ textarea {
 .cm-s-solarized.cm-s-dark div.CodeMirror-selected {
     background: #ABB2BF22;
 }
-/* 搜索结果显示设定 */
-mark {
-    background: #00000000;
-    padding: 0;
-    color: #e06c75;
-    font-size: inherit;
-    font-weight: bold;
-    text-decoration: none;
-}
-/* markdown 引用样式设置 */
-blockquote {
-	font-style:italic;
-}
 
 /* 代码高亮设置 */
 .cm-s-solarized .cm-meta {
@@ -203,12 +190,26 @@ blockquote {
     color: #e5c07b;
 }
 
+/* 搜索结果显示设定 */
+mark {
+    background: #00000000;
+    padding: 0;
+    color: #e06c75;
+    font-size: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* markdown 引用样式设置 */
+blockquote {
+	font-style:italic;
+}
+
 /* Markdown H1 H2 间距 */
 .editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
 	border-bottom: none;
 	margin: .4em 0 0;
 }
-
 
 /* 列表的左边线条颜色 */
 .block-children-left-border {
