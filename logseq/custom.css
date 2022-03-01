@@ -2,7 +2,5 @@
  
  .cursor {
   position: absolute;
-  cursor: none;
-  pointer-events: none;
-  visibility: hidden;
+
 }
