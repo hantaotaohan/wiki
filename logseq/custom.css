@@ -118,12 +118,11 @@
     margin-left: -11px; 
   }
   
-  .ls-block .ls-block > div > div.items-center::before{
+/*  .ls-block .ls-block > div > div.items-center::before{
     left: 5px;
   }
+  */
 .block-children-container {
-
-    /* align-items: baseline; */
     left: 7px;
 }
 }
