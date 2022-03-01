@@ -37,7 +37,7 @@
 }
 
 .bullet-container {
-  height: 1px !important;
+  height: 14px !important;
   width: 14px !important;
   position: relative;
   transform: translate(1px, -1px);
