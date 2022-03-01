@@ -119,7 +119,7 @@
   }
   
   .ls-block .ls-block > div > div.items-center::before{
-    left: 5px;
+    left: 7.5px;
   }
 .block-children-container {
     position: relative;
