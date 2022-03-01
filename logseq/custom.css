@@ -230,7 +230,7 @@ mark {
 }
 
 .block-children-left-border:hover {
-  background: #282c3455;
+  background: #abb2bf55;
   content: "|";
   color:#abb2bf;
 }
