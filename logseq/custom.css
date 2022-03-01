@@ -1,3 +1,7 @@
+#repo-name {
+  max-width: 150px;
+}
+
 /* 全局变量 */
 :root {
   --ct-text-size: 16px;
