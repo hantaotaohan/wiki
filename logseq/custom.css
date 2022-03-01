@@ -123,15 +123,7 @@
     align-items: initial;
   }
 
-  &:not(:focus-within) .bullet {
-    background-color: var(--ls-block-bullet-color);
-    transform: scale(1);
-    box-shadow: none;
-  }
 
-  &:not(:focus-within) > .items-baseline {
-    align-items: baseline;
-  }
 
   /* Basic "curve" */
   .ls-block > div > div.items-center::before {
