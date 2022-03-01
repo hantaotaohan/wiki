@@ -113,7 +113,7 @@
 
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-    left: -0.9rem;
+    left: -0.8rem;
   }
 }
 /* Disable for doc mode */
