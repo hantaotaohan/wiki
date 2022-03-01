@@ -1,22 +1,5 @@
-@font-face {
-    font-family: "PingFang";
-    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap&subset=chinese-traditional');
 
-@font-face {
-    font-family: "PingFang Bold";
-    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Bold.ttf");
-}
-
-@font-face {
-    font-family: "PingFang Light";
-    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Light.ttf");
-}
-
-@font-face {
-    font-family: "PingFang Heavy";
-    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Heavy.ttf");
-}
 
 /* 全局变量 */
 :root {
