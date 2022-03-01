@@ -213,10 +213,25 @@ mark {
 }
 
 /* 列表的左边线条颜色 */
+/*
 .block-children-left-border {
     background-color: #282c34 !important;
+} */
+.block-children-left-border {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  padding-right: 0px;
+  border-radius: 2px;
+  background-color: transparent;
+  left: -1px;
+  transition: background-color 0.2s;
 }
 
+.block-children-left-border:hover {
+  background-color: var(--ls-block-bullet-active-color);
+}
 /* 行内code样式调整 */
 :not(pre)>code {
     border-radius: 3px;
