@@ -1,5 +1,14 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@Version1.0/custom.css");
 
-:root.is-mac.is-electron {
-    --ct-header-height: 48px;
+/* Block oversize issue */
+.block-content-wrapper {
+  max-width: var(--ct-block-max-width);
+}
+
+.block-content-wrapper > div.flex-1 {
+  width: 100%;
+}
+
+.block-content .resize {
+  max-width: -webkit-fill-available;
 }
