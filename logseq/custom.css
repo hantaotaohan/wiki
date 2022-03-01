@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@Version1.0/custom.css");
 
-body {
--webkit-font-smoothing: auto;
+:root.is-mac.is-electron {
+    --ct-header-height: 48px;
 }
