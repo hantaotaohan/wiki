@@ -92,12 +92,13 @@ textarea {
     border-radius: 6px;
 }
 
-/* 代码区域设置 主面板 */
+/* 代码区域设置 主面板的左边编号栏样式设定 */
 .cm-s-solarized.cm-s-dark{
     color: #ABB2BF99;
     background-color: #25282F;
 }
 
+/* 代码区域设置 主面板 */
 .extensions__code>.CodeMirror {
     font-family: "FiraCode";
     padding-top: 0px ;
