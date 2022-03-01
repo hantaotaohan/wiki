@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap&subset=chinese-traditional');
-
+@import url("https://cdn.jsdelivr.net/gh/adobe-fonts/source-sans@3.046R/source-sans-3VF.css");
 /* 全局变量 */
 :root {
   --ct-text-size: 16px;
