@@ -44,11 +44,12 @@
 }
 
 /* Block bullet path should only show in a nested block */
-.ls-block {
-  /* Fix for headings like h1, h2 etc */
-  /* Basic "curve" */
-  /* Fix multi-line blocks with children */
+.ls-block :is(.h1,.h2),.ls-block :is(h1,h2) {
+
+	border-bottom: none;
+	margin: .4em 0 0;
 }
+
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
   box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
