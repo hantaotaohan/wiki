@@ -5,7 +5,7 @@
 
 
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
-    left: -21px;
+    left: -11px;
   }
 
 .block-control {
