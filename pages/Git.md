@@ -14,5 +14,6 @@
 		- Staged 已暂存
 		- Committed 已提交
 - ## 使用方法
-	- sdfsfs`git`sdfas
+	- sdfsfs`git`sdfas `测试`
+	-
 	-
