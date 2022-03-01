@@ -5,7 +5,7 @@
 
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-    left: -11px;
+    left: -21px;
   }
 }
 
