@@ -200,10 +200,7 @@ mark {
     text-decoration: none;
 }
 
-/* markdown 引用样式设置 */
-blockquote {
-	font-style:italic;
-}
+
 
 /* Markdown H1 H2 间距 */
 .editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
@@ -237,6 +234,7 @@ blockquote {
 
 /* 引用块样式调整 */
 blockquote {
+    font-style:italic;
     display: block;
     text-indent: 0;
     padding: 8px 20px;
