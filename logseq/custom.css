@@ -106,7 +106,7 @@
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
-  top: 24px;
+  top: 20px;
   bottom: 0;
   left: -15px;
   position: absolute;
