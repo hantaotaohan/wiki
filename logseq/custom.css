@@ -97,10 +97,17 @@ textarea {
     color: #ABB2BF99;
     background-color: #25282F;
 } */
-.CodeMirror-gutter
-{
+.CodeMirror-gutter {
     color: #ABB2BF99;
     background-color: #25282F;
+}
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
+    color: #abb2bf99;
+    background: #25282F;
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:#171717;
+    text-align: center;
 }
 /* 代码区域设置 主面板 */
 .extensions__code>.CodeMirror {
@@ -120,7 +127,7 @@ textarea {
 	background: #25282F;
 }
 
-
+/*
 .cm-s-solarized.cm-s-dark .CodeMirror-linenumber{
     color: #abb2bf99;
     background: #25282F;
@@ -129,7 +136,7 @@ textarea {
     border-right-color:#171717;
     text-align: center;
 }
-
+*/
 /* 代码区域设置 右上角代码显示 */
 .extensions__code-lang {
     display: none;
