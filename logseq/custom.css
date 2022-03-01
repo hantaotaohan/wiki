@@ -216,10 +216,10 @@ mark {
 }
 
 /* 列表的左边线条样式及颜色 */
-
+/*
 .block-children-left-border {
     background-color: #282c34 !important;
-} 
+} */
 
 .content .block-children-left-border {
   border-radius: 1.5px;
