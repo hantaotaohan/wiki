@@ -116,6 +116,7 @@
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -11px;
     margin-left: -11px; 
+    padding-left: -11px;
   }
   
     /* Fix for headings like h1, h2 etc */
