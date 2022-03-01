@@ -1,10 +1,28 @@
-@import url("https://cdn.jsdelivr.net/npm/jmt_fonts@1.3.7/PingFang_Heavy/PingFang_Heavy.ttf");
+@font-face {
+    font-family: "PingFang";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Regular.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Bold";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Bold.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Light";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Light.ttf");
+}
+
+@font-face {
+    font-family: "PingFang Heavy";
+    src: url("//cdn.jsdelivr.net/gh/bietiaop/CDN@master/fonts/PingFang/sim/PingFang Heavy.ttf");
+}
 
 /* 全局变量 */
 :root {
   --ct-text-size: 16px;
   --ct-line-height: 2.0;
-  --ls-font-family:   "PingFang Heavy", "Microsoft YaHei UI", sans-serif;
+  --ls-font-family:   "PingFang", "Microsoft YaHei UI", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "FireCode", monospace;
 }
