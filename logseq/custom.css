@@ -113,9 +113,53 @@
 }
 
 @media (max-width: 640px) {
-  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+/*  .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -11px;
     margin-left: -11px; 
+  }
+  */
+    /* Fix for headings like h1, h2 etc */
+  > .items-baseline {
+    align-items: initial;
+  }
+
+  &:not(:focus-within) .bullet {
+    background-color: var(--ls-block-bullet-color);
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  &:not(:focus-within) > .items-baseline {
+    align-items: baseline;
+  }
+
+  /* Basic "curve" */
+  .ls-block > div > div.items-center::before {
+    pointer-events: none;
+    content: "";
+    left: calc(var(--ls-block-bullet-threading-width) * -1);
+    right: 6px;
+    top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+    bottom: 50%;
+    /* shift left 1px for border */
+    position: absolute;
+    border-left: var(--ls-block-bullet-threading-width) solid transparent;
+    border-bottom: var(--ls-block-bullet-threading-width) solid transparent;
+    border-bottom-left-radius: 10px;
+  }
+
+  .ls-block:focus-within > div > div.items-center::before {
+    border-color: var(--ls-block-bullet-active-color);
+  }
+
+  .block-children > .ls-block::before {
+    pointer-events: none;
+    content: "";
+    top: -1rem;
+    bottom: 0;
+    border-left: var(--ls-block-bullet-threading-width) solid transparent;
+    left: calc(var(--ls-block-bullet-threading-width) * -1);
+    position: absolute;
   }
 }
 /* Disable for doc mode */
