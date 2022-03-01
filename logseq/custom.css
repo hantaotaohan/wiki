@@ -120,7 +120,6 @@
   
   .ls-block .ls-block > div > div.items-center::before{
     left: 5px;
-    margin-left: 5px; 
   }
 
 }
