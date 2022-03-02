@@ -108,7 +108,6 @@
   :editor/up ["k" "up"], 
   :editor/redo "ctrl+r", 
   :editor/down ["j" "down"], 
-  :go/journals "\\ wi", 
   :editor/open-edit ["i"], 
   :editor/undo "u"}
  
