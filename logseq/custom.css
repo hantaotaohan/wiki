@@ -14,3 +14,15 @@
   --ct-bullet-size: 6px;
   --ct-block-max-width: calc(100% - 38px);
 }
+/* Block oversize issue */
+.block-content-wrapper {
+  max-width: var(--ct-block-max-width);
+}
+
+.block-content-wrapper > div.flex-1 {
+  width: 100%;
+}
+
+.block-content .resize {
+  max-width: -webkit-fill-available;
+}
