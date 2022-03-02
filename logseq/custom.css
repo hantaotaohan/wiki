@@ -9,9 +9,9 @@
     box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   html,body{
-    max-width:640px;
+    max-width:414px;
   }
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7.5px;
