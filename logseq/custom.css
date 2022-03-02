@@ -378,7 +378,7 @@ blockquote {
     and (device-height: 812px) 
     and (-webkit-device-pixel-ratio: 3) { 
  	   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	    left: -15px;
+	    left: -1px;
   }
 }
 /* Disable for doc mode */
