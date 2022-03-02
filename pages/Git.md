@@ -18,7 +18,7 @@
 	  ```bash
 	  git init <directory>
 	  # 或者进入到你希望建立版本控制库的文件夹内
-	  cd <你想建立仓库的目录中>
+	  cd <directory>
 	  git init
 	  ```
 -
