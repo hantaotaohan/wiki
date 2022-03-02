@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css");
 
+/* 主代码块样式 */
 .cm-s-solarized.cm-s-dark {
     background: #282c34;
     font-family: "FiraCode";
@@ -9,7 +10,7 @@
     box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
 
-
+/* 移动端 */
 .cp__sidebar-main-content {
   width: 100%;
 }
