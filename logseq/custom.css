@@ -378,22 +378,8 @@ blockquote {
 	    left: -20px;
   }
   
-  html {
+  html ,body {
     font-size: 14px;
-  }
-
-  #main-content-container {
-    padding: 0;
-  }
-
-  .cp__sidebar-main-content > div {
-    padding: 1px 1em 1em 1em !important;
-    border: none;
-  }
-
-  a.title h1.title {
-    font-size: 24px;
-    margin-bottom: 1rem;
   }
 
 }
