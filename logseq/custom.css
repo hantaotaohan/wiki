@@ -76,47 +76,9 @@
 
 
 
-.block-children-left-border:hover {
-  background: #abb2bf55;
-}
-/* 行内code样式调整 */
-:not(pre)>code {
-    border-radius: 3px;
-    font-size: 1em;
-   font-family: FiraCode,"微软雅黑";
-    padding: 0px 5px 0px 5px !important;
-    margin: 0px 3px 0px 3px;
-    font-style: normal !important;
-    letter-spacing: 0;
-    word-spacing: -.15em;
-    -webkit-border-radius: var(--ls-border-radius-low);
-    border-radius: var(--ls-border-radius-low);
-    color: var(--ls-page-inline-code-color);
-    background-color: #3f44506b;
-    line-height: 1.45;
-    text-rendering: optimizeSpeed;
-    box-shadow: 1px 2px 2px #00000060 !important;
-}
 
-/* 引用块样式调整 */
-blockquote {
-    font-style:italic;
-    display: block;
-    text-indent: 0;
-    padding: 8px 20px;
-    border-left: 4px solid;
-    border-left-color: var(--ls-page-blockquote-border-color,#d3d3d3);
-    background-color: var(--ls-page-blockquote-bg-color,#f7f7f7);
-    margin: 1rem 0;
-    color: var(--ls-page-blockquote-color,#24292e);
-    font-size: 1rem;
-    box-shadow: 1px 2px 2px #00000060 !important;
-}
 
-/* 左侧面板的仓库名称长度 */
-#repo-name {
-  max-width: 150px;
-}
+
 
 /* 子弹线设置 */
 :root {
