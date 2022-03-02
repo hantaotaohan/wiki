@@ -1,4 +1,4 @@
-/* @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css");
+@import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css");
 
 .cm-s-solarized.cm-s-dark {
     background: #282c34;
@@ -7,18 +7,4 @@
     line-height: 1.75em;
     margin: 1rem;
     box-shadow: 1px 1px 10px 10px #00000030 !important;
-}
-
-@media (max-width: 414px) {
-
-  html,body{
-    overflow-y:overlay;
-  }
-  .scrollbar-spacing {
-    overflow-y: overlay;
-  }
-    .block-control, .block-control:hover {
-    display: none;
-}
-
 }
