@@ -23,6 +23,7 @@
     /* padding: 2px; */
     color: initial;
     user-select: none;
+      display: none;
 }
 
 }
