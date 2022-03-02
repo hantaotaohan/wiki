@@ -21,20 +21,7 @@ textarea {
   line-height: var(--ct-line-height);
 }
 
-.editor-inner textarea {
-    border: none;
-    border-radius: 0;
-    background: 0 0;
-    padding: 0;
-    color: #fff;
-    resize: none;
-}
 
-.sm\:mr-2 {
-    margin-right: .5rem;
-    min-height: 2rem !important;
-   box-sizing: content-box;
-}
 
 /* 主题颜色配置 */
 .dark-theme,html[data-theme=dark] {
