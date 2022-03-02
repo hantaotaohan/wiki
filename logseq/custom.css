@@ -376,7 +376,7 @@ blockquote {
 @media only screen 
     and (device-width: 375px) 
     and (device-height: 812px) 
-    and (-webkit-device-pixel-ratio: 2) { 
+    and (-webkit-device-pixel-ratio: 3) { 
  	   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	    left: -15px;
   }
