@@ -376,7 +376,7 @@ blockquote {
 @media (max-width: 375px) 
  { 
  	   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	    left: -19px;
+	    left: -9px;
   }
 }
 /* Disable for doc mode */
