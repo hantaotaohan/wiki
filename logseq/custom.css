@@ -17,22 +17,22 @@
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
 
-      /* 禁止 ios 左右拖动 */
+/* 禁止 ios 左右拖动 */
 .cp__sidebar-main-content {
-  width: 100%;
+	width: 100%;
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
 	/* padding: 64px 32px; */
 	padding: 10px 10px;
-
 }
 
+/* 子弹线 适配  */
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7.5px;
     margin-left: -7.5px; 
-  }
+    }
 .block-children-container {
     left: 7px;
-}
+	}
 }
