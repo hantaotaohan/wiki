@@ -17,5 +17,7 @@
 	- 当你需要建立一个版本控制库的时候可以用以下命令
 	  ```bash
 	  git init <directory>
+	  or
+	  cd 
 	  ```
 -
