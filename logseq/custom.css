@@ -386,3 +386,8 @@ blockquote {
 .doc-mode .ls-block::after {
   display: none;
 }
+
+::selection {
+  background: #abb2bf;
+  color: var(--ls-selection-color);
+}
