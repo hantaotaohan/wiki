@@ -95,7 +95,7 @@
  {:editor/right ["l" "right"], :go/backward "semicolon h", 
   :go/search-in-page "semicolon /", :go/search "/", 
   :editor/follow-link "alt+o | ctrl+o | enter", 
-  :editor/left ["h" "left"], :ui/toggle-left-sidebar ["t l" | "semicolon e"], 
+  :editor/left ["h" "left"], :ui/toggle-left-sidebar ["t l" "semicolon e"], 
   :editor/delete-selection "d d", :editor/toggle-open-blocks "space", 
   :ui/toggle-document-mode "semicolon d", :go/forward "semicolon l", 
   :editor/copy "y y", :editor/up ["k" "up"], 
