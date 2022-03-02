@@ -10,7 +10,6 @@
 		- 将需要进行版本管理的文件放入暂存区
 		- 将暂存区的文件提交到储存库
 		- 因此被版本控制系统的文件将会有三种状态
-		  collapsed:: true
 			- Modified 已修改
 			- Staged 已暂存
 			- Committed 已提交
