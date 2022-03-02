@@ -26,3 +26,11 @@
 .page {
   margin-top: 0;
 }
+
+.cp__sidebar-main-content {
+  width: 100%;
+}
+
+.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+  padding: 64px 32px;
+}
