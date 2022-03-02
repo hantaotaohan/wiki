@@ -27,7 +27,8 @@
 	left: -15px;
 }
 }
-@media (max-width: 414) {
+
+@media (max-width: 414px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7px;
 }
