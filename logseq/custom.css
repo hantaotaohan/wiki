@@ -58,3 +58,27 @@ i {
 :root {
   --ls-block-bullet-threading-width: 2px;
 }
+#main-container {
+  position: absolute;
+  width: 100%;
+}
+
+.theme-inner {
+  background: var(--ls-primary-background-color);
+}
+
+#main-content-container {
+  padding-top: var(--ct-header-height);
+}
+
+.page {
+  margin-top: 0;
+}
+
+.cp__sidebar-main-content {
+  width: 100%;
+}
+
+.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+  padding: 64px 32px;
+}
