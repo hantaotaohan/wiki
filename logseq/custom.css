@@ -373,7 +373,7 @@ blockquote {
   border-color: var(--ls-block-bullet-active-color);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 414px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
     left: -11px;
   }
