@@ -260,8 +260,8 @@ blockquote {
 
 /* 子弹线设置 */
 :root {
-  --ls-block-bullet-active-color: #A3CEF1;
-  --ls-block-bullet-threading-width: 2px;
+  --ls-block-bullet-active-color: var(--ls-link-text-color);
+  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
 }
 
 .block-control {
@@ -306,9 +306,10 @@ blockquote {
 
 /* Block bullet path should only show in a nested block */
 .ls-block {
-/* Block bullet path should only show in a nested block */
+  /* Fix for headings like h1, h2 etc */
+  /* Basic "curve" */
+  /* Fix multi-line blocks with children */
 }
-
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
   box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
@@ -318,8 +319,7 @@ blockquote {
   height: 26px !important;
 }
 .ls-block > .items-baseline {
-  /* align-items: initial; */
-      align-items: center !important;
+  align-items: initial;
 }
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
@@ -363,7 +363,7 @@ blockquote {
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
-  top: 20px;
+  top: 12px;
   bottom: 0;
   left: -15px;
   position: absolute;
@@ -373,15 +373,10 @@ blockquote {
   border-color: var(--ls-block-bullet-active-color);
 }
 
-/* IOS 设置 */
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: -7.5px;
-    margin-left: -7.5px; 
+    left: -11px;
   }
-.block-children-container {
-    left: 7px;
-}
 }
 /* Disable for doc mode */
 .doc-mode div.items-center::before,
