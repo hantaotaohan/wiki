@@ -12,8 +12,7 @@
 
 /* 移动端  iPhone XR */
 /* 1792x828px at 326ppi */
-@media (min-width: 414px) 
-    and (max-width: 896px)  {
+@media (min-width: 414px)  {
 
 /* 禁止 ios 左右拖动 */
 .cp__sidebar-main-content {
