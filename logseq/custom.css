@@ -15,15 +15,7 @@
     and (-webkit-device-pixel-ratio: 2) {
 
     .block-control, .block-control:hover {
-    text-decoration: none;
-    cursor: default;
-    font-size: 14px;
-    min-width: 22px;
-    min-height: 22px;
-    /* padding: 2px; */
-    color: initial;
-    user-select: none;
-      display: none;
+    display: none;
 }
 
 }
