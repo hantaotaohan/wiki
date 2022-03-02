@@ -17,6 +17,7 @@
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
 
+      /* 禁止 ios 左右拖动 */
 .cp__sidebar-main-content {
   width: 100%;
 }
