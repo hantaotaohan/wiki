@@ -388,6 +388,6 @@ blockquote {
 }
 
 ::selection {
-  background: #abb2bf;
+  background: #61afef;
   color: var(--ls-selection-color);
 }
