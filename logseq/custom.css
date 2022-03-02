@@ -24,5 +24,12 @@
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
   padding: 64px 32px;
 }
-      
+
+.ls-block[haschild=true] > div > .block-content-wrapper::before {
+	left: -7.5px;
+    margin-left: -7.5px; 
+  }
+.block-children-container {
+    left: 7px;
+}
 }
