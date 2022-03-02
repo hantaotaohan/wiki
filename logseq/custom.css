@@ -1,7 +1,6 @@
 /* 全局变量 */
 :root {
   --ct-text-size: 16px;
-  --ct-line-height: 2.0;
   --ls-font-family:  "Microsoft YaHei UI", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "FireCode", monospace;
@@ -261,7 +260,7 @@ blockquote {
 /* 子弹线设置 */
 :root {
   --ls-block-bullet-active-color: var(--ls-link-text-color);
-  --ls-block-bullet-threading-width: var(--ls-block-bullet-threading-width-overwrite, 1px);
+  --ls-block-bullet-threading-width: 2px;
 }
 
 .block-control {
