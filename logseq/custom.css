@@ -12,13 +12,11 @@ html,
 body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
-  line-height: var(--ct-line-height);
 }
 
 /* 编辑状态下的样式设置 */
 textarea {
   box-sizing: content-box;
-  line-height: var(--ct-line-height);
 }
 
 .editor-inner textarea {
