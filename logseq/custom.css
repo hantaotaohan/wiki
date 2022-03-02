@@ -1,12 +1,6 @@
 /* @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css"); */
 
 /* 全局变量 */
-:root {
-  --ct-text-size: 16px;
-  --ls-font-family:  "Microsoft YaHei UI", sans-serif;
-  --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "FireCode", monospace;
-}
 
 /* 整体页面设置 */
 
