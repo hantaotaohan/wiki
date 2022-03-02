@@ -20,13 +20,7 @@ body {
   line-height: var(--ct-line-height);
 }
 
-textarea {
-  line-height: var(--ct-line-height);
-}
 
-i {
-  font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
-}
 
 :root {
   --ct-bullet-size: 6px;
