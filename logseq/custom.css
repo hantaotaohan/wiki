@@ -11,13 +11,7 @@
 
 
 
-html,
-body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
 
-  line-height: var(--ct-line-height);
-}
 
 
 
