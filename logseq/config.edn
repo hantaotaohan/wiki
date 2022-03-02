@@ -92,7 +92,7 @@
  ;;  :editor/right           ["ctrl+l" "right"]}
  ;;  :shortcuts {}
 :shortcuts
- {:editor/right ["l" "right"], :go/backward ["g h"], :go/search "/", :editor/follow-link "alt+o | ctrl+o | enter", :editor/left ["h" "left"], :ui/toggle-left-sidebar "t l semicolon e", :editor/delete-selection "d d", :ui/toggle-document-mode "semicolon d", :go/forward ["g l"], :editor/up ["k" "up"], :editor/down ["j" "down"], :editor/open-edit ["i" "a" "enter"]}
+ {:editor/right ["l" "right"], :go/backward ["g h"], :go/search-in-page "semicolon /", :go/search "/", :editor/follow-link "alt+o | ctrl+o | enter", :editor/left ["h" "left"], :ui/toggle-left-sidebar "t l semicolon e", :editor/delete-selection "d d", :ui/toggle-document-mode "semicolon d", :go/forward ["g l"], :editor/up ["k" "up"], :editor/down ["j" "down"], :editor/open-edit ["i" "a" "enter"]}
  
  ;; Whether to show command doc on hover
  :ui/show-command-doc? false
