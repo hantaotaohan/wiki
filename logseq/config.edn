@@ -144,9 +144,11 @@
 
  ;; Add your own commands to speedup.
  ;; E.g. [["js" "Javascript"]]
+ ;; input "< py | code ... Enter"
  :commands
  [
   ["py" "```python\n\n```"],
+  ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
   ["pytodo" "TODO [[Python]] "],
   ["pydone" "DONE [[Python]] "],
