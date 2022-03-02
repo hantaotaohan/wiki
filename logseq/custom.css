@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css");
-.extensions__code>.CodeMirror {
+.CodeMirror {
     background-color: #282c34;
     font-family: "FiraCode";
     padding-top: 0px;
