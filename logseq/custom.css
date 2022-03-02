@@ -11,7 +11,12 @@
 
 @media (max-width: 414px) {
 
-
+  html,body{
+    overflow-y:overlay;
+  }
+  .scrollbar-spacing {
+    overflow-y: overlay;
+  }
     .block-control, .block-control:hover {
     display: none;
 }
