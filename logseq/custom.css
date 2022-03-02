@@ -14,11 +14,6 @@ body {
   font-family: var(--ls-font-family);
 }
 
-/* 编辑状态下的样式设置 */
-textarea {
-  box-sizing: content-box;
-}
-
 .editor-inner textarea {
     border: none;
     border-radius: 0;
@@ -26,12 +21,6 @@ textarea {
     padding: 0;
     color: #fff;
     resize: none;
-}
-
-.sm\:mr-2 {
-    margin-right: .5rem;
-    min-height: 2rem !important;
-   box-sizing: content-box;
 }
 
 /* 主题颜色配置 */
