@@ -9,7 +9,7 @@
     box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
 
-@media (max-width: 640px) {
+
 #main-container {
   position: absolute;
   width: 100%;
