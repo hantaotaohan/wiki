@@ -37,3 +37,6 @@
   padding-right: 2rem;
   max-width: var(--ct-block-max-width);
 }
+:root {
+  --ls-block-bullet-threading-width: 2px;
+}
