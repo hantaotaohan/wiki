@@ -18,6 +18,7 @@
 	  ```bash
 	  git init <directory>
 	  or
-	  cd 
+	  cd <你想建立仓库的目录中>
+	  
 	  ```
 -
