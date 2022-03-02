@@ -26,13 +26,9 @@
 .block-children-container {
     left: 7px;
 }
-      .block-content {
+.block-content {
     min-height: 24px;
     max-width: 90%;
-    overflow: initial;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    cursor: text;
+
 }
 }
