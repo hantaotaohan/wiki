@@ -10,6 +10,24 @@
 }
 
 
+
+html,
+body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  overscroll-behavior-y: none;
+  -webkit-font-smoothing: auto;
+  line-height: var(--ct-line-height);
+}
+
+textarea {
+  line-height: var(--ct-line-height);
+}
+
+i {
+  font-family: "Only Emoji", "Source Sans 3 VF", sans-serif;
+}
+
 :root {
   --ct-bullet-size: 6px;
   --ct-block-max-width: calc(100% - 38px);
