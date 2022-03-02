@@ -8,3 +8,16 @@
     margin: 1rem;
     box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
+
+@media (max-width: 640px) {
+  html,body{
+    max-width:640px;
+  }
+  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+	left: -7.5px;
+    margin-left: -7.5px; 
+  }
+.block-children-container {
+    left: 7px;
+}
+}
