@@ -5,20 +5,6 @@
 /* 整体页面设置 */
 
 
-/* 编辑状态下的样式设置 */
-textarea {
-  box-sizing: content-box;
-  line-height: var(--ct-line-height);
-}
-
-.editor-inner textarea {
-    border: none;
-    border-radius: 0;
-    background: 0 0;
-    padding: 0;
-    color: #fff;
-    resize: none;
-}
 
 
 /* 主题颜色配置 */
