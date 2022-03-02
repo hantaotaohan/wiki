@@ -9,7 +9,6 @@
     margin: 1rem;
     box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
-
 /* 移动端  iPhone XR */
 /* 1792x828px at 326ppi */
 /* 禁止 ios 左右拖动 */
@@ -24,11 +23,5 @@
 @media (max-width: 896px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -15px;
-}
-}
-
-@media (max-width: 414px) {
-  .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: 2px;
 }
 }
