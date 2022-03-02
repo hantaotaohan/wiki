@@ -145,7 +145,7 @@
  ;; Add your own commands to speedup.
  ;; E.g. [["js" "Javascript"]]
  :commands
-[
+ [
   ["py" "```python\n\n```"],
   ["code" "```\n\n```"],
   ["pytodo" "TODO [[Python]] "],
@@ -153,7 +153,7 @@
   ["pylater" "LATER [[Python]] "],
   ["pynow" "NOW [[Python]] "],
   ["macro" "{{{hl }}}"],
-]
+ ]
 
  ;; Macros replace texts and will make you more productive.
  ;; For example:
