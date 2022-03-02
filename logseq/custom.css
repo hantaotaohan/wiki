@@ -14,7 +14,7 @@
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
   html,body{
-    max-width: 100%;
+    max-width: 50%;
     overflow-x: hidden;
     max-width:414px;
     overflow:auto;
