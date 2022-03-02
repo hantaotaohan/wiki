@@ -14,20 +14,12 @@
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
   html,body{
-    max-width: 50%;
-    overflow-x: hidden;
-    overflow-x: hidden;
+    width: 80%;
   }
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: -7.5px;
-    margin-left: -7.5px; 
+	left: -11px;
   }
 .block-children-container {
     left: 7px;
-}
-.block-content {
-    min-height: 24px;
-    max-width: 90%;
-
 }
 }
