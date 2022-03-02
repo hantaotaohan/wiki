@@ -16,7 +16,7 @@
   html,body{
     overflow-x: hidden;
     max-width:414px;
-    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
   }
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7.5px;
