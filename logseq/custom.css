@@ -14,12 +14,7 @@ body {
 }
 
 .editor-inner textarea {
-    border: none;
-    border-radius: 0;
-    background: 0 0;
-    padding: 0;
     color: #fff;
-    resize: none;
 }
 
 /* 主题颜色配置 */
@@ -196,11 +191,6 @@ mark {
     text-decoration: none;
 }
 
-/* Markdown H1 H2 间距 */
-.editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
-	border-bottom: none;
-    margin: 0em 0 0;
-}
 
 /* 列表的左边线条样式及颜色 */
 /*
@@ -379,8 +369,6 @@ blockquote {
   .block-children-container {
     left: 7px;
 }
-
-
 }
 /* Disable for doc mode */
 .doc-mode div.items-center::before,
