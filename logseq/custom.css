@@ -387,7 +387,7 @@ blockquote {
 }
 
 /* IOS 设置 */
-@media (max-width: 640px) {
+@media (max-width: 375px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7.5px;
     margin-left: -7.5px; 
