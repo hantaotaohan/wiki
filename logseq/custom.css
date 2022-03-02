@@ -21,8 +21,13 @@
 	padding: 64px 32px; 
 }
 
-@media (max-width: 896px) {
+/* IOS 设置 */
+@media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: -15px;
+	left: -7.5px;
+    margin-left: -7.5px; 
+  }
+.block-children-container {
+    left: 7px;
 }
 }
