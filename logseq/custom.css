@@ -15,8 +15,7 @@ html,
 body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
-  overscroll-behavior-y: none;
-  -webkit-font-smoothing: auto;
+
   line-height: var(--ct-line-height);
 }
 
