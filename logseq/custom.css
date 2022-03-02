@@ -22,7 +22,9 @@
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-  padding: 64px 32px;
+	/* padding: 64px 32px; */
+	padding: 10px 10px;
+
 }
 
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
