@@ -1,6 +1,7 @@
 /* 全局变量 */
 :root {
   --ct-text-size: 16px;
+  --ct-line-height: 2.0;
   --ls-font-family:  "Microsoft YaHei UI", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "FireCode", monospace;
@@ -11,10 +12,28 @@ html,
 body {
   font-size: var(--ct-text-size);
   font-family: var(--ls-font-family);
+  line-height: var(--ct-line-height);
+}
+
+/* 编辑状态下的样式设置 */
+textarea {
+  box-sizing: content-box;
+  line-height: var(--ct-line-height);
 }
 
 .editor-inner textarea {
+    border: none;
+    border-radius: 0;
+    background: 0 0;
+    padding: 0;
     color: #fff;
+    resize: none;
+}
+
+.sm\:mr-2 {
+    margin-right: .5rem;
+    min-height: 2rem !important;
+   box-sizing: content-box;
 }
 
 /* 主题颜色配置 */
@@ -203,7 +222,12 @@ mark {
     background-color: #282c34 !important;
 } */
 
-
+.content .block-children-left-border {
+  border-radius: 1.5px;
+  transition: background-color 0.3s;
+  width: 2px;
+  padding-right: 2px;
+}
 
 .block-children-left-border:hover {
   background: #abb2bf55;
@@ -249,7 +273,7 @@ blockquote {
 
 /* 子弹线设置 */
 :root {
-  --ls-block-bullet-active-color: var(--ls-link-text-color);
+  --ls-block-bullet-active-color: #A3CEF1;
   --ls-block-bullet-threading-width: 2px;
 }
 
@@ -295,10 +319,9 @@ blockquote {
 
 /* Block bullet path should only show in a nested block */
 .ls-block {
-  /* Fix for headings like h1, h2 etc */
-  /* Basic "curve" */
-  /* Fix multi-line blocks with children */
+/* Block bullet path should only show in a nested block */
 }
+
 .ls-block .bullet {
   background-color: var(--ls-block-bullet-active-color);
   box-shadow: 0 0 0 1px var(--ls-block-bullet-active-color);
@@ -308,7 +331,8 @@ blockquote {
   height: 26px !important;
 }
 .ls-block > .items-baseline {
-  align-items: initial;
+  /* align-items: initial; */
+      align-items: center !important;
 }
 .ls-block:not(:focus-within) .bullet {
   background-color: var(--ls-block-bullet-color);
@@ -352,7 +376,7 @@ blockquote {
 .ls-block[haschild=true] > div > .block-content-wrapper::before {
   pointer-events: none;
   content: "";
-  top: 12px;
+  top: 20px;
   bottom: 0;
   left: -15px;
   position: absolute;
@@ -362,14 +386,13 @@ blockquote {
   border-color: var(--ls-block-bullet-active-color);
 }
 
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) {
- 	   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	    left: -11px;
+/* IOS 设置 */
+@media (max-width: 640px) {
+  .ls-block[haschild=true] > div > .block-content-wrapper::before {
+	left: -7.5px;
+    margin-left: -7.5px; 
   }
-  .block-children-container {
+.block-children-container {
     left: 7px;
 }
 }
@@ -382,6 +405,6 @@ blockquote {
 }
 
 ::selection {
-  background: #61afef;
-  color: var(--ls-selection-color);
+    background: #282c34;
+    color: #61afef;
 }
