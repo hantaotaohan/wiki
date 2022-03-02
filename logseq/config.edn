@@ -92,7 +92,7 @@
  ;;  :editor/right           ["ctrl+l" "right"]}
  ;;  :shortcuts {}
 :shortcuts
- {:editor/right ["l" "right"], :go/backward "semicolon h", :go/search-in-page "semicolon /", :go/search "/", :editor/follow-link "alt+o | ctrl+o | enter", :editor/left ["h" "left"], :go/home "\\ w", :ui/toggle-left-sidebar "semicolon e", :editor/delete-selection "d d", :editor/toggle-open-blocks "space", :ui/toggle-document-mode "semicolon d", :go/forward "semicolon l", :editor/copy "y y", :editor/up ["k" "up"], :editor/redo "ctrl+r", :editor/down ["j" "down"], :go/journals "\\ w \\ w", :editor/open-edit ["i"], :editor/undo "u"}
+ {:editor/right ["l" "right"], :go/backward "semicolon h", :go/search-in-page "semicolon /", :go/search "/", :editor/follow-link "alt+o | ctrl+o | enter", :editor/left ["h" "left"], :go/home "\\ w", :ui/toggle-left-sidebar "semicolon e", :editor/delete-selection "d d", :editor/toggle-open-blocks "space", :ui/toggle-document-mode "semicolon d", :go/forward "semicolon l", :editor/copy "y y", :editor/up ["k" "up"], :editor/redo "ctrl+r", :editor/down ["j" "down"], :go/journals "\\ w w", :editor/open-edit ["i"], :editor/undo "u"}
  
  ;; Whether to show command doc on hover
  :ui/show-command-doc? false
