@@ -373,9 +373,8 @@ blockquote {
   border-color: var(--ls-block-bullet-active-color);
 }
 
-@media only screen 
-    and (device-width: 375px) 
-    and (device-height: 812px) 
+@media (max-width: 375px) 
+    and (max-width: 812px) 
     and (-webkit-device-pixel-ratio: 3) { 
  	   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	    left: -1px;
