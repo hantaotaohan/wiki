@@ -191,6 +191,11 @@ mark {
     text-decoration: none;
 }
 
+/* Markdown H1 H2 间距 */
+.editor-inner .uniline-block:is(.h1,.h2),.ls-block :is(h1,h2) {
+	border-bottom: none;
+    margin: 0em 0 0;
+}
 
 /* 列表的左边线条样式及颜色 */
 /*
@@ -198,12 +203,7 @@ mark {
     background-color: #282c34 !important;
 } */
 
-.content .block-children-left-border {
-  border-radius: 1.5px;
-  transition: background-color 0.3s;
-  width: 2px;
-  padding-right: 2px;
-}
+
 
 .block-children-left-border:hover {
   background: #abb2bf55;
