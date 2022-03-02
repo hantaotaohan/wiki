@@ -376,7 +376,9 @@ blockquote {
  	   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	    left: -11px;
   }
-  
+  .block-children-container {
+    left: 7px;
+}
 
 
 }
