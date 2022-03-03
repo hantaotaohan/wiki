@@ -98,7 +98,7 @@
   :go/search "/", 
   :editor/follow-link "alt+o | ctrl+o | enter", 
   :editor/left ["left"], 
-  :go/home "\\ ww", 
+  :go/home " ww", 
   :ui/toggle-left-sidebar "semicolon e", 
   :editor/delete-selection "d d", 
   :editor/toggle-open-blocks "space", 
