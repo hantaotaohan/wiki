@@ -91,6 +91,7 @@
  ;;  :editor/left            ["ctrl+h" "left"]
  ;;  :editor/right           ["ctrl+l" "right"]}
  ;;  :shortcuts {}
+ 
 :shortcuts
  {:editor/right ["right"], 
   :go/backward ["shift+h" "backspace"], 
