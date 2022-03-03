@@ -393,10 +393,13 @@ blockquote {
 /* IOS 设置 */
 @media (max-width: 414px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
-	left: -7.5px;
-    margin-left: -7.5px; 
+	left: -11px;
   }
-
+body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  line-height: 0px;
+}
     .cp__sidebar-main-content {
     padding: 0px 2px 0px 1px !important;
     border: none;
