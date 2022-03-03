@@ -404,9 +404,6 @@ blockquote {
       width:100%;
     border: none;
   }
-   #main-content-container {
-    padding: 0;
-  }
 
 }
 /* Disable for doc mode */
