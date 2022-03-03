@@ -92,12 +92,12 @@
  ;;  :editor/right           ["ctrl+l" "right"]}
  ;;  :shortcuts {}
 :shortcuts
- {:editor/right ["l" "right"], 
-  :go/backward "semicolon h", 
+ {:editor/right ["right"], 
+  :go/backward ["shift+h" "backspace"], 
   :go/search-in-page "semicolon /", 
   :go/search "/", 
   :editor/follow-link "alt+o | ctrl+o | enter", 
-  :editor/left ["h" "left"], 
+  :editor/left ["left"], 
   :go/home "\\ ww", 
   :ui/toggle-left-sidebar "semicolon e", 
   :editor/delete-selection "d d", 
