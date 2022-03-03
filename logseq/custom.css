@@ -217,12 +217,6 @@ mark {
     background-color: #282c34 !important;
 } */
 
-.content .block-children-left-border {
-  border-radius: 1.5px;
-  transition: background-color 0.3s;
-  width: 2px;
-  padding-right: 2px;
-}
 
 .block-children-left-border:hover {
   background: #abb2bf55;
