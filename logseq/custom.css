@@ -399,7 +399,7 @@ blockquote {
 .block-children-container {
     left: 7px;
 }
-    .cp__sidebar-main-content > div {
+    .cp__sidebar-main-content {
     padding: 1px 1em 1em 1em !important;
     border: none;
   }
