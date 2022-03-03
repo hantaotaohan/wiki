@@ -421,7 +421,7 @@ blockquote {
 	width: 100%;
 }*/
 
-/* .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+ .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
 	padding: 64px 32px; 
    overflow-x:auto;
 }
