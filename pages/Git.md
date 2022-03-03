@@ -21,7 +21,7 @@
 	  cd <directory>
 	  git init
 	  ```
-- 当你在版本控制库的工作区内编辑完文件想要恢复到提交到版本库的最新的一次版本,那么就可以使用 [[git reset]] 命令
-  ```bash
-  git reset --hard
-  ```
+	- 当你在版本控制库的工作区内编辑完文件想要恢复到提交到版本库的最新的一次版本,那么就可以使用 [[git reset]] 命令
+	  ```bash
+	  git reset --hard
+	  ```
