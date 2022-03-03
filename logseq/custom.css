@@ -1,1 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css");
+html,
+body {
+  font-size: var(--ct-text-size);
+  font-family: Saber;
+  line-height: var(--ct-line-height);
+}
