@@ -401,6 +401,7 @@ blockquote {
 }
     .cp__sidebar-main-content {
     padding: 1px 1em 1em 1em !important;
+      width:100%;
     border: none;
   }
    #main-content-container {
