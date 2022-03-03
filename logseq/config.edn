@@ -94,7 +94,7 @@
  
 :shortcuts
  {:editor/right ["right"], 
-  :go/backward ["shift+h" "backspace"], 
+  :go/backward ["shift+h"], 
   :go/search-in-page "semicolon /", 
   :go/search "/", 
   :editor/follow-link "alt+o | ctrl+o | enter", 
@@ -104,7 +104,7 @@
   :editor/delete-selection "d d", 
   :editor/toggle-open-blocks "space", 
   :ui/toggle-document-mode "semicolon d", 
-  :go/forward "semicolon l", 
+  :go/forward ["shift+l"], 
   :editor/copy "y y", 
   :editor/up ["k" "up"], 
   :editor/redo "ctrl+r", 
