@@ -14,7 +14,7 @@
 			- Staged 已暂存
 			- Committed 已提交
 - ## 使用方法
-	- 当你需要建立一个版本控制库的时候可以使用`git init`命令 `git`
+	- 当你需要建立一个版本控制库的时候可以使用[`git init`]命令 `git`
 	- ```bash
 	  git init <directory>
 	  # 或者进入到你希望建立版本控制库的文件夹内
