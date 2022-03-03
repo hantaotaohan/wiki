@@ -191,7 +191,7 @@
  :feature/enable-timetracking? false
  :publishing/all-pages-public? true
  :git-auto-push true
- :editor/logical-outdenting? true
+ :editor/logical-outdenting? false
  :ui/show-brackets? false
  :graph/settings {:builtin-pages? false, :journal? false, :orphan-pages? false}
  :preferred-format :markdown
