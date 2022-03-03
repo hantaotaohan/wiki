@@ -400,7 +400,7 @@ blockquote {
     left: 7px;
 }
     .cp__sidebar-main-content {
-    padding: 1px 1em 1em 1em !important;
+    padding: 1px 1px 1em 1px !important;
       width:100%;
     border: none;
   }
