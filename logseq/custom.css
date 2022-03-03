@@ -399,6 +399,10 @@ blockquote {
 .block-children-container {
     left: 7px;
 }
+    .cp__sidebar-main-content > div {
+    padding: 1px 1em 1em 1em !important;
+    border: none;
+  }
 }
 /* Disable for doc mode */
 .doc-mode div.items-center::before,
@@ -417,7 +421,3 @@ blockquote {
 /* 移动端  iPhone XR */
 /* 1792x828px at 326ppi */
 /* 禁止 ios 左右拖动 */
- .cp__sidebar-main-content {
-	width: 100%;
-padding: 0px 10px 0px 15px;
-}
