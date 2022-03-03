@@ -30,12 +30,6 @@ textarea {
     resize: none;
 }
 
-.sm\:mr-2 {
-    margin-right: .5rem;
-    min-height: 2rem !important;
-   box-sizing: content-box;
-}
-
 /* 主题颜色配置 */
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
