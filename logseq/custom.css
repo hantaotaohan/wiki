@@ -419,5 +419,5 @@ blockquote {
 /* 禁止 ios 左右拖动 */
  .cp__sidebar-main-content {
 	width: 100%;
-padding: 64px 32px;
+padding: 0px 10px 0px 15px;
 }
