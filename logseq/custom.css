@@ -395,10 +395,12 @@ blockquote {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -11px;
   }
-body {
-  font-size: var(--ct-text-size);
-  font-family: var(--ls-font-family);
-  line-height: 0px;
+:root {
+  --ct-text-size: 16px;
+  --ct-line-height: 0;
+  --ls-font-family:  Inter, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", sans-serif;
+  --ct-page-title-font-family: var(--ls-font-family);
+  --ct-code-font-family: "FireCode", monospace;
 }
     .cp__sidebar-main-content {
     padding: 0px 2px 0px 1px !important;
