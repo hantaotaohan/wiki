@@ -422,6 +422,6 @@ blockquote {
    overflow-x:hidden;
 }
 
-.cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
+/* .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
 	padding: 64px 32px; 
 }
