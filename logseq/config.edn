@@ -93,7 +93,7 @@
  ;;  :shortcuts {}
  
 :shortcuts
- {:editor/right ["right"], :go/backward ["shift+h"], :go/search-in-page "semicolon /", :go/search "/", :editor/kill-line-before "alt+k", :editor/follow-link "alt+o | ctrl+o | enter", :ui/toggle-contents "semicolon t", :editor/left ["left"], :ui/toggle-left-sidebar "semicolon e", :editor/delete-selection "d d", :ui/toggle-document-mode "semicolon d", :go/forward ["shift+l"], :editor/copy "y y", :editor/up ["k" "up"], :editor/redo "ctrl+r", :editor/down ["j" "down"], :editor/open-edit ["i"], :editor/kill-line-after "alt+u", :editor/undo "u"}
+ {:editor/right ["right"], :editor/expand-block-children "space", :go/backward ["shift+h"], :go/search-in-page "semicolon /", :go/search "/", :editor/kill-line-before "alt+k", :editor/follow-link "alt+o | ctrl+o | enter", :ui/toggle-contents "semicolon t", :editor/left ["left"], :ui/toggle-left-sidebar "semicolon e", :editor/delete-selection "d d", :ui/toggle-document-mode "semicolon d", :go/forward ["shift+l"], :editor/copy "y y", :editor/up ["k" "up"], :editor/redo "ctrl+r", :editor/down ["j" "down"], :editor/open-edit ["i"], :editor/kill-line-after "alt+u", :editor/undo "u"}
  
  ;; Whether to show command doc on hover
  :ui/show-command-doc? false
