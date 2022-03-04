@@ -29,11 +29,8 @@ textarea {
   line-height: var(--ct-line-height);
 }
 
+/* 编辑状态下的block高亮样式设置 */
 .editor-inner textarea {
-    border: none;
-    border-radius: 0;
-    background: 0 0;
-    padding: 0;
     color: #fff;
     resize: none;
 }
