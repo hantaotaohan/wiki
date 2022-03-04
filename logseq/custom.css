@@ -40,6 +40,7 @@ textarea {
     position: relative;
     align-self: baseline !important;
     height: var(--ct-line-height); !important;
+    min-height: 100%;
     margin: 0rem 0.5rem 0rem 0rem !important;
 }
 
