@@ -18,9 +18,9 @@ body {
 
 /* 段落间距 */
 .pr-2 {
-    padding-right: var(--ct-line-height)*0.25;
-    margin-top: var(--ct-line-height)*0.25;
-    margin-bottom: var(--ct-line-height)*0.25;
+    padding-right: calc(var(--ct-line-height)*0.25);
+    margin-top: calc(var(--ct-line-height)*0.25);
+    margin-bottom: calc(var(--ct-line-height)*0.25);
 }
 
 /* 编辑状态下的样式设置 */
