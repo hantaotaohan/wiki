@@ -344,7 +344,7 @@ blockquote {
 }
 .ls-block div.items-center {
   position: relative;
-  height: 26px !important;
+  height: 2rem !important;
 }
 .ls-block > .items-baseline {
   /* align-items: initial; */
