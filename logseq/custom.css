@@ -37,11 +37,12 @@ textarea {
 
 .ls-block div.items-center {
     position: relative;
-    align-self: baseline;
+    align-self: baseline !important;
     height: 2rem !important;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
 }
+
 /*
 .sm\:mr-2 {
     margin-right: .5rem;
