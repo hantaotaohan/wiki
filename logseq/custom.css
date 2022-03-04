@@ -35,7 +35,7 @@ textarea {
     resize: none;
 }
 
-@media (min-width: 640px)
+@media (min-width: 640px){
 .sm\:mr-2 {
     position: relative;
     align-self: baseline !important;
@@ -43,7 +43,7 @@ textarea {
     margin-top: .5rem !important;
     margin-bottom: .5rem !important;
 }
-
+}
 
 /*
 .sm\:mr-2 {
