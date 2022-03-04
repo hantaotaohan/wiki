@@ -1,8 +1,1 @@
-@import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@Version6.0/custom.css");
-
-/* 段落间距 */
-.pr-2 {
-  padding-right: calc(var(--ct-line-height)*0.25); /* .5rem */
-  margin-top: calc(var(--ct-line-height)*0.08); /* .5rem */
-  margin-bottom: calc(var(--ct-line-height)*0.08); /* .5rem */ 
-}
+@import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css");
