@@ -38,7 +38,7 @@ textarea {
 .ls-block div.items-center {
     position: relative;
     align-self: baseline !important;
-    height: 0rem !important;
+    height: 2rem !important;
     min-height: 24px !important;
     margin: 0rem 0.5rem 0rem 0rem !important;
 }
