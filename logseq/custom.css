@@ -1,7 +1,7 @@
 /* @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css"); */
 /* 全局变量 */
 :root {
-  --ct-text-size: 1rem;
+  --ct-text-size: 1.5rem;
   --ct-line-height: 2rem;
   --ls-font-family:  Inter, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
@@ -35,6 +35,7 @@ textarea {
     resize: none;
 }
 
+/* block符号和block内的文字center */
 .ls-block div.items-center {
     position: relative;
     align-self: baseline !important;
@@ -43,13 +44,6 @@ textarea {
     margin: 0rem 0.5rem 0rem 0rem !important;
 }
 
-/*
-.sm\:mr-2 {
-    margin-right: .5rem;
-    min-height: 2rem !important;
-   box-sizing: content-box;
-}
-*/
 /* 主题颜色配置 */
 .dark-theme,html[data-theme=dark] {
 	--ls-primary-background-color: #282c34;
