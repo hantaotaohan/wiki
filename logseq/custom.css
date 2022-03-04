@@ -414,8 +414,6 @@ blockquote {
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-
-      overflow-x: hidden;
 }
 }
 /* Disable for doc mode */
