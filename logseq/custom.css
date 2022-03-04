@@ -411,8 +411,8 @@ blockquote {
 /* 禁止 ios 左右拖动 */
   .cp__sidebar-main-content {
 	width: 100%;
-	max-width: 90%;
-    flex: 1;
+	max-width: 100%;
+    flex: none;
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
