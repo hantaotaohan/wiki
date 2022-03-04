@@ -357,7 +357,7 @@ blockquote {
   content: "";
   left: calc(var(--ls-block-bullet-threading-width) * -1);
   right: 6px;
-  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1px);
+  top: calc(-50% + var(--ls-block-bullet-threading-width) * 0.5 - 1rem);
   bottom: 50%;
   /* shift left 1px for border */
   position: absolute;
