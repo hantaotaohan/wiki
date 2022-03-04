@@ -411,6 +411,7 @@ blockquote {
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
 	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+      overflow-x: hidden;
 }
 }
 /* Disable for doc mode */
@@ -426,7 +427,3 @@ blockquote {
     background: #282c34;
     color: #61afef;
 }
-
-/* 移动端  iPhone XR */
-/* 1792x828px at 326ppi */
-/* 禁止 ios 左右拖动 */
