@@ -35,14 +35,12 @@ textarea {
     resize: none;
 }
 
-@media (min-width: 640px){
-.sm\:mr-2 {
+.ls-block div.items-center {
     position: relative;
     align-self: baseline;
     height: 2rem !important;
     margin-top: .5rem;
     margin-bottom: .5rem;
-}
 }
 /*
 .sm\:mr-2 {
