@@ -400,7 +400,7 @@ blockquote {
 @media (max-width: 640px) {
   .ls-block[haschild=true] > div > .block-content-wrapper::before {
 	left: -7.5px;
-
+    margin-left: -7.5px; 
   }
   .block-children-container {
     left: 7px;
