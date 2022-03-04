@@ -405,6 +405,10 @@ blockquote {
   .block-children-container {
     left: 7px;
 }
+  
+  /* 移动端  iPhone XR */
+/* 1792x828px at 326ppi */
+/* 禁止 ios 左右拖动 */
   .cp__sidebar-main-content {
 	width: 100%;
 }
