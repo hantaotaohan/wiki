@@ -329,7 +329,7 @@ blockquote {
 
 /* Block bullet path should only show in a nested block */
 .ls-block {
-/* Block bullet path should only show in a nested block */
+  text-align: justify;
 }
 
 .ls-block .bullet {
