@@ -410,7 +410,7 @@ blockquote {
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-	padding: 0.5rem 0.2rem 0.1rem 0.1rem;
+	margin: 0.1rem 0.1rem 0.1rem 0.1rem;
 }
 }
 /* Disable for doc mode */
