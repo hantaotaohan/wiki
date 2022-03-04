@@ -402,9 +402,6 @@ blockquote {
 	left: -7.5px;
     margin-left: -7.5px; 
   }
-.block-children-container {
-    left: 7px;
-}
 }
 /* Disable for doc mode */
 .doc-mode div.items-center::before,
@@ -428,5 +425,5 @@ blockquote {
 }
 
 .cp__sidebar-main-content:not([data-is-global-graph-pages=true]) > div {
-	padding: 64px 32px; 
+	padding: 0.5rem 0.1rem 0.1rem 0.1rem;
 }
