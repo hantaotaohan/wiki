@@ -62,5 +62,24 @@
 	  git log
 	  # 选择某一条提交记录，并使用git checkout 命令将该条记录的状态存# 放到当前工作区，并建立一个临时的分支
 	  git checkout <commit id>
-	  # 如果不满意想撤销，可与使用 git chenkout <branch name> 
+	  # 如果不满意想撤销，可与使用如下命令
+	   git chenkout <branch name> 
+	  ```
+	- 如果你仅仅想恢复某一次提交的其中某一个文件或者文件夹也可以使用 [[git checkout]] 命令
+	  ```bash
+	  git checkout [<commit id>] [--] <paths> or <files>
+	  ```
+	  > 如果不填写 commit id 那么默认情况下会从暂存区检出该文件，如果暂存区也是空的，那么默认从最新的提交记录中检出该文件.
+	- 当然在开发过程中，新建一个分支也是一个相当不错的选择，同样也需要使用 [[git checkout]] 命令
+	  ```bash
+	  # 新建分支的方法
+	  git branch <branch name>
+	  # 新建分支并且直接切换到该分支
+	  git checkout -b <new branch>
+	  # 切换到分支
+	  git checkout <branch name>
+	  # 删除本地分支
+	  git branch -d <local branch>
+	  # 删除远程分支
+	  git push origin -d <remote branch name>
 	  ```
