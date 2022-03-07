@@ -3,7 +3,7 @@
 /* Bold */
 b,
 strong {
-  color: var(--ct-bold-color);
+  color: #e06c75;
   font-weight: 600;
 }
 
