@@ -1,8 +1,4 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css");
-.CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like {
-    padding-left: 1rem;
-    word-wrap: break-all;
-}
 
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
     background-color: #000;
