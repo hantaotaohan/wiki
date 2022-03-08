@@ -15,3 +15,12 @@ pre {
     white-space: normal;
     word-wrap: break-word !important;
 }
+
+.CodeMirror:not(.CodeMirror-focused) .CodeMirror-activeline-background {
+    background: var(--ls-secondary-background-color,#f6f8fa);
+    margin: 1rem 0;
+    line-height: 1.45em;
+    word-break: break-all;
+    /* overflow: auto; */
+    white-space: normal;
+    word-wrap: break-word !important;
