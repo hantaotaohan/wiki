@@ -4,3 +4,9 @@
     white-space: break-spaces;
     word-wrap: break-all;
 }
+
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+    background-color: #000;
+    border-right-color: #000;
+    border-right-style: solid;
+}
