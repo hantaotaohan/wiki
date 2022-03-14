@@ -1,11 +1,13 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css");
 
+/* 主代码框数字边栏设置 */
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
     background-color: #000;
     border-right-color: #000;
     border-right-style: solid;
 }
 
+/* 页面内代码宽度固定 */
 pre {
     background: var(--ls-secondary-background-color,#f6f8fa);
     margin: 1rem 0;
