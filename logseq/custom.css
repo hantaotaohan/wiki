@@ -16,3 +16,9 @@ pre {
     white-space: normal;
     word-wrap: break-word !important;
 }
+
+/* 分割线设置 */
+hr {
+    margin: 1rem 0;
+    border-color: var(--ls-border-color,#ccc);
+}
