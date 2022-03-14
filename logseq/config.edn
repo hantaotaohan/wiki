@@ -171,7 +171,7 @@
   "hlk" "<mark class='pink'>$1</mark>"
  }
  
- :markdown/version 3
+ :markdown/version 2
 
  ;; The default level to be opened for the linked references.
  ;; For example, if we have some example blocks like this:
