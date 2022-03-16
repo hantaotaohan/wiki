@@ -1,5 +1,6 @@
-- {{query (and (not (todo now later todo doing)) (page [[任务收集箱]] ))}}
+- {{query (and (not (todo now later todo doing)))}}
   query-sort-by:: block
   query-table:: false
   query-sort-desc:: false
+-
 -
