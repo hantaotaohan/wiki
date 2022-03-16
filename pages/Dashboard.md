@@ -12,3 +12,4 @@
 - ## Done
   background-color:: #497d46
 	- {{query (todo done)}}
+	  query-table:: false
