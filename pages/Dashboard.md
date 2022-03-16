@@ -9,3 +9,5 @@
   background-color:: #264c9b
 	- {{query (todo later)}}
 - ## Done
+  background-color:: #497d46
+	- {{query (todo done)}}
