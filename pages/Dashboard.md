@@ -8,7 +8,7 @@
 - ## Later
   background-color:: #264c9b
 	- {{query (todo later)}}
-	  query-table:: true
+	  query-table:: false
 - ## Done
   background-color:: #497d46
 	- {{query (todo done)}}
