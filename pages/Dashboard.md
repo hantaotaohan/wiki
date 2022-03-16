@@ -1,4 +1,4 @@
-- # Now
+- ## Now
   background-color:: #793e3e
 	- {{query (todo now)}}
 	  query-sort-by:: block
