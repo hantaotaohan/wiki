@@ -3,5 +3,6 @@
 	  query-sort-by:: block
 	  query-table:: false
 	  query-sort-desc:: false
-- {{query (todo now later todo doing)}}
+-
+- {{query (todo later)}}
 -
