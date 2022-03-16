@@ -1,4 +1,4 @@
-- {{query TODO DOING}}
+- {{query todo now later}}
   query-sort-by:: block
   query-table:: false
   query-sort-desc:: false
