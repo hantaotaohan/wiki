@@ -5,5 +5,6 @@
 	  query-table:: false
 	  query-sort-desc:: false
 - # Later
+  background-color:: #264c9b
 - {{query (todo later)}}
 -
