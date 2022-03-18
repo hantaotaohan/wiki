@@ -8,13 +8,11 @@
 }
 
 /* 页面内代码宽度固定 */
-div.CodeMirror-cursors {
-    background: var(--ls-secondary-background-color,#f6f8fa);
-    margin: 1rem 0;
-    line-height: 1.45em;
-    word-break: break-all;
-    white-space: normal;
-    word-wrap: break-word !important;
+.extensions__code {
+  margin-top: 8px;
+}
+.extensions__code-lang + div {
+  margin-top: 0 !important;
 }
 
 /* 分割线设置 */
