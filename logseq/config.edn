@@ -146,10 +146,6 @@
   ["py" "```python\n\n```"],
   ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
-  ["pytodo" "TODO [[Python]] "],
-  ["pydone" "DONE [[Python]] "],
-  ["pylater" "LATER [[Python]] "],
-  ["pynow" "NOW [[Python]] "],
   ["macro" "{{{hl }}}"],
  ]
 
