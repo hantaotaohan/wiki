@@ -171,13 +171,6 @@
  
  :markdown/version 2
 
- ;; By default, a block can only be collapsed if it has some children.
- ;; `:outliner/block-title-collapse-enabled? true` enables a block with a title
- ;; (multiple lines) can be collapsed too. For example:
- ;; - block title
- ;;   block content
- :outliner/block-title-collapse-enabled? true
- 
  ;; The default level to be opened for the linked references.
  ;; For example, if we have some example blocks like this:
  ;; - a [[page]] (level 1)
@@ -190,9 +183,6 @@
  :ref/default-open-blocks-level 2
  :ref/linked-references-collapsed-threshold 50
 
- ;; Extra CodeMirror options
- :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
- 
  :feature/enable-journals? true
  ;; :default-home {:page "Contents"}
  :journal/file-name-format "yyyy-MM-dd"
@@ -212,4 +202,7 @@
 
  ;; the initial interval after the first successful review of a card (default 4)
  ;; :srs/initial-interval 4
+ 
+ ;; Extra CodeMirror options
+ :editor/extra-codemirror-options {:lineWrapping true}
  }
