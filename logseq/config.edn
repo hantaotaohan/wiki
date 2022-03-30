@@ -171,6 +171,13 @@
  
  :markdown/version 2
 
+ ;; By default, a block can only be collapsed if it has some children.
+ ;; `:outliner/block-title-collapse-enabled? true` enables a block with a title
+ ;; (multiple lines) can be collapsed too. For example:
+ ;; - block title
+ ;;   block content
+ :outliner/block-title-collapse-enabled? true
+ 
  ;; The default level to be opened for the linked references.
  ;; For example, if we have some example blocks like this:
  ;; - a [[page]] (level 1)
