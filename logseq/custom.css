@@ -466,8 +466,7 @@ blockquote {
 /* 页面内代码宽度固定 */
 pre {
     background: var(--ls-secondary-background-color,#f6f8fa);
-    margin: 1rem 0;
-    line-height: 1.45em;
+
 
 }
 
