@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css"); 
 @import url("https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css");
-
+html { font-family: Hack, monospace; }
 /* 主代码框数字边栏设置 
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
     background-color: #000;
