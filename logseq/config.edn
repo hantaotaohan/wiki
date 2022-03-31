@@ -150,7 +150,6 @@
   ["Blue" [[:editor/input "<mark class='blue'></mark>" {:backward-pos 7}]]],
   ["Green" [[:editor/input "<mark class='green'></mark>" {:backward-pos 7}]]],
   ["Gray" [[:edior/input "<mark class='gray'></mark>" {:backward-pos 7}]]],
-  ["Grey" [[:editor/input "<mark class='grey'></mark>" {:backward-pos 7}]]],
   ["Orange" [[:editor/input "<mark class='orange'></mark>" {:backward-pos 7}]]],
   ["Pink" [[:editor/input "<mark class='pink'></mark>" {:backward-pos 7}]]],
   ["Red" [[:editor/input "<mark class='red'></mark>" {:backward-pos 7}]]],
