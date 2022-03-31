@@ -31,7 +31,7 @@ hr {
     border-color: var(--ls-border-color,#ccc);
 }
 
-
+/* 高亮设置 */
 mark.yellow {
   background-color: #E5C07B80;
   color: #FFFFFF;
