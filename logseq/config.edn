@@ -149,7 +149,7 @@
   ["macro" "{{{hl }}}"],
   ["Blue" [[:editor/input "[:mark {:class blue} \"\"]" {:backward-pos 2}]]],
   ["Green" [[:editor/input "[:mark {:class green} \"\"]" {:backward-pos 2}]]],
-  ["Red" [[:editor/input "[:mark {:class red} \"\"]" {:backward-pos 2}]]],
+  ["Red" [[:editor/input "[:mark {:class red} \" Question：\"]" {:backward-pos 2}]]],
   ["Yellow" [[:editor/input "[:mark {:class yellow} \"\"]" {:backward-pos 2}]]],
  ]
 
