@@ -23,3 +23,44 @@ hr {
 }
 
 */
+
+mark.yellow {
+  background-color: #ffe85580;
+}
+
+mark.pink {
+  background-color: #ff89be80;
+}
+
+mark.blue {
+  background-color: #84b5ff80;
+}
+
+mark.green {
+  background-color: #97ff9780;
+}
+
+mark.red {
+  background-color: #ff558280;
+}
+
+mark.grey {
+  background-color: #80808080;
+}
+
+mark.gray {
+  background-color: #80808080;
+}
+
+mark.orange {
+  background-color: #ffb86c80;
+}
+
+mark.purple {
+  background-color: #c097ff80;
+}
+
+.block-ref {
+  padding: 2px 0 2px 0;
+  display: inline;
+}
