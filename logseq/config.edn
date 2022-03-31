@@ -147,7 +147,6 @@
   ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
   ["macro" "{{{hl }}}"],
-  ["Blue Highlighter" [[:editor/input "[:mark {:class blue}] """]]]
  ]
 
  ;; Macros replace texts and will make you more productive.
@@ -168,6 +167,7 @@
   "hlb" "<mark class='blue'>$1</mark>"
   "hlp" "<mark class='purple'>$1</mark>"
   "hlk" "<mark class='pink'>$1</mark>"
+  "hl" "[:mark {:class blue}] $1"
  }
  
  :markdown/version 2
