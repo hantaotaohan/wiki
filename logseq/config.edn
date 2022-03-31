@@ -147,7 +147,7 @@
   ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
   ["macro" "{{{hl }}}"],
-  ["Blue" [[:editor/input "[:mark {:class blue} \"\"]" {:backward-pos 3}]]],
+  ["Blue" [[:editor/input "[:mark {:class blue} \"\"]" {:backward-pos 2}]]],
   ["Green" [[:editor/input "<mark class='green'></mark>" {:backward-pos 7}]]],
   ["Gray" [[:edior/input "<mark class='gray'></mark>" {:backward-pos 7}]]],
   ["Orange" [[:editor/input "<mark class='orange'></mark>" {:backward-pos 7}]]],
