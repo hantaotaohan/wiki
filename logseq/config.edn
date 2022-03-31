@@ -147,7 +147,7 @@
   ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
   ["macro" "{{{hl }}}"],
-  ["Blue Highlighter" [[:editor/input "<mark class='blue'></mark>"]]],
+  ["Blue" [[:editor/input "<mark class='blue'></mark>"]]],
  ]
 
  ;; Macros replace texts and will make you more productive.
