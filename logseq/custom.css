@@ -25,13 +25,12 @@ body,
   margin-top: 0 !important;
 }
 
-/* 分割线设置 
+/* 分割线设置  */
 hr {
     margin: 1rem 0;
     border-color: var(--ls-border-color,#ccc);
 }
 
-*/
 
 mark.yellow {
   background-color: #E5C07B80;
