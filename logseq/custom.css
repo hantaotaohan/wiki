@@ -24,39 +24,36 @@ hr {
 
 */
 
-himark.yellow {
+mark.yellow {
   background-color: #E5C07B80;
+  color: #ABB2BF;
 }
 
-himark.pink {
+mark.pink {
   background-color: #C678DD80;
+  color: #ABB2BF;
 }
 
-himark.blue {
+mark.blue {
   background-color: #61AFEF80;
 }
 
-himark.green {
+mark.green {
   background-color: #98C37980;
 }
 
-himark.red {
+mark.red {
   background-color: #E06C7580;
 }
 
-himark.gray {
+mark.gray {
   background-color: #ABB2BF80;
 }
 
-himark.orange {
+mark.orange {
   background-color: #ffb86c80;
 }
 
-himark.purple {
+mark.purple {
   background-color: #c097ff80;
-}
-
-.block-ref {
-  padding: 2px 0 2px 0;
-  display: inline;
 }
