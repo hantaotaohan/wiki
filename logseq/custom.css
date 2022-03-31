@@ -38,11 +38,6 @@ mark.yellow {
   color: #FFFFFF;
 }
 
-mark.pink {
-  background-color: #C678DD80;
-  color: #FFFFFF;
-}
-
 mark.blue {
   background-color: #61AFEF80;
   color: #FFFFFF;
@@ -56,24 +51,4 @@ mark.green {
 mark.red {
   background-color: #E06C7580;
   color: #FFFFFF;
-}
-
-mark.gray {
-  background-color: #ABB2BF80;
-  color: #FFFFFF;
-}
-
-mark.orange {
-  background-color: #ffb86c80;
-  color: #FFFFFF;
-}
-
-mark.purple {
-  background-color: #c097ff80;
-  color: #FFFFFF;
-}
-
-.block-ref {
-  padding: 2px 0 2px 0;
-  display: inline;
 }
