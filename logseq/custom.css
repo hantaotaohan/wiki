@@ -1,12 +1,4 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark@latest/custom.css"); 
-@import url("https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css");
-
-html,
-body,
-.root {
-  font-family: Hack;
-}
-
 
 
 
@@ -17,7 +9,7 @@ body,
     border-right-style: solid;
 }
 
-/* 页面内代码宽度固定 
+/* 页面内代码宽度固定 */
 .extensions__code {
   margin-top: 8px;
 }
