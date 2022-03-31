@@ -1,14 +1,1 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css");
-
-@import url("https://cdn.jsdelivr.net/npm/nerdfonts-web@1.0.1/nf.css");
-@font-face {
-    font-family: 'NerdFontsSymbols Nerd Font';
-    src: url("./Symbols-2048-em Nerd Font Complete.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal
-}
-
-body {
-    font-family: 'NerdFontsSymbols Nerd Font';
-    font-size: 16px;
-}
