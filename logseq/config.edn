@@ -148,8 +148,8 @@
   ["code" "```\n\n```"],
   ["macro" "{{{hl }}}"],
   ["Blue" [[:editor/input "[:mark {:class blue} \"\"]" {:backward-pos 2}]]],
-  ["a" [[:editor/input "[:mark {:class green} \" Answer：\"]"  ]]],
-  ["q" [[:editor/input "[:mark {:class red} \" Question：\"]"  ]]],
+  ["a" [[:editor/input "[:mark {:class green} \" Answer: \"]" " " ]]],
+  ["q" [[:editor/input "[:mark {:class red} \" Question: \"]" " " ]]],
   ["Yellow" [[:editor/input "[:mark {:class yellow} \"\"]" {:backward-pos 2}]]],
  ]
 
