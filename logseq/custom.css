@@ -63,3 +63,8 @@ mark.purple {
   background-color: #c097ff80;
   color: #FFFFFF;
 }
+
+.block-ref {
+  padding: 2px 0 2px 0;
+  display: inline;
+}
