@@ -16,7 +16,6 @@
 		- 将暂存区的文件提交到储存库
 		  > git commit ‘’<message>‘’
 		- 因此被版本控制系统的文件将会有三种状态
-		  collapsed:: true
 			- Modified 已修改
 			- Staged 已暂存
 			- Committed 已提交
