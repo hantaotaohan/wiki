@@ -1,1 +1,9 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css");
+
+:root {
+  --ls-block-bullet-active-color: var(--ls-link-text-color);
+  --ls-block-bullet-threading-width: var(
+    --ls-block-bullet-threading-width-overwrite,
+    1px
+  );
+}
