@@ -147,6 +147,10 @@
   ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
   ["macro" "{{{hl }}}"],
+  ["Blue" [[:editor/input "[:mark {:class blue} \"\"]" {:backward-pos 2}]]],
+  ["r" [[:editor/input "[:mark {:class green} \" Respond \"]\t" ,]]],
+  ["q" [[:editor/input "[:mark {:class red} \" Question \"]\t" ]]],
+  ["Yellow" [[:editor/input "[:mark {:class yellow} \"\"]" {:backward-pos 2}]]],
  ]
 
  ;; Macros replace texts and will make you more productive.
@@ -182,14 +186,14 @@
  :journal/file-name-format "yyyy-MM-dd"
  :journal/page-title-format "yyyy-MM-dd"
  :date-formatter "yyyy-MM-dd"
- :feature/enable-timetracking? true
+ :feature/enable-timetracking? false
  :publishing/all-pages-public? true
  :git-auto-push true
  :editor/logical-outdenting? false
  :ui/show-brackets? false
  :graph/settings {:builtin-pages? false, :journal? false, :orphan-pages? false}
  :preferred-format :markdown
- :favorites ["Template" "contents" "Dashboard"]
+ :favorites ["contents" "Dashboard"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5

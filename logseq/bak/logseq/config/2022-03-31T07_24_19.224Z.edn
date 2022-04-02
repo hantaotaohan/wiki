@@ -146,6 +146,10 @@
   ["py" "```python\n\n```"],
   ["bash" "```bash\n\n```"],
   ["code" "```\n\n```"],
+  ["pytodo" "TODO [[Python]] "],
+  ["pydone" "DONE [[Python]] "],
+  ["pylater" "LATER [[Python]] "],
+  ["pynow" "NOW [[Python]] "],
   ["macro" "{{{hl }}}"],
  ]
 
@@ -161,6 +165,12 @@
   "poem" "Rose is $1, violet's $2. Life's ordered: Org assists you."
   "hlr" "<mark class='red'>$1</mark>"
   "hlo" "<mark class='orange'>$1</mark>"
+  "hly" "<mark class='yellow'>$1</mark>"
+  "hlg" "<mark class='green'>$1</mark>"
+  "hlc" "<mark class='cyan'>$1</mark>"
+  "hlb" "<mark class='blue'>$1</mark>"
+  "hlp" "<mark class='purple'>$1</mark>"
+  "hlk" "<mark class='pink'>$1</mark>"
  }
  
  :markdown/version 2
@@ -182,21 +192,18 @@
  :journal/file-name-format "yyyy-MM-dd"
  :journal/page-title-format "yyyy-MM-dd"
  :date-formatter "yyyy-MM-dd"
- :feature/enable-timetracking? true
+ :feature/enable-timetracking? false
  :publishing/all-pages-public? true
  :git-auto-push true
  :editor/logical-outdenting? false
  :ui/show-brackets? false
  :graph/settings {:builtin-pages? false, :journal? false, :orphan-pages? false}
  :preferred-format :markdown
- :favorites ["Template" "contents" "Dashboard"]
+ :favorites ["contents" "Dashboard"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
 
  ;; the initial interval after the first successful review of a card (default 4)
  ;; :srs/initial-interval 4
- 
- ;; Extra CodeMirror options
- :editor/extra-codemirror-options {:lineWrapping true}
  }
