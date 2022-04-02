@@ -7,3 +7,21 @@
     1px
   );
 }
+
+	// A dirty fix for removing threading for the root blocks in embedded
+:is(.embed-block > div, .embed-page)
+  > div
+  > div
+  > div
+  > div.ls-block
+  > div
+  > div.items-center::before {
+  border-color: transparent !important;
+}
+
+// Fix https://github.com/pengx17/logseq-plugin-bullet-threading/issues/1	// Fix https://github.com/pengx17/logseq-plugin-bullet-threading/issues/1
+@media (max-width: 640px) {	@media (max-width: 640px) {
+  .ls-block[haschild=true] > div > .block-content-wrapper::before {	  .ls-block[haschild="true"] > div > .block-content-wrapper::before {
+    left: -11px;	    left: -11px;
+  }	  }
+}	}
