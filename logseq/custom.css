@@ -26,5 +26,5 @@
   --ct-line-height: 2rem;
   --ls-font-family:  "Inziu Iosevka SC";
   --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "Inziu Iosevka SC", monospace;
+  --ct-code-font-family: "Iosevka", monospace;
 }
