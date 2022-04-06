@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css");
 
 @font-face {
-  font-family: "Inziu Iosevka SC";
+  font-family: "Iosevka";
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
@@ -12,7 +12,7 @@
 }
 
 :not(i):not(.fa):not([class*='icon']):not([class*='vjs-']):not([class*='glyph']) {
-    font-family: "Inziu Iosevka SC",'Microsoft YaHei',system-ui,-apple-system,BlinkMacSystemFont,sans-serif,"Iosevka Nerd Font",'iconfont','icomoon','FontAwesome','IcoFont','Material Icons Extended','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji','Android Emoji',EmojiSymbols,'emojione mozilla','twemoji mozilla';
+    font-family: 'Iosevka','Microsoft YaHei',system-ui,-apple-system,BlinkMacSystemFont,sans-serif,"Iosevka Nerd Font",'iconfont','icomoon','FontAwesome','IcoFont','Material Icons Extended','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji','Android Emoji',EmojiSymbols,'emojione mozilla','twemoji mozilla';
     text-shadow: 0 0 1.72px #a4a09ad9, 0 0 1.5px #7b7b7bcc, 0 0 1.13px #302f2d45;
     -webkit-text-stroke: 0.035px currentcolor;
     font-feature-settings: "liga" 0;
