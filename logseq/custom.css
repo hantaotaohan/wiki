@@ -1,7 +1,7 @@
 /*@import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css"); */
 
 @font-face {
-  font-family: Iosevkaa;
+  font-family: Inziu;
   font-weight: 900;
   font-style: bold;
   font-stretch: normal;
@@ -14,6 +14,6 @@
 html,
 body {
   font-size: var(--ct-text-size);
-  font-family: Iosevkaa;
+  font-family: Inziu;
   line-height: var(--ct-line-height);
 }
