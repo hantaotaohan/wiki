@@ -12,7 +12,7 @@
 }
 
 :not(i):not(.fa):not([class*='icon']):not([class*='vjs-']):not([class*='glyph']) {
-    font-family: 'Microsoft YaHei',system-ui,-apple-system,BlinkMacSystemFont,sans-serif,"Iosevka Nerd Font",'iconfont','icomoon','FontAwesome','IcoFont','Material Icons Extended','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji','Android Emoji',EmojiSymbols,'emojione mozilla','twemoji mozilla','';
+    font-family: 'Microsoft YaHei',system-ui,-apple-system,BlinkMacSystemFont,sans-serif,"Iosevka Nerd Font",'iconfont','icomoon','FontAwesome','IcoFont','Material Icons Extended','Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji','Android Emoji',EmojiSymbols,'emojione mozilla','twemoji mozilla','Inziu Iosevka SC';
     text-shadow: 0 0 1.72px #a4a09ad9, 0 0 1.5px #7b7b7bcc, 0 0 1.13px #302f2d45;
     -webkit-text-stroke: 0.035px currentcolor;
     font-feature-settings: "liga" 0;
@@ -26,7 +26,7 @@
 :root {
   --ct-text-size: 1rem;
   --ct-line-height: 2rem;
-  --ls-font-family:  Inter, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", "Iosevka Nerd Font",sans-serif;
+  --ls-font-family:  'Inziu Iosevka SC',Inter, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", "Iosevka Nerd Font",sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "FireCode", monospace;
 }
