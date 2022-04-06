@@ -28,3 +28,11 @@
   --ct-page-title-font-family: Iosevka;
   --ct-code-font-family: Iosevka, monospace;
 }
+
+/* 整体页面设置 */
+html,
+body {
+  font-size: var(--ct-text-size);
+  font-family: var(--ls-font-family);
+  line-height: var(--ct-line-height);
+}
