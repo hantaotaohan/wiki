@@ -24,7 +24,7 @@
 :root {
   --ct-text-size: 1rem;
   --ct-line-height: 2rem;
-  --ls-font-family:  "Inziu Iosevka SC";
+  --ls-font-family:  "Iosevka";
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "Iosevka", monospace;
 }
