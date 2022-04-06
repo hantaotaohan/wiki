@@ -26,7 +26,7 @@
 :root {
   --ct-text-size: 1rem;
   --ct-line-height: 2rem;
-  --ls-font-family:  "Inziu Iosevka SC",Inter, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", "Iosevka Nerd Font",sans-serif;
+  --ls-font-family:  "Inziu Iosevka SC";
   --ct-page-title-font-family: var(--ls-font-family);
-  --ct-code-font-family: "FireCode", monospace;
+  --ct-code-font-family: "Inziu Iosevka SC", monospace;
 }
