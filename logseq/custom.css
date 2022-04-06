@@ -1,7 +1,7 @@
 /*@import url("https://cdn.jsdelivr.net/gh/hantaotaohan/logseq-onedark/custom.css"); */
 
 @font-face {
-  font-family: Iosevka;
+  font-family: Iosevkaa;
   font-weight: 900;
   font-style: bold;
   font-stretch: normal;
@@ -12,9 +12,9 @@
 :root {
   --ct-text-size: 1rem;
   --ct-line-height: 2rem;
-  --ls-font-family:  Iosevka, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", "Iosevka Nerd Font",sans-serif;
+  --ls-font-family:  Iosevkaa, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei UI", "Iosevka Nerd Font",sans-serif;
   --ct-page-title-font-family: Iosevka;
-  --ct-code-font-family: Iosevka, monospace;
+  --ct-code-font-family: Iosevkaa, monospace;
 }
 
 /* 整体页面设置 */
