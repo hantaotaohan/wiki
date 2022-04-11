@@ -63,7 +63,7 @@ textarea {
     align-self: baseline !important;
   /*  height: var(--ct-line-height); !important; */
     min-height: 100%;
-    margin: 0rem 0.5rem 0rem 0rem !important;
+    margin: 0 0 20px 0;
 }
 
 /* 主题颜色配置 */
