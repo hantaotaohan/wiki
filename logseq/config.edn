@@ -186,7 +186,7 @@
  :publishing/all-pages-public? true
  :git-auto-push true
  :editor/logical-outdenting? false
- :ui/show-brackets? true
+ :ui/show-brackets? false
  :graph/settings {:builtin-pages? false, :journal? false, :orphan-pages? false}
  :preferred-format :markdown
  :favorites ["Template" "contents" "Dashboard"]
@@ -199,4 +199,5 @@
  
  ;; Extra CodeMirror options
  :editor/extra-codemirror-options {:lineWrapping true}
+ :mobile/toolbar-stats {:bold {:counts 0}, :brand-youtube {:counts 0}, :checkbox {:counts 1}, :parentheses {:counts 0}, :command {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 0}, :tag {:counts 1}, :brackets {:counts 11}, :italic {:counts 0}, :a-b {:counts 1}, :rotate-clockwise {:counts 0}}
  }
