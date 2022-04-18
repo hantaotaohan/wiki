@@ -875,6 +875,11 @@ progress::-webkit-progress-value {
 
 .cm-s-solarized.cm-s-dark {
   background: var(--ls-secondary-background-color) !important;
+  font-family: "FiraCode";
+  padding-top: 0px;
+  line-height: 1.75rem;
+  margin: 1rem;
+  box-shadow: 1px 1px 10px 10px #00000030 !important;
 }
 
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
