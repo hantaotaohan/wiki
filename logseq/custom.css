@@ -1241,7 +1241,7 @@ html[data-theme=dark] {
   --ls-page-properties-background-color: var(--ls-tertiary-background-color);
   --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
   /* Will be used if backdrop-filter not supported */
-  --ct-header-bg-color: #283C34ee;
+  --ct-header-bg-color: #283C34;
   --ls-selection-color: #000;
   --ls-block-highlight-color: #3b425266;
 }
