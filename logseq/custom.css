@@ -45,7 +45,11 @@ i {
   font-family: Inter, sans-serif, system-ui, -apple-system, "Segoe UI", Arial;
 }
 
-
+/*  使用键盘选择Block时的背景色 并设置成圆角 */
+.block-highlight, .content .selected {
+    background-color: #abb2bf11;
+    border-radius: 6px;
+}
 
 :root {
   --ct-background: var(--ls-primary-background-color);
