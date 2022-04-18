@@ -45,6 +45,8 @@ i {
   font-family: Inter, sans-serif, system-ui, -apple-system, "Segoe UI", Arial;
 }
 
+
+
 :root {
   --ct-background: var(--ls-primary-background-color);
   --ct-page-font-color: var(--ls-primary-text-color);
