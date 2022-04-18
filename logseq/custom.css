@@ -1204,7 +1204,7 @@ html[data-theme=dark] {
   --ls-quaternary-background-color: var(--color-level-3);
   --ls-border-color: var(--ls-tertiary-background-color);
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
-  --ls-primary-text-color: #ABB2BF;
+  --ls-primary-text-color: #E5E9F0;
   --ls-secondary-text-color: #D8DEE9);
   --ct-bold-color: #ECEFF4;
   --ls-link-text-color: var(--ct-primary-color);
@@ -1226,8 +1226,8 @@ html[data-theme=dark] {
   --ls-scrollbar-foreground-color: var(--ls-secondary-background-color);
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #283C34ee;
-  --ls-selection-color: #abb2bf22;
-  --ls-block-highlight-color: #32445A;
+  --ls-selection-color: #000;
+  --ls-block-highlight-color: #3B4252;
 }
 
 .dark-theme .image-resize {
