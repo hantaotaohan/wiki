@@ -900,7 +900,7 @@ progress::-webkit-progress-value {
     border-right-style:solid;
     border-right-width:2px;
     border-right-color:#17171766;
-    text-align: center;
+   
 }
 
 .cm-s-solarized div.CodeMirror-selected {
