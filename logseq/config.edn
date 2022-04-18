@@ -186,7 +186,7 @@
  :publishing/all-pages-public? true
  :git-auto-push true
  :editor/logical-outdenting? false
- :ui/show-brackets? false
+ :ui/show-brackets? true
  :graph/settings {:builtin-pages? false, :journal? false, :orphan-pages? false}
  :preferred-format :markdown
  :favorites ["Template" "contents" "Dashboard"]
