@@ -1227,7 +1227,7 @@ html[data-theme=dark] {
   /* Will be used if backdrop-filter not supported */
   --ct-header-bg-color: #283C34ee;
   --ls-selection-color: #000;
-  --ls-block-highlight-color: #3B4252;
+  --ls-block-highlight-color: #3b425266;
 }
 
 .dark-theme .image-resize {
