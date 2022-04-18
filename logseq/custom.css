@@ -895,6 +895,12 @@ progress::-webkit-progress-value {
 .CodeMirror {
   font-size: 12px;
   line-height: 16px;
+    color: #abb2bf66;
+    background: #25282F;
+    border-right-style:solid;
+    border-right-width:2px;
+    border-right-color:#17171766;
+    text-align: center;
 }
 
 .cm-s-solarized div.CodeMirror-selected {
