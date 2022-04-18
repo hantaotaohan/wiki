@@ -1217,7 +1217,7 @@ html[data-theme=dark] {
   --ls-block-bullet-color: var(--ls-tertiary-background-color);
   --ls-bullet-closed-color: var(--ls-secondary-text-color);
   --ls-block-bullet-border-color: var(--ls-quaternary-background-color);
-  --ct-block-arrow-color: #3B4252;
+  --ct-block-arrow-color: #4C566A;
   --ct-page-reference-color: var(--ls-active-primary-color);
   --ls-icon-color: var(--ls-primary-text-color);
   --ct-block-reference-background: rgba(94,129,172, 0.2);
