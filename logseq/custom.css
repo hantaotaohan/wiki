@@ -39,6 +39,7 @@ body {
   overscroll-behavior-y: none;
   -webkit-font-smoothing: auto;
   line-height: var(--ct-line-height);
+  text-indent: 50px;
 }
 
 /* 分割线设置  */
