@@ -384,7 +384,7 @@ a.title h1.title {
 }
 
 .ls-block :is(h3, h4) {
-  margin: 0.3em 0 0;
+  margin: 0rem 0rem 0rem 0rem;
 }
 
 .ls-block :is(h3, h4, .h3, .h4) {
