@@ -39,7 +39,7 @@ body {
   overscroll-behavior-y: none;
   -webkit-font-smoothing: auto;
   line-height: var(--ct-line-height);
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 /* 分割线设置  */
