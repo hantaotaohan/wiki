@@ -59,7 +59,7 @@ textarea {
 /* 编辑状态下的block高亮样式设置 */
 .editor-inner textarea {
     color: #ECEFF4;
-    resize: none;
+    line-height: var(--ct-line-height);
 }
 
 i {
