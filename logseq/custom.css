@@ -53,13 +53,13 @@ hr {
 }
 
 textarea {
-  line-height: var(--ct-line-height);
+  line-height: var(--ct-line-height) !important;
 }
 
 /* 编辑状态下的block高亮样式设置 */
 .editor-inner textarea {
     color: #ECEFF4;
-    line-height: var(--ct-line-height);
+    line-height: var(--ct-line-height) !important;
 }
 
 i {
