@@ -25,7 +25,7 @@
 /* 公用变量设置 */
 :root {
   --ct-text-size: 1rem;
-  --ct-line-height: 1.7rem;
+  --ct-line-height: 2rem;
   --ls-font-family:  Inter,'Microsoft YaHei',system-ui,-apple-system,"Iosevka Nerd Font",sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "Iosevka Nerd Font", "-apple-system", "FireCode", monospace;
@@ -52,11 +52,6 @@ hr {
     border-radius: 6px;
 }
 
-/* 段落间距 */
-.pr-2 {
-  margin-bottom: calc(var(--ct-line-height)*0.30); /* .5rem */ 
-}
-
 textarea {
   line-height: var(--ct-line-height);
 }
@@ -64,6 +59,7 @@ textarea {
 /* 编辑状态下的block高亮样式设置 */
 .editor-inner textarea {
     color: #ECEFF4;
+    resize: none;
 }
 
 i {
@@ -373,7 +369,6 @@ a.title h1.title {
 
 .ls-block :is(h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5) {
   font-family: var(--ct-page-title-font-family);
-  margin: 0rem 0rem 0rem 0rem;
 }
 
 .ls-block :is(h1, h2, .h1, .h2) {
@@ -381,7 +376,7 @@ a.title h1.title {
 }
 
 .ls-block :is(h3, h4) {
-  margin: 0rem 0rem 0rem 0rem;
+  margin: 0.3em 0 0;
 }
 
 .ls-block :is(h3, h4, .h3, .h4) {
