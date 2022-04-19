@@ -61,6 +61,9 @@ textarea {
   line-height: var(--ct-line-height);
 }
 
+.editor-wrapper {
+  margin: 0rem 0rem 0rem 0rem;
+}
 /* 编辑状态下的block高亮样式设置 */
 .editor-inner textarea {
     color: #ECEFF4;
