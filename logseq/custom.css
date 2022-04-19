@@ -54,8 +54,7 @@ hr {
 
 /* 段落间距 */
 .pr-2 {
- 
-  margin-bottom: calc(var(--ct-line-height)*0.10); /* .5rem */ 
+  margin-bottom: calc(var(--ct-line-height)*0.20); /* .5rem */ 
 }
 
 textarea {
