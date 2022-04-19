@@ -59,7 +59,6 @@ hr {
 
 textarea {
   line-height: var(--ct-line-height);
-  margin-bottom: calc(var(--ct-line-height)*0.30); /* .5rem */ 
 }
 
 /* 编辑状态下的block高亮样式设置 */
