@@ -388,47 +388,7 @@ a.title h1.title {
   font-size: 1em;
 }
 
-.ls-block :is(h1, h2, h3, h4, h5)::after {
-  margin-left: 0.5rem;
-  font-family: var(--ct-code-font-family);
-  font-size: 0.6rem;
-  font-style: var(--ct-inline-code-font-style) !important;
-  border-radius: var(--ct-inline-code-border-radius);
-  padding: var(--ct-inline-code-padding) !important;
-  background: var(--ls-tertiary-background-color);
-  color: var(--ct-inline-code-color);
-  vertical-align: middle;
-  opacity: 0.3;
-}
 
-.editor-inner .uniline-block:is(.h1,.h2), .ls-block :is(h1,h2) {
-    border-bottom: 0px solid var(--ls-quaternary-background-color);
-    margin: .4em 0 0;
-}
-
-.ls-block :is(h1, h2, h3, h4, h5):hover::after {
-  opacity: 1;
-}
-
-.ls-block h1::after {
-  content: "h1";
-}
-
-.ls-block h2::after {
-  content: "h2";
-}
-
-.ls-block h3::after {
-  content: "h3";
-}
-
-.ls-block h4::after {
-  content: "h4";
-}
-
-.ls-block h5::after {
-  content: "h5";
-}
 
 :root {
   --ls-block-bullet-active-color: var(--ls-link-text-color);
