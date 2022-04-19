@@ -376,17 +376,7 @@ a.title h1.title {
 }
 
 
-.ls-block :is(h4, .h4) {
-  opacity: 0.8;
-}
 
-.ls-block :is(h5, .h5):not(textarea) {
-  transform: translateY(-8px);
-}
-
-.ls-block .block-ref :is(h1, h2, h3, h4, h5) {
-  font-size: 1em;
-}
 
 
 
