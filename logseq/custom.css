@@ -52,6 +52,12 @@ hr {
     border-radius: 6px;
 }
 
+/* 段落间距 */
+.pr-2 {
+ 
+  margin-bottom: calc(var(--ct-line-height)*0.08); /* .5rem */ 
+}
+
 textarea {
   line-height: var(--ct-line-height);
 }
