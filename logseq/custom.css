@@ -25,7 +25,7 @@
 /* 公用变量设置 */
 :root {
   --ct-text-size: 1rem;
-  --ct-line-height: 2rem;
+  --ct-line-height: 1.7rem;
   --ls-font-family:  Inter,'Microsoft YaHei',system-ui,-apple-system,"Iosevka Nerd Font",sans-serif;
   --ct-page-title-font-family: var(--ls-font-family);
   --ct-code-font-family: "Iosevka Nerd Font", "-apple-system", "FireCode", monospace;
