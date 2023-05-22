@@ -2,5 +2,6 @@
   "obsidian-outliner",
   "obsidian-vimrc-support",
   "table-editor-obsidian",
-  "homepage"
+  "homepage",
+  "obsidian-linter"
 ]
