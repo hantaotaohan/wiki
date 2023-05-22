@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4f081b79787e4f5e",
+        "id": "87dc1d1b084d936a",
         "type": "tabs",
         "children": [
           {
-            "id": "dae9752186cdc536",
+            "id": "2b1e472f596dd976",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "邓小平时代.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "邓小平时代.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "邓小平时代.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "邓小平时代.md"
+                "file": "index.md"
               }
             }
           }
@@ -129,7 +129,7 @@
       "command-palette:打开命令面板": true
     }
   },
-  "active": "dae9752186cdc536",
+  "active": "2b1e472f596dd976",
   "lastOpenFiles": [
     "蒋介石.md",
     "邓小平时代.md",

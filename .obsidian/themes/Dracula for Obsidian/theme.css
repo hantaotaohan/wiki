@@ -13,7 +13,7 @@
     --font-size-h6:                  19px;
     --font-family-editor:            Avenir, Avenir Next, sans-serif;
     --font-family-preview:           Avenir, Avenir Next, sans-serif;
-} 
+}
 
 .theme-light,
 .theme-dark {
@@ -98,7 +98,7 @@
 
 /*vertical resize-handle*/
 .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
-.workspace-split.mod-left-split > .workspace-leaf-resize-handle, 
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle,
 .workspace-split.mod-right-split > .workspace-leaf-resize-handle{
   width: 1px !important;
   background-color: var(--border-color);
@@ -187,7 +187,7 @@ a:not(.internal-link) {
 /*footnote*/
 .cm-s-obsidian pre.HyperMD-footnote span.cm-hmd-footnote,
 .cm-s-obsidian span.cm-footref {
-  color: var(--text-accent) !important; 
+  color: var(--text-accent) !important;
 }
 
 /***************************************/
@@ -215,7 +215,7 @@ a:not(.internal-link) {
 /* set the text selection color for preview mode */
 ::selection {
   background-color: var(--text-selection);
-} 
+}
 
 /* normal text outside of headings and code of editor */
 .cm-s-obsidian, .mod-single-child .cm-s-obsidian {
@@ -471,7 +471,7 @@ thead {
 /***************************************/
 
 /* search result in backlink or file search */
-.search-result-file-title {  
+.search-result-file-title {
   font-size: 15px ;
 }
 
@@ -498,7 +498,7 @@ thead {
 }
 
 .workspace-leaf-content[data-type="tag"] .tag-pane-tag-count,
-.workspace-leaf-content[data-type="tag"] .tag-pane-tag-text {  
+.workspace-leaf-content[data-type="tag"] .tag-pane-tag-text {
   font-size: var(--font-size-side-dock);
 }
 
@@ -515,8 +515,8 @@ thead {
 .markdown-preview-view .markdown-embed-content>:last-child { margin-bottom: 0; }
 /*remove the following two line, you will get border and scroll*/
 .markdown-preview-view .markdown-embed { border:none; padding:0; margin:0; }
-.markdown-preview-view .markdown-embed-content 
-{ 
+.markdown-preview-view .markdown-embed-content
+{
   max-height: unset;
   background-color: var(--background-secondary);
 }
@@ -537,7 +537,7 @@ color: var(--text-accent) !important;
 .graph-view.color-fill-highlight,
 .graph-view.color-line-highlight
 {
-    color: var(--text-accent) !important;    
+    color: var(--text-accent) !important;
 }
 
 .graph-view.color-text
@@ -569,10 +569,10 @@ color: var(--text-accent) !important;
 /*            Hide side bar            */
 /***************************************/
 
-.workspace-ribbon:not(:hover) .workspace-ribbon-collapse-btn, 
-.workspace-ribbon:not(:hover) .side-dock-actions, 
+.workspace-ribbon:not(:hover) .workspace-ribbon-collapse-btn,
+.workspace-ribbon:not(:hover) .side-dock-actions,
 .workspace-ribbon:not(:hover) .side-dock-settings {
-  display:none; 
+  display:none;
   transition: all 300ms ease-in-out;}
 .workspace-ribbon:not(:hover) {
   width: 0px;
@@ -601,7 +601,7 @@ color: var(--text-accent) !important;
 /* header */
 
 .theme-dark .view-header {
-  background-color: var(--background-primary) !important;   
+  background-color: var(--background-primary) !important;
   border-top: 1px solid var(--border-color) !important;
   border-bottom: 1px solid var(--border-color) !important;
 }
@@ -611,7 +611,7 @@ color: var(--text-accent) !important;
 }
 
 .theme-dark .workspace-leaf.mod-active .view-header {
-  background-color: var(--background-secondary-alt) !important;  
+  background-color: var(--background-secondary-alt) !important;
   border-top: 0px !important;
   border-bottom: 3px solid var(--interactive-accent) !important;
 }
@@ -679,7 +679,7 @@ ul .task-list-item ul::before {left: 0.15em !important}
   border: 0px !important;
 }
 
-/*an active line highlight in vim normal mode 
+/*an active line highlight in vim normal mode
 .cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
   background-color: var(--text-selection) !important;
 } */
@@ -694,17 +694,17 @@ code{
 .theme-dark .graph-view.color-arrow {
   color: #50fa7b;
   }
-  
+
   .theme-dark .graph-view.color-fill-tag {
     color: #ffb86c;
   }
-  
+
   .theme-dark .graph-view.color-fill-attachment {
     color: #ff5555;
   }
-  
+
   .theme-dark .graph-view.color-fill-unresolved {
-    color: #6272a4; 
+    color: #6272a4;
   }
 
   .search-result-collapse-indicator {
