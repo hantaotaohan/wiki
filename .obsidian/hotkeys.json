@@ -1,0 +1,33 @@
+{
+  "editor:open-search-replace": [],
+  "editor:focus-left": [],
+  "workspace:close": [],
+  "editor:insert-link": [],
+  "editor:insert-callout": [],
+  "editor:follow-link": [],
+  "outline:open-for-current": [],
+  "app:go-back": [],
+  "workspace:close-window": [],
+  "editor:toggle-bold": [],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "app:go-forward": [],
+  "markdown:toggle-preview": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-italics": [],
+  "editor:delete-paragraph": [],
+  "workspace:new-tab": [],
+  "file-explorer:new-file": [],
+  "editor:open-link-in-new-leaf": [],
+  "editor:open-link-in-new-window": [],
+  "editor:open-link-in-new-split": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "workspace:undo-close-pane": []
+}
