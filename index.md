@@ -7,11 +7,3 @@
 ## 知识体系
 
 - [[知识列表]]
-
-### Asdfsdf
-
-#### Asdfsadf
-
-##### Sadfasdf
-
-###### Asdfff
