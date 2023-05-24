@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "327aa04ec600f2e2",
+        "id": "338776ced136b2ca",
         "type": "tabs",
         "children": [
           {
-            "id": "8ec6938b36c09892",
+            "id": "6991ba6f00854286",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "f02e462a7f3c87ed",
@@ -128,14 +127,15 @@
       "command-palette:打开命令面板": true
     }
   },
-  "active": "8ec6938b36c09892",
+  "active": "6991ba6f00854286",
   "lastOpenFiles": [
+    "diary/2023-05-24.md",
+    "JavaScript高级程序设计.md",
+    "Git.md",
     "index.md",
     "diary/2023-05-23.md",
     "邓小平时代.md",
     "知识列表.md",
-    "Git.md",
-    "JavaScript高级程序设计.md",
     "冥想.md",
     "书籍书单.md",
     "辛亥革命.md",
@@ -155,7 +155,6 @@
     "孙中山.md",
     "inbox/自动命令的事件类型.md",
     "inbox/上班族如何安排时间才能每天都早起、读书、跑步、冥想？.md",
-    "未命名.md",
     "weread/文学",
     "weread/社会文化",
     "weread/哲学宗教",
