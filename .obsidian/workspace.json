@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "338776ced136b2ca",
+        "id": "2327c2c8f93ff6c8",
         "type": "tabs",
         "children": [
           {
-            "id": "6991ba6f00854286",
+            "id": "59b159554bc3053e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-05-23.md",
+                "file": "如何阅读一本书.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-05-23.md",
+                "file": "如何阅读一本书.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-05-23.md",
+                "file": "如何阅读一本书.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-05-23.md"
+                "file": "如何阅读一本书.md"
               }
             }
           }
@@ -127,17 +127,18 @@
       "command-palette:打开命令面板": true
     }
   },
-  "active": "6991ba6f00854286",
+  "active": "59b159554bc3053e",
   "lastOpenFiles": [
+    "书籍书单.md",
+    "如何阅读一本书.md",
+    "index.md",
     "diary/2023-05-24.md",
     "JavaScript高级程序设计.md",
     "Git.md",
-    "index.md",
     "diary/2023-05-23.md",
     "邓小平时代.md",
     "知识列表.md",
     "冥想.md",
-    "书籍书单.md",
     "辛亥革命.md",
     "Vim实用技巧.md",
     "sdfkk.md",
@@ -154,7 +155,6 @@
     "被讨厌的勇气.md",
     "孙中山.md",
     "inbox/自动命令的事件类型.md",
-    "inbox/上班族如何安排时间才能每天都早起、读书、跑步、冥想？.md",
     "weread/文学",
     "weread/社会文化",
     "weread/哲学宗教",
