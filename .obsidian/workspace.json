@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "02a8234748408add",
+        "id": "33d4e79668a45160",
         "type": "tabs",
         "children": [
           {
-            "id": "8e91586a220cbc1e",
+            "id": "4e7b10fefa6a2132",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "diary/2023-05-23.md",
+                "file": "todo-list.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -57,13 +57,21 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "b2cc360c460f3395",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 216.5,
-    "collapsed": true
+    "width": 216.5
   },
   "right": {
     "id": "f02e462a7f3c87ed",
@@ -79,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "diary/2023-05-23.md",
+                "file": "todo-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "diary/2023-05-23.md",
+                "file": "todo-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "diary/2023-05-23.md"
+                "file": "todo-list.md"
               }
             }
           }
@@ -128,13 +136,14 @@
       "command-palette:打开命令面板": true
     }
   },
-  "active": "8e91586a220cbc1e",
+  "active": "4e7b10fefa6a2132",
   "lastOpenFiles": [
-    "diary/2023-05-24.md",
     "index.md",
+    "todo-list.md",
+    "diary/2023-05-24.md",
+    "diary/2023-05-23.md",
     "强对流天气.md",
     "如何阅读一本书.md",
-    "diary/2023-05-23.md",
     "书籍书单.md",
     "JavaScript高级程序设计.md",
     "Git.md",
@@ -155,7 +164,6 @@
     "inbox/My Zettelkasten workflow from start to finish jay l. colbert.md",
     "diary/2023-05-22.md",
     "被讨厌的勇气.md",
-    "孙中山.md",
     "weread/文学",
     "weread/社会文化",
     "weread/哲学宗教",

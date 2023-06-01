@@ -4,5 +4,6 @@
   "table-editor-obsidian",
   "homepage",
   "obsidian-linter",
-  "obsidian-git"
+  "obsidian-git",
+  "dataview"
 ]
