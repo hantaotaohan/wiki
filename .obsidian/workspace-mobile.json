@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "639ba5c4a602b748",
+        "id": "2080a34968ca0b56",
         "type": "tabs",
         "children": [
           {
-            "id": "a89823310e04c743",
+            "id": "fe42fe0394aa35b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,13 +120,13 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "a89823310e04c743",
+  "active": "fe42fe0394aa35b5",
   "lastOpenFiles": [
+    "index.md",
     "Git.md",
     "如何阅读一本书.md",
     "强对流天气.md",
     "被讨厌的勇气.md",
-    "todo-list.md",
-    "index.md"
+    "todo-list.md"
   ]
 }
