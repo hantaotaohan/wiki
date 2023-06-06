@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2080a34968ca0b56",
+        "id": "7137448e16af4c14",
         "type": "tabs",
         "children": [
           {
-            "id": "fe42fe0394aa35b5",
+            "id": "71b470a411435467",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,9 +120,13 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "fe42fe0394aa35b5",
+  "active": "71b470a411435467",
   "lastOpenFiles": [
+    "知识列表.md",
+    "diary/2023-05-23.md",
+    "diary/2023-05-24.md",
     "index.md",
+    "diary/2023-06-02.md",
     "Git.md",
     "如何阅读一本书.md",
     "强对流天气.md",
