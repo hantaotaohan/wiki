@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "书籍书单.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -75,7 +75,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "index.md",
+            "file": "书籍书单.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -92,7 +92,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "index.md",
+            "file": "书籍书单.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -104,7 +104,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "index.md"
+            "file": "书籍书单.md"
           }
         }
       }
@@ -120,12 +120,12 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "71b470a411435467",
+  "active": "6fa897f17cda7bc9",
   "lastOpenFiles": [
+    "index.md",
     "知识列表.md",
     "diary/2023-05-23.md",
     "diary/2023-05-24.md",
-    "index.md",
     "diary/2023-06-02.md",
     "Git.md",
     "如何阅读一本书.md",
