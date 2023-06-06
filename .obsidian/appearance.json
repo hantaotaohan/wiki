@@ -2,7 +2,7 @@
   "accentColor": "#61afef",
   "cssTheme": "Atom",
   "interfaceFontFamily": "思源黑体,微软雅黑",
-  "textFontFamily": "思源宋体,思源黑体,微软雅黑",
+  "textFontFamily": "微软雅黑,思源宋体,思源黑体",
   "monospaceFontFamily": "Fira Code Retina,等距更纱黑体 Slab SC Nerd Font",
   "baseFontSize": 16,
   "translucency": false,

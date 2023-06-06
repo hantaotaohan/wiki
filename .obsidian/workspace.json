@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "33d4e79668a45160",
+        "id": "be1a3c508f466fd2",
         "type": "tabs",
         "children": [
           {
-            "id": "4e7b10fefa6a2132",
+            "id": "b791276bcee54e9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo-list.md",
+                "file": "金字塔原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 216.5,
+    "collapsed": true
   },
   "right": {
     "id": "f02e462a7f3c87ed",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo-list.md",
+                "file": "金字塔原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo-list.md",
+                "file": "金字塔原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo-list.md"
+                "file": "金字塔原理.md"
               }
             }
           }
@@ -136,19 +136,23 @@
       "command-palette:打开命令面板": true
     }
   },
-  "active": "4e7b10fefa6a2132",
+  "active": "b791276bcee54e9d",
   "lastOpenFiles": [
+    "书籍书单.md",
+    "如何阅读一本书.md",
+    "金字塔原理.md",
     "index.md",
+    "知识列表.md",
+    "Git.md",
+    "inbox/怎样做一个内心强大的人？.md",
+    "inbox",
+    "邓小平时代.md",
+    "被讨厌的勇气.md",
     "todo-list.md",
     "diary/2023-05-24.md",
     "diary/2023-05-23.md",
     "强对流天气.md",
-    "如何阅读一本书.md",
-    "书籍书单.md",
     "JavaScript高级程序设计.md",
-    "Git.md",
-    "邓小平时代.md",
-    "知识列表.md",
     "冥想.md",
     "辛亥革命.md",
     "Vim实用技巧.md",
@@ -161,9 +165,6 @@
     "淮海战役.md",
     "inbox/To switch from vertical split to horizontal split fast in Vim - Stack Overflow.md",
     "inbox/Vim 有什么奇技淫巧？ - 知乎.md",
-    "inbox/My Zettelkasten workflow from start to finish jay l. colbert.md",
-    "diary/2023-05-22.md",
-    "被讨厌的勇气.md",
     "weread/文学",
     "weread/社会文化",
     "weread/哲学宗教",
@@ -172,7 +173,6 @@
     "weread/个人成长",
     "weread/政治军事",
     "weread/心理",
-    "weread/计算机",
-    "weread"
+    "weread/计算机"
   ]
 }
