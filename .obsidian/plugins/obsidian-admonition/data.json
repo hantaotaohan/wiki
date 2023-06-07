@@ -1,5 +1,19 @@
 {
-  "userAdmonitions": {},
+  "userAdmonitions": {
+    "tip": {
+      "type": "tip",
+      "color": "96, 164, 215",
+      "icon": {
+        "name": "bell",
+        "type": "font-awesome"
+      },
+      "command": true,
+      "title": null,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
   "syntaxHighlight": false,
   "copyButton": false,
   "version": "9.3.1",
@@ -13,7 +27,7 @@
     "admonitions": true,
     "icons": true,
     "other": true,
-    "advanced": false
+    "advanced": true
   },
   "icons": [],
   "useFontAwesome": true,

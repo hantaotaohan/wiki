@@ -1,0 +1,8 @@
+{
+  "defaultIM": "",
+  "obtainCmd": "",
+  "switchCmd": "",
+  "windowsDefaultIM": "2052",
+  "windowsObtainCmd": "im-select-imm.exe 2052 1",
+  "windowsSwitchCmd": "im-select-imm.exe 2052 0"
+}
